@@ -1,0 +1,26 @@
+<nav class="uk-navbar-container uk-container bg-gray-dark uk-light" uk-navbar>
+
+  <div class="uk-navbar-left">
+    <a href="{{ relative_url }}">
+      <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Logo Las de Sistemas" uk-img>
+    </a>
+  </div>
+
+  <div class="uk-navbar-center">
+    <ul class="uk-navbar-nav">
+      <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
+      <li>
+        <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Femit</a>
+        <div class="uk-navbar-dropdown">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active"><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
+            <li><a href="#" class="uk-text-uppercase">Ediciones Anteriores</a></li>
+            <li><a href="#" class="uk-text-uppercase">Contacto</a></li>
+          </ul>
+        </div>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>

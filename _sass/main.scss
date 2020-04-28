@@ -1,0 +1,104 @@
+$bodyFont: 'Oswald', sans-serif;
+$titleFont: 'Oswald', sans-serif;
+
+
+// Color Las de Sistemas
+$purple: #7A00E5;
+$green: #3BDF85;
+$white: white;
+$black: black;
+
+$gray-light: #969696;
+$gray-dark: #3E3E3E;
+
+// Colors Femit 2020
+$purple-f: #902B8C;
+$pink-f: #EE4D6C;
+$pink-dark-f: #93344B;
+$pink-light-f: #F2A2B5;
+$red-f: #ED1C24;
+
+
+body {
+  background: $white;
+  color: $black;
+  font-family: $bodyFont;
+  font-weight: lighter;
+}
+
+
+.uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, .uk-h1, .uk-h2, .uk-h3 {
+  font-family: $titleFont;
+  font-weight: normal;
+}
+
+.uk-h4, .uk-h5, h4, h5, .uk-h6, h6{
+  font-family: $titleFont;
+  font-weight: lighter;
+  margin-top: 0px;
+
+}
+
+
+// Backgrounds
+
+.bg-purple-f{
+  background-color: $purple-f;
+}
+
+// Colors
+
+.gray-light{
+  color: $gray-light    !important;
+}
+
+.gray-dark{
+  color: $gray-dark     !important;
+}
+
+.purple-f{
+  color: $purple-f        !important;
+}
+.pink-f{
+  color: $pink-f          !important;
+}
+.pink-dark-f{
+  color: $pink-dark-f     !important;
+}
+.pink-light-f{
+  color: $pink-light-f    !important;
+}
+
+
+
+// background
+.bg-pink-f{
+  background: $pink-f    !important;
+}
+
+.bg-gray-dark{
+  background: $gray-dark  !important;
+}
+
+
+
+// Navbar
+
+.logo-navbar{
+  height: 110px;
+}
+
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle{
+  font-size: 1.2rem;
+  font-family: $bodyFont;
+}
+
+
+// Home LDS
+.logo-lds-about{
+  width: 100%;
+}
+
+.logo-femit-about{
+  width: 300px;
+}
