@@ -98,7 +98,7 @@ Navbar LDS
   li.uk-active > a:focus,
   .uk-navbar-dropdown-nav > li > a:focus {
     color: $gray-lightest;
-    border: 1px dashed $gray-lightest;
+    border-bottom: 1px ridge $gray-lightest;
   }
   // Elementos del navbar cuando se pasa el mouse por encima (hover)
   li > a:hover,
@@ -107,6 +107,16 @@ Navbar LDS
   .uk-navbar-dropdown-nav > li > a:hover {
     color: $white;
   }
+
+}
+
+.uk-navbar-toggle{
+  color: $white;
+}
+
+.uk-navbar-toggle:hover,
+.uk-navbar-toggle:active{
+  color: $gray-lightest;
 }
 
 /**
@@ -130,7 +140,7 @@ Dropdown del navbar LDS
   li > a:focus {
     background: $purple-lighter;
     color: $white;
-    border: 1px dashed $gray-lightest;
+    border: 1px ridge $gray-lightest;
   }
 }
 
@@ -143,6 +153,9 @@ Dropdown del navbar LDS
   width: 100%;
 }
 
+.logo-lds-about-mobile{
+  width: 70%;
+}
 .logo-femit-about{
   width: 300px;
 }
@@ -174,27 +187,27 @@ Navbar Femit
 .navbar-femit .uk-navbar-nav{
   // Elementos del navbar
   li > a {
-    color: $pink-lighter-f;
+    color: $white;
   }
   // Elementos del navbar cuando están activos, es decir, fueron seleccionados (active)
   li > a:active,
   li.uk-active > a,
   .uk-navbar-dropdown-nav > li > a:active {
-    color: $white;
+    color: $pink-lighter-f;
   }
   // Elementos del navbar cuando se selecciona con el teclado (focus)
   li > a:focus,
   li.uk-active > a:focus,
   .uk-navbar-dropdown-nav > li > a:focus {
-    color: $pink-lighter-f;
-    border: 1px dashed $pink-lighter-f;
+    color: $white;
+    border-bottom: 1px ridge $pink-lighter-f;
   }
   // Elementos del navbar cuando se pasa el mouse por encima (hover)
   li > a:hover,
   li.uk-active > a:hover,
   li > a[aria-expanded="true"],
   .uk-navbar-dropdown-nav > li > a:hover {
-    color: $white;
+    color: $pink-lighter-f;
   }
 }
 
@@ -219,7 +232,7 @@ Dropdown del navbar LDS
   .uk-navbar-dropdown-nav > li > a:focus {
     background: $pink-lighter-f;
     color: $gray-dark;
-    border: 1px dashed $gray-lightest;
+    border-bottom: 1px ridge $gray-lightest;
   }
 }
 
@@ -230,3 +243,9 @@ Footer Femit
 footer.footer-femit a:hover{
   color: $pink-lighter-f;
 }
+
+foot.footer-femit .uk-link, a {
+    color: $white;
+}
+
+
