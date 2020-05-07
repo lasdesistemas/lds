@@ -1,4 +1,4 @@
-<nav class="uk-navbar-container uk-container bg-gray-dark uk-light" uk-navbar>
+<nav class="uk-navbar-container uk-container bg-purple-light uk-hidden-small" uk-navbar>
 
   <div class="uk-navbar-left">
     <a href="{{ relative_url }}">
@@ -6,12 +6,12 @@
     </a>
   </div>
 
-  <div class="uk-navbar-center">
+  <div class="uk-navbar-center uk-visible@s ">
     <ul class="uk-navbar-nav">
       <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
       <li>
         <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Femit</a>
-        <div class="uk-navbar-dropdown">
+        <div class="uk-navbar-dropdown uk-padding-remove">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li class="uk-active"><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
             <li><a href="#" class="uk-text-uppercase">Ediciones Anteriores</a></li>
@@ -23,4 +23,21 @@
     </ul>
   </div>
 
+
+  <div class="uk-navbar-right uk-hidden@s">
+    <a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-flip"></a>
+    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true; mode: push">
+      <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-list">
+          <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
+          <li><a href="{{ '/femit2020' | relative_url }}">Femit 2020</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </nav>
+
+

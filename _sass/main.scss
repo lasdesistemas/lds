@@ -1,22 +1,26 @@
+// Fonts
 $bodyFont: 'Oswald', sans-serif;
 $titleFont: 'Oswald', sans-serif;
 
-
-// Color Las de Sistemas
+// Colors Las de Sistemas
 $purple: #7A00E5;
 $green: #3BDF85;
+$purple-lighter: #902b8c;
+$purple-light: #61275f;
+
+// Grays
 $white: white;
 $black: black;
-
-$gray-light: #969696;
-$gray-dark: #3E3E3E;
+$gray-lightest: #d6d6d6;
+$gray-lighter: #bdbdbd;
+$gray-light: #999999;
+$gray-dark: #323232;
 
 // Colors Femit 2020
-$purple-f: #902B8C;
-$pink-f: #EE4D6C;
-$pink-dark-f: #93344B;
-$pink-light-f: #F2A2B5;
-$red-f: #ED1C24;
+$pink-lighter-f: #fac5d2;
+$pink-light-f: #f2a2b5;
+$pink-dark-f: #ed6781;
+$pink-darker-f: #ee4d6c;
 
 
 body {
@@ -26,73 +30,113 @@ body {
   font-weight: lighter;
 }
 
-
-.uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, .uk-h1, .uk-h2, .uk-h3 {
+h1, h2,
+.uk-h1, .uk-h2,
+.uk-heading-small, .uk-heading-medium,
+.uk-heading-large,  .uk-heading-xlarge, .uk-heading-2xlarge {
   font-family: $titleFont;
   font-weight: normal;
 }
 
-.uk-h4, .uk-h5, h4, h5, .uk-h6, h6{
+h3,
+.uk-h3 {
+  font-family: $titleFont;
+  font-weight: lighter;
+}
+
+h4, h5, h6,
+.uk-h4, .uk-h5, .uk-h6 {
   font-family: $titleFont;
   font-weight: lighter;
   margin-top: 0px;
-
-}
-
-
-// Backgrounds
-
-.bg-purple-f{
-  background-color: $purple-f;
 }
 
 // Colors
 
-.gray-light{
-  color: $gray-light    !important;
-}
-
-.gray-dark{
-  color: $gray-dark     !important;
-}
-
-.purple-f{
-  color: $purple-f        !important;
-}
-.pink-f{
-  color: $pink-f          !important;
-}
-.pink-dark-f{
-  color: $pink-dark-f     !important;
-}
-.pink-light-f{
-  color: $pink-light-f    !important;
+.purple-lighter{
+  color: $purple-lighter;
 }
 
 
+.pink-darker-f{
+  color: $pink-darker-f !important;
+}
+// Backgrounds
 
-// background
-.bg-pink-f{
-  background: $pink-f    !important;
+.bg-purple-light{
+  background: $purple-light !important;
+}
+
+.bg-black{
+  background: $black !important;
 }
 
 .bg-gray-dark{
-  background: $gray-dark  !important;
+  background: $gray-dark !important;
 }
 
 
+/**
+Navbar LDS
+**/
 
-// Navbar
+.uk-navbar-nav{
+  // Elementos del navbar
+  li > a {
+    font-family: $bodyFont;
+    font-size: 1.2rem;
+    color: $gray-lightest;
+  }
+  // Elementos del navbar cuando están activos, es decir, fueron seleccionados (active)
+  li > a:active,
+  li.uk-active > a,
+  .uk-navbar-dropdown-nav > li > a:active {
+    color: $white;
+  }
+  // Elementos del navbar cuando se selecciona con el teclado (focus)
+  li > a:focus,
+  li.uk-active > a:focus,
+  .uk-navbar-dropdown-nav > li > a:focus {
+    color: $gray-lightest;
+    border: 1px dashed $gray-lightest;
+  }
+  // Elementos del navbar cuando se pasa el mouse por encima (hover)
+  li > a:hover,
+  li.uk-active > a:hover,
+  li > a[aria-expanded="true"],
+  .uk-navbar-dropdown-nav > li > a:hover {
+    color: $white;
+  }
+}
+
+/**
+Dropdown del navbar LDS
+**/
+
+.uk-navbar-dropdown{
+  background: $black;
+  // Elementos del dropdown
+  li > a {
+    font-size: 0.9rem;
+    color: $gray-lightest;
+    padding-left: 20px;
+  }
+  // Elementos del dropdown pasando el mouse por encima (hover)
+  li > a:hover {
+    background: $purple-lighter;
+    color: $white;
+  }
+  // Elementos del dropdown seleccionandolo con el teclado (focus) o seleccionandolo
+  li > a:focus {
+    background: $purple-lighter;
+    color: $white;
+    border: 1px dashed $gray-lightest;
+  }
+}
 
 .logo-navbar{
   height: 110px;
 }
-
-.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle{
-  font-size: 1.2rem;
-  font-family: $bodyFont;
-}
-
 
 // Home LDS
 .logo-lds-about{
@@ -101,4 +145,88 @@ body {
 
 .logo-femit-about{
   width: 300px;
+}
+
+
+/**
+Footer LDS
+**/
+
+footer{
+  color: $white;
+
+  h1, h2, h3, h4{
+    color: $white;
+  }
+
+  a:hover{
+    color: $gray-light;
+  }
+}
+
+
+
+
+/**
+Navbar Femit
+**/
+
+.navbar-femit .uk-navbar-nav{
+  // Elementos del navbar
+  li > a {
+    color: $pink-lighter-f;
+  }
+  // Elementos del navbar cuando están activos, es decir, fueron seleccionados (active)
+  li > a:active,
+  li.uk-active > a,
+  .uk-navbar-dropdown-nav > li > a:active {
+    color: $white;
+  }
+  // Elementos del navbar cuando se selecciona con el teclado (focus)
+  li > a:focus,
+  li.uk-active > a:focus,
+  .uk-navbar-dropdown-nav > li > a:focus {
+    color: $pink-lighter-f;
+    border: 1px dashed $pink-lighter-f;
+  }
+  // Elementos del navbar cuando se pasa el mouse por encima (hover)
+  li > a:hover,
+  li.uk-active > a:hover,
+  li > a[aria-expanded="true"],
+  .uk-navbar-dropdown-nav > li > a:hover {
+    color: $white;
+  }
+}
+
+/**
+Dropdown del navbar LDS
+**/
+
+.navbar-femit .uk-navbar-dropdown{
+  background: $gray-dark;
+  // Elementos del dropdown
+  li > a {
+    font-size: 0.9rem;
+    color: $pink-lighter-f;
+    padding-left: 20px;
+  }
+  // Elementos del dropdown pasando el mouse por encima (hover)
+  .uk-navbar-dropdown-nav > li > a:hover {
+    background: $pink-lighter-f;
+    color: $gray-dark;
+  }
+  // Elementos del dropdown seleccionandolo con el teclado (focus) o seleccionandolo
+  .uk-navbar-dropdown-nav > li > a:focus {
+    background: $pink-lighter-f;
+    color: $gray-dark;
+    border: 1px dashed $gray-lightest;
+  }
+}
+
+/**
+Footer Femit
+**/
+
+footer.footer-femit a:hover{
+  color: $pink-lighter-f;
 }
