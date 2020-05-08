@@ -9,8 +9,16 @@
   <div class="uk-navbar-center uk-visible@s ">
     <ul class="uk-navbar-nav">
       <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
-      <li><a href="{{ '/femit2020' | relative_url }}">Femit 2020</a></li>
-      <!-- <li><a href="#">Contact</a></li> -->
+      <li>
+        <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Femit</a>
+        <div class="uk-navbar-dropdown uk-padding-remove">
+          <ul class="uk-nav uk-navbar-dropdown-nav">
+            <li class="uk-active"><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
+            <li><a href="http://lasdesistemas.org/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
+            <li><a href="http://lasdesistemas.org/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
+          </ul>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -20,14 +28,13 @@
       <div class="uk-offcanvas-bar">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         <ul class="uk-list">
-          <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
-          <li><a href="{{ '/femit2020' | relative_url }}">Femit 2020</a></li>
-          <!-- <li><a href="#">Contact</a></li> -->
+          <li class="uk-active"><a href="{{ relative_url }}" class="uk-text-uppercase">Home</a></li>
+          <li><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
+          <li><a href="http://lasdesistemas.org/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
+          <li><a href="http://lasdesistemas.org/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
         </ul>
       </div>
     </div>
   </div>
 
 </nav>
-
-
