@@ -1,40 +1,43 @@
-<nav class="uk-navbar-container uk-container bg-purple-light uk-hidden-small" uk-navbar>
+<nav class="bg-purple-light ">
 
-  <div class="uk-navbar-left">
-    <a href="{{ relative_url }}">
-      <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Logo Las de Sistemas" uk-img>
-    </a>
-  </div>
+  <div class="uk-navbar-container bg-purple-light uk-container uk-hidden-small" uk-navbar>
 
-  <div class="uk-navbar-center uk-visible@s ">
-    <ul class="uk-navbar-nav">
-      <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
-      <li>
-        <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Femit</a>
-        <div class="uk-navbar-dropdown uk-padding-remove">
-          <ul class="uk-nav uk-navbar-dropdown-nav">
-            <li class="uk-active"><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
+    <div class="uk-navbar-left">
+      <a href="{{ relative_url }}">
+        <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Logo Las de Sistemas" uk-img>
+      </a>
+    </div>
+
+    <div class="uk-navbar-center uk-visible@s ">
+      <ul class="uk-navbar-nav">
+        <li class="uk-active"><a href="{{ relative_url }}">Home</a></li>
+        <li>
+          <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Femit</a>
+          <div class="uk-navbar-dropdown uk-padding-remove">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-active"><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
+              <li><a href="http://lasdesistemas.org/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
+              <li><a href="http://lasdesistemas.org/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="uk-navbar-right uk-hidden@s">
+      <a class="uk-navbar-toggle" uk-icon="icon: menu; ratio: 3" uk-toggle="target: #offcanvas-flip"></a>
+      <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true; mode: push">
+        <div class="uk-offcanvas-bar">
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+          <ul class="uk-list">
+            <li class="uk-active"><a href="{{ relative_url }}" class="uk-text-uppercase">Home</a></li>
+            <li><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
             <li><a href="http://lasdesistemas.org/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
             <li><a href="http://lasdesistemas.org/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
           </ul>
         </div>
-      </li>
-    </ul>
-  </div>
-
-  <div class="uk-navbar-right uk-hidden@s">
-    <a class="uk-navbar-toggle" uk-icon="icon: menu; ratio: 3" uk-toggle="target: #offcanvas-flip"></a>
-    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true; mode: push">
-      <div class="uk-offcanvas-bar">
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
-        <ul class="uk-list">
-          <li class="uk-active"><a href="{{ relative_url }}" class="uk-text-uppercase">Home</a></li>
-          <li><a href="{{ '/femit2020' | relative_url }}" class="uk-text-uppercase">Intro</a></li>
-          <li><a href="http://lasdesistemas.org/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
-          <li><a href="http://lasdesistemas.org/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
-        </ul>
       </div>
     </div>
-  </div>
 
+  </div>
 </nav>
