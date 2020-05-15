@@ -51,14 +51,14 @@ h4, h5, h6,
   margin-top: 0px;
 }
 
-.screen-reader-text { 
-   border:0;   
-   clip: rect(1px, 1px, 1px, 1px); 
+.screen-reader-text {
+   border:0;
+   clip: rect(1px, 1px, 1px, 1px);
    clip-path: inset(50%);
-   height: 1px; 
+   height: 1px;
    margin: -1px;
-   width: 1px; 
-   overflow: hidden; 
+   width: 1px;
+   overflow: hidden;
    position: absolute !important;
    word-wrap:normal !important;
 }
@@ -158,6 +158,20 @@ Dropdown del navbar LDS
 
 .logo-navbar{
   height: 110px;
+}
+
+.logo-navbar-mobile{
+  height: 90px;
+}
+
+.uk-navbar-dropdown-mobile{
+  // width: 300px;
+  margin: 0px;
+}
+
+.button-responsive-menu{
+  padding-right: 20px;
+  border: none;
 }
 
 // Home LDS
@@ -262,5 +276,3 @@ footer.footer-femit a:hover{
 foot.footer-femit .uk-link, a {
     color: $white;
 }
-
-
