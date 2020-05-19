@@ -176,17 +176,30 @@ Dropdown del navbar LDS
 
 .button-responsive-menu-lds:focus,
 .button-responsive-menu-lds:hover {
-  color: $purple-lighter;
+  color: $purple-light;
   border: none;
   text-decoration: none;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 0px;
 }
 .button-responsive-menu-femit:focus,
 .button-responsive-menu-femit:hover {
   color: $black;
   border: none;
   text-decoration: none;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 0px;
 }
 
+#js-dropdown > ul > li.uk-active > a:hover {
+  color: white;
+}
+
+#js-dropdown > ul > li.uk-parent.uk-open > ul > li > a:hover{
+  color: white;
+}
 
 // Home LDS
 .logo-lds-about{
