@@ -219,6 +219,10 @@ Footer LDS
 **/
 
 footer{
+  p, a{
+    font-family: $titleFont;
+  }
+
   color: $white;
 
   h1, h2, h3, h4{
@@ -228,6 +232,7 @@ footer{
   a:hover{
     color: $gray-light;
   }
+
 }
 
 
@@ -301,7 +306,7 @@ footer.footer-femit a:hover{
 }
 
 foot.footer-femit .uk-link, a {
-    color: $white;
+  color: $white;
 }
 
 
@@ -312,7 +317,7 @@ Agenda Femit
 #agenda-femit{
 
   h2{
-    font-size: 1.5rem;
+    font-weight: normal;
   }
 
   h3, h4{
@@ -320,11 +325,37 @@ Agenda Femit
     font-size: 1.25rem;
   }
 
+  .talk-title-mobile{
+    font-size: 1rem;
+  }
+
   .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+  }
+
+  .hr-speakers{
+    border-top: 1px solid $pink-darker-f;
   }
 }
 
 .modal-title-speaker{
   font-family: $bodyFont;
+}
+
+.h4-speaker {
+  line-height: 1rem;
+}
+
+/**
+Agenda Femit mobile
+**/
+
+.grid-profile-mobile{
+  margin-left: 0px;
+}
+
+#sponsors-femit{
+  h2{
+    font-weight: normal;
+  }
 }
