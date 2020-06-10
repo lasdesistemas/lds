@@ -1,5 +1,5 @@
 // Fonts
-$bodyFont: 'Oswald', sans-serif;
+$bodyFont: 'Montserrat', sans-serif;
 $titleFont: 'Oswald', sans-serif;
 
 // Colors Las de Sistemas
@@ -69,7 +69,6 @@ h4, h5, h6,
   color: $purple-lighter;
 }
 
-
 .pink-darker-f{
   color: $pink-darker-f !important;
 }
@@ -95,7 +94,7 @@ Navbar LDS
 .uk-navbar-nav{
   // Elementos del navbar
   li > a {
-    font-family: $bodyFont;
+    font-family: $titleFont;
     font-size: 1.2rem;
     color: $gray-lightest;
   }
@@ -183,6 +182,7 @@ Dropdown del navbar LDS
   outline-style: auto;
   outline-width: 0px;
 }
+
 .button-responsive-menu-femit:focus,
 .button-responsive-menu-femit:hover {
   color: $black;
@@ -302,4 +302,29 @@ footer.footer-femit a:hover{
 
 foot.footer-femit .uk-link, a {
     color: $white;
+}
+
+
+/**
+Agenda Femit
+**/
+
+#agenda-femit{
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h3, h4{
+    font-family: $bodyFont;
+    font-size: 1.25rem;
+  }
+
+  .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+}
+
+.modal-title-speaker{
+  font-family: $bodyFont;
 }
