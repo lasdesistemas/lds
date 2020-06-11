@@ -72,6 +72,11 @@ h4, h5, h6,
 .pink-darker-f{
   color: $pink-darker-f !important;
 }
+
+.gray-light{
+  color: $gray-light !important;
+}
+
 // Backgrounds
 
 .bg-purple-light{
@@ -92,6 +97,9 @@ Navbar LDS
 **/
 
 .uk-navbar-nav{
+  body{
+    font-family: $titleFont;
+  }
   // Elementos del navbar
   li > a {
     font-family: $titleFont;
@@ -232,9 +240,7 @@ footer{
   a:hover{
     color: $gray-light;
   }
-
 }
-
 
 .icon-margin{
   margin: 48dp;
@@ -244,8 +250,12 @@ footer{
 /**
 Navbar Femit
 **/
+nav{
+  font-family: $titleFont;
+}
 
 .navbar-femit .uk-navbar-nav{
+
   // Elementos del navbar
   li > a {
     color: $white;
@@ -357,5 +367,18 @@ Agenda Femit mobile
 #sponsors-femit{
   h2{
     font-weight: normal;
+  }
+}
+
+/**
+Codigo de conducta
+**/
+
+#code-femit{
+  font-family: $titleFont;
+
+  ul{
+    font-weight:400;
+    list-style-image: url('/assets/images/)).svg');
   }
 }
