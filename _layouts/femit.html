@@ -69,21 +69,30 @@ layout: default
 
             {% assign gold_sponsors = conf.sponsors | where: "category", "Gold" %}
             {% for sponsor in gold_sponsors %}
+              {% capture sponsor_image %}
+                {{relative_url}}/assets/images/sponsors/{{sponsor.logo}}
+              {% endcapture %}
               <div>
-                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{relative_url}}/assets/images/sponsors/{{sponsor.logo}}" alt='{{sponsor.name}}' uk-img></a>
+                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{sponsor_image}}" alt='{{sponsor.name}}' uk-img></a>
               </div>
             {% endfor %}
 
             {% assign silver_sponsors = conf.sponsors | where: "category", "Silver" %}
             {% for sponsor in silver_sponsors %}
+              {% capture sponsor_image %}
+                {{relative_url}}/assets/images/sponsors/{{sponsor.logo}}
+              {% endcapture %}
               <div>
-                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{relative_url}}/assets/images/sponsors/{{sponsor.logo}}" alt='{{sponsor.name}}' uk-img></a>
+                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{sponsor_image}}" alt='{{sponsor.name}}' uk-img></a>
               </div>
             {% endfor %}
             {% assign platinum_sponsors = conf.sponsors | where: "category", "Platinum" %}
             {% for sponsor in platinum_sponsors %}
+              {% capture sponsor_image %}
+                {{relative_url}}/assets/images/sponsors/{{sponsor.logo}}
+              {% endcapture %}
               <div>
-                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{relative_url}}/assets/images/sponsors/{{sponsor.logo}}" alt='{{sponsor.name}}' uk-img></a>
+                <a href="{{sponsor.link}}"> <img class="uk-padding-small" data-src="{{sponsor_image}}" alt='{{sponsor.name}}' uk-img></a>
               </div>
             {% endfor %}
 
