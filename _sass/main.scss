@@ -374,11 +374,12 @@ Agenda Femit mobile
 Codigo de conducta
 **/
 
+
 #code-femit{
   font-family: $titleFont;
 
   ul{
     font-weight:400;
-    list-style-image: url('/assets/images/)).svg');
+    list-style-image: url($baseurl + '/assets/images/bullet.svg');
   }
 }
