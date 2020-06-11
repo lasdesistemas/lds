@@ -41,53 +41,57 @@ talks:
 sponsors:
   - name: SOUTHWORKS
     category: Platinum
-    link: ''
+    link: 'https://www.southworks.com'
     logo: 'southworks.png'
   - name: tecso
     category: Gold
-    link: ''
+    link: 'http://www.tecso.coop'
     logo: 'tecso.png'
   - name: Elastic
     category: Gold
-    link: ''
+    link: 'https://www.elastic.co/'
     logo: 'elastic.png'
   - name: gcoop Cooperativa de Software Libre
     category: Silver
-    link: ''
+    link: 'https://www.gcoop.coop/'
     logo: 'gcoop.png'
   - name: ASAPP
     category: Platinum
-    link: ''
+    link: 'https://www.asapp.com/'
     logo: 'asapp.png'
   - name: Acámica
     category: Platinum
-    link: ''
+    link: 'https://www.acamica.com/'
     logo: 'acamica.png'
   - name: intive
     category: Silver
-    link: ''
+    link: 'https://www.intive.com/es'
     logo: 'intive_csr.png'
   - name: INNOVID
     category: Platinum
-    link: ''
+    link: 'http://www.innovid.com'
     logo: 'innovid.png'
   - name: TradeHelm Inc.
     category: Gold
-    link: ''
+    link: 'https://tradehelm.com/es/'
     logo: 'tradehelm.png'
   - name: Kleer
     category: Silver
-    link: ''
+    link: 'https://www.kleer.la/'
     logo: 'kleer.png'
   - name: 10Pines
     category: Silver
-    link: ''
+    link: 'https://www.10pines.com/'
     logo: '10pines.svg'
   - name: stensul
     category: Silver
-    link: ''
+    link: 'https://stensul.com/'
     logo: 'stensul.svg'
   - name: Medallia
     category: Gold
-    link: ''
+    link: 'http://www.medallia.com.ar/careers/'
     logo: 'medallia.png'
+  - name: R/GA
+    category: Gold
+    link: 'https://www.rga.com/'
+    logo: 'rga.png'
