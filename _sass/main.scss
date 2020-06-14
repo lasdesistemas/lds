@@ -92,6 +92,24 @@ h4, h5, h6,
 }
 
 
+/** Buttons **/
+.button-default-femit{
+  background-color: $purple-lighter;
+  color: $white;
+  font-family: $titleFont;
+  border: 0px solid $purple-light;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.button-default-femit:hover,
+.button-default-femit:focus{
+  background-color: #bf73bc;
+  color: $white;
+
+}
+
 /**
 Navbar LDS
 **/
