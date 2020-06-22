@@ -62,13 +62,13 @@ layout: default
   <!-- Mobile agenda fin -->
 </div>
 
+
 <div id="sponsors-femit" class="uk-section uk-container uk-container-small">
-  <div class="uk-child-width-expand uk-grid-small uk-text-center" uk-grid>
+  <div class="uk-child-width-expand uk-grid-small" uk-grid>
     <div class="uk-width-1-1 uk-width-1-4@s">
-      <h2 class="uk-text-center pink-darker-f uk-text-uppercase"> Sponsors </h2>
+      <h2 class="pink-darker-f uk-text-uppercase"> Sponsors </h2>
     </div>
     <div>
-
         {% for conf_hash in site.data.confs %}
           {% assign conf = conf_hash[1] %}
           {% if conf.year == 2020 %}
@@ -108,8 +108,6 @@ layout: default
                 </div>
               {% endfor %}
             </div>
-
-
           {% endif %}
         {% endfor %}
 
