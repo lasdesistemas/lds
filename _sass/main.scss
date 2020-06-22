@@ -144,6 +144,22 @@ Navbar LDS
     color: $white;
   }
 
+  .uk-navbar-dropdown-nav .uk-nav-divider {
+    border-top: 0.3px solid #ccc;
+  }
+  .uk-nav-divider {
+      margin: 10px;
+  }
+  .uk-nav-header{
+    padding-left: 20px;
+    color: $gray-lighter;
+    margin-top: 5px;
+  }
+  .li-previous-femit{
+    padding-left: 10px;
+    color: $white;
+  }
+
 }
 
 .uk-navbar-toggle{
