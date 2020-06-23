@@ -258,8 +258,15 @@ Dropdown del navbar LDS
 /**
 Footer LDS
 **/
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
+}
 
 footer{
+
   p, a{
     font-family: $titleFont;
   }
