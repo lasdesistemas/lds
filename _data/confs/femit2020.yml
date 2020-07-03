@@ -104,7 +104,7 @@ talks:
         bio: "Artista multidisciplinaria, feminista, amante de la innovación. Su trabajo en lo tecnológico se enfoca en la búsqueda de soluciones utilizando la inteligencia colectiva e innovación ciudadana. Co-fundadora de la Asociación de Estudios Sociales Innovación y Cultura de Barcelona, donde contribuye en la asistencia de asesorías a otras organizaciones."
         photo: 'sascha.png'
   - title: Sorteo y cierre del evento
-    time: 18:10
+    time: "18:10-18:30"
     talk: false
 
 sponsors:
@@ -168,3 +168,7 @@ sponsors:
     category: Silver
     link: 'https://eryx.co/'
     logo: 'eryx.png'
+  - name: Endava
+    link: 'http://www.endava.com'
+    logo: 'endava.png'
+    category: Gold
