@@ -1,6 +1,6 @@
-url: "https://lasdesistemas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/lds" # the subpath of your site, e.g. /blog
-title: "Las de Sistemas"
+url: "https://lasdesistemas.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Las de Sistemas" 
 description: "Las de Sistemas es una comunidad feminista de mujeres, lesbianas, travestis, trans y no binaries, que trabajan en la industria de la tecnología. Tienen por objetivos principales: visibilizarse, potenciarse, capacitarse, contenerse y transformar sus espacios de trabajo en lugares inclusivos. "
 keywords: "tecnología, género, STEM"
 lang: 'es'

@@ -6,9 +6,16 @@ talks:
   - title: Apertura
     time: "10:00-10:30"
     talk: false
-  - title: "Keynote: Susana Pallero"
+  - title: "Comunidad: la respuesta de las personas excluidas"
     time: "10:30-11:20"
-    talk: false
+    talk: true
+    description: "A través de una visión más amplia de la accesibilidad descubrimos una herramienta que habilita espacios para los grupos marginados por la sociedad (mujeres, personas trans, personas en situación de pobreza, personas con discapacidad y madres). La puesta en producción de código inaccesible como acto político de exclusión. La colaboración entre estos colectivos como solución y aporte incalculable a la ciencia y a la tecnología."
+    speakers: 
+      - name: "Invitada Especial: Susana Pallero"
+        twitter: 'https://twitter.com/perosincera'
+        website: 'https://www.linkedin.com/in/susipalleroarguello'
+        bio: "Directora de eSSENTIAL Accessibility LATAM. Co-chair del Comité de Programa de Inclusión y Diversidad Digital para RightsCon y fundadora de DALAT (Desarrollo Accesible Latinoamericano). Actualmente se encuentra cursando las Diplomaturas de 'Derechos Humanos del Siglo XXI', 'Derechos Humanos de las Mujeres' e 'Igualdad y Empoderamiento de la Mujer'."
+        photo: 'susi.jpg'
   - title: Intervalo
     time: "11:20-11:30"
   - title: "¿Dónde está Wally?: desarrollando modelos de predicción de la visión al buscar objetos"
@@ -37,9 +44,15 @@ talks:
   - title: Almuerzo
     time: "13:00-14:00"
     talk: false
-  - title: "Keynote: Verónica Dahl"
+  - title: "Rosca de Reinas"
     time: "14:00-15:00"
-    talk: false
+    talk: true
+    description: "Uniendo tres ramas de investigación que denominaremos 'historia inclusiva', 'modelo de rosca' e 'informática feminista' destilaremos una propuesta informática de usar la IA para recuperar nuestra humanidad, milenariamente suprimida en favor de la dominación."
+    speakers:
+      - name: "Invitada Especial: Verónica Dahl"
+        twitter: "https://twitter.com/VerunicaDahl"
+        bio: "Verónica Dahl es egresada del Lengüitas, la Universidad de Buenos Aires y la de Aix-Marseille II. Su trabajo científico le valió reconocimiento de la Asociación de Programación Lógica como una de los 15 fundadores de la disciplina. Dos hijos maravillosos, varias canciones, un árbol, tres cuentos premiados, una obra teatral, un libro."
+        photo: "veronica.png"
   - title: "Corpiño Hackeado: el ciberfeminismo en las calles"
     time: "15:00-15:30"
     talk: true
