@@ -58,12 +58,12 @@ talks:
     talk: true
     description: "Compartimos  la experiencia de cómo se llevó a cabo una intervención tecnológica en el marco del 8M, a través de  talleres abiertos, fuera del ámbito académico, de aprendizaje horizontal y auto-gestionado y cuestionando desde el proceso de creación en e-textiles, el uso del corpiño."
     speakers:
-      - name: Maria Angeles Franco
+      - name: Ángeles Franco
         facebook: "https://www.facebook.com/Lab.ArquitecturaReceptiva"
         instagram: 'https://www.instagram.com/4ngelesfr4nco/'
         bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucúman Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
         photo: 'maria.png'
-      - name: Mariana Victoria Juárez
+      - name: Mariana Juárez
         instagram: 'https://www.instagram.com/no_tan__mariana___________/'
         bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucúman Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
         photo: 'mariana.png'
