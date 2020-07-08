@@ -4,15 +4,22 @@ description: FemIT conf es una conferencia sobre tecnología con perspectiva de 
 
 talks:
   - title: Apertura
-    time: "10:00-10:30"
+    time: "10:00"
     talk: false
-  - title: "Keynote: Susana Pallero"
-    time: "10:30-11:20"
-    talk: false
+  - title: "Comunidad: la respuesta de las personas excluidas"
+    time: "10:30"
+    talk: true
+    description: "A través de una visión más amplia de la accesibilidad descubrimos una herramienta que habilita espacios para los grupos marginados por la sociedad (mujeres, personas trans, personas en situación de pobreza, personas con discapacidad y madres). La puesta en producción de código inaccesible como acto político de exclusión. La colaboración entre estos colectivos como solución y aporte incalculable a la ciencia y a la tecnología."
+    speakers: 
+      - name: "Invitada Especial: Susana Pallero"
+        twitter: 'https://twitter.com/perosincera'
+        website: 'https://www.linkedin.com/in/susipalleroarguello'
+        bio: "Directora de eSSENTIAL Accessibility LATAM. Co-chair del Comité de Programa de Inclusión y Diversidad Digital para RightsCon y fundadora de DALAT (Desarrollo Accesible Latinoamericano). Actualmente se encuentra cursando las Diplomaturas de 'Derechos Humanos del Siglo XXI', 'Derechos Humanos de las Mujeres' e 'Igualdad y Empoderamiento de la Mujer'."
+        photo: 'susi.jpg'
   - title: Intervalo
-    time: "11:20-11:30"
+    time: "11:20"
   - title: "¿Dónde está Wally?: desarrollando modelos de predicción de la visión al buscar objetos"
-    time: "11:30-12:30"
+    time: "11:30"
     talk: true
     description: "Poder buscar objetos con la vista es clave en nuestra vida, pero aún no existen programas capaces de predecir el recorrido de la mirada a la perfección. En esta charla veremos cómo desarrollamos un modelo que ayuda a predecirlo y es compatible con cómo funciona el cerebro, además de sus aplicaciones a otras áreas."
     speakers:
@@ -22,7 +29,7 @@ talks:
         bio: "Lic. en Cs. de la Computación. Realizó su tesis en modelos de búsqueda visual. Multipremiada en olimpíadas de matemática e informática a nivel internacional, Melanie trabajó en Facebook, obteniendo dos patentes por su trabajo. Actualmente es Lead Machine Learning Engineer en ASAPP."
         photo: 'melanie.png'
   - title: "Cómo montar una servidora feminista con una conexión casera"
-    time: "12:30-13:00"
+    time: "12:30"
     talk: true
     description: "¿Cómo es la infraestructura que sostiene nuestro activismo feminista? Este es el resultado de un proceso de aprendizaje de más de un año en el que documentamos cómo crear un espacio web seguro y autónomo para colectivas y organizaciones feministas. Nuestras webs, nuestras reglas."
     speakers:
@@ -35,30 +42,36 @@ talks:
         bio: Activista trans-hack-feminista e impulsora del hacklab feminista la_bekka. Es técnica en administración de sistemas informáticos y desde 2016 facilita formaciones y acompañamientos en protección digital para defensoras de derechos humanos y activistas feministas en el estado español.
         photo: 'martu.jpg'
   - title: Almuerzo
-    time: "13:00-14:00"
+    time: "13:00"
     talk: false
-  - title: "Keynote: Verónica Dahl"
-    time: "14:00-15:00"
-    talk: false
+  - title: "Rosca de Reinas"
+    time: "13:50"
+    talk: true
+    description: "Uniendo tres ramas de investigación que denominaremos 'historia inclusiva', 'modelo de rosca' e 'informática feminista' destilaremos una propuesta informática de usar la IA para recuperar nuestra humanidad, milenariamente suprimida en favor de la dominación."
+    speakers:
+      - name: "Invitada Especial: Verónica Dahl"
+        twitter: "https://twitter.com/VerunicaDahl"
+        bio: "Verónica Dahl es egresada del Lengüitas, la Universidad de Buenos Aires y la de Aix-Marseille II. Su trabajo científico le valió reconocimiento de la Asociación de Programación Lógica como una de los 15 fundadores de la disciplina. Dos hijos maravillosos, varias canciones, un árbol, tres cuentos premiados, una obra teatral, un libro."
+        photo: "veronica.png"
   - title: "Corpiño Hackeado: el ciberfeminismo en las calles"
-    time: "15:00-15:30"
+    time: "15:00"
     talk: true
     description: "Compartimos  la experiencia de cómo se llevó a cabo una intervención tecnológica en el marco del 8M, a través de  talleres abiertos, fuera del ámbito académico, de aprendizaje horizontal y auto-gestionado y cuestionando desde el proceso de creación en e-textiles, el uso del corpiño."
     speakers:
-      - name: Maria Angeles Franco
+      - name: Ángeles Franco
         facebook: "https://www.facebook.com/Lab.ArquitecturaReceptiva"
         instagram: 'https://www.instagram.com/4ngelesfr4nco/'
-        bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucúman Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
+        bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucumán Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
         photo: 'maria.png'
-      - name: Mariana Victoria Juárez
+      - name: Mariana Juárez
         instagram: 'https://www.instagram.com/no_tan__mariana___________/'
-        bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucúman Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
+        bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucumán Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
         photo: 'mariana.png'
   - title: Intervalo
-    time: "15:30-15:40"
+    time: "15:30"
     talk: false
   - title: "La menstruación: mitos y datos"
-    time: "15:40-16:40"
+    time: "15:40"
     talk: true
     description: "En este preciso instante, 560 millones de personas están menstruando. ¿Por qué a pesar de ser algo tan cotidiano en nuestras vidas está rodeado de tabúes? En esta charla veremos resultados sobre los ciclos menstruales de 10 millones de personas para derribar mitos con datos."
     speakers:
@@ -68,7 +81,7 @@ talks:
         bio: "Estudió Física en la UBA y luego, motivada por la curiosidad de vivir en otra ciudad, viajó al exterior a hacer un doctorado en Neurociencia. Hoy trabaja en el área de investigación de una empresa de tecnología desarrollando algoritmos. Es apasionada por los ciclos menstruales y la danza."
         photo: 'belen.png'
   - title: "Charla relámpago: Desarrollar videojuegos es para todo el mundo"
-    time: "16:40-16:55"
+    time: "16:40"
     talk: true
     description: "La experiencia de identificar la falta de diversidad desde la perspectiva de género en nuestra comunidad y cómo dar visibilidad a la temática favorece la inclusión. La charla se enfoca en las vivencias que tuvimos desde que empezamos a trabajar el tema."
     speakers:
@@ -79,7 +92,7 @@ talks:
         bio: "Femiñoña, programadora bisexual con trastorno de ansiedad. Trabajó 5 años como desarrolladora .NET y ahora se dedica a hacer jueguitos. Estudiante y tutora docente en la tecnicatura en diseño y programación de videojuegos de la UNL. Miembro activa de la Comunidad de Desarrolladores de Videojuegos de Bahía Blanca."
         photo: 'macarena.png'
   - title: "Charla relámpago: Programando futuro, Mujeres en la Educación Técnico Profesional en Argentina"
-    time: "16:55-17:10"
+    time: "16:55"
     talk: true
     description: "Comparte su experiencia como parte de la organización de “Programando Futuro - Jornadas de Mujeres de la Educación Técnica 2019”, donde participaron estudiantes y docentes de escuelas técnicas de CABA, en busca de fomentar el acceso de las estudiantes a carreras y trabajos en Ciencia, Tecnología, Ingeniería y Matemáticas."
     speakers:
@@ -91,11 +104,11 @@ talks:
         bio: "Técnica mecánica, profesora de Educación Técnica Profesional, Lic. en Educación y Lic. en Gestión Educativa. Actualmente se desempeña en el desarrollo de proyectos educativos de Prácticas Profesionalizantes en la Dirección de Educación Técnica dependiente del Min. de Educación de CABA. Investiga sobre el rol de la mujer en la Educación Técnica en Argentina."
         photo: 'silvina.png'
   - title: "Intervalo"
-    time: "17:10-17:20"
+    time: "17:10"
     talk: false
   - title: "Identidad digital y Blockchain: una oportunidad en materia de derechos humanos"
     talk: true
-    time: "17:20-18:10"
+    time: "17:20"
     description: "Algunos casos de éxito de Blockchain y su aplicación para dotar de derechos básicos a quienes más lo necesitan. Smartcontracts y el poder de la comunidad para crear nuevos mundos. Self-Sovereign Identity, el acceso y control de los datos por parte del usuario. Identidad digital para población que aún no es reconocida por el Estado."
     speakers:
       - name: "Sascha Ram"
@@ -104,7 +117,7 @@ talks:
         bio: "Artista multidisciplinaria, feminista, amante de la innovación. Su trabajo en lo tecnológico se enfoca en la búsqueda de soluciones utilizando la inteligencia colectiva e innovación ciudadana. Co-fundadora de la Asociación de Estudios Sociales Innovación y Cultura de Barcelona, donde contribuye en la asistencia de asesorías a otras organizaciones."
         photo: 'sascha.png'
   - title: Sorteo y cierre del evento
-    time: "18:10-18:30"
+    time: "18:10"
     talk: false
 
 sponsors:

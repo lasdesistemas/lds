@@ -3,22 +3,36 @@ layout: code
 title: "Código de conducta"
 ---
 
-El objetivo de este documento es comunicar los principios de convivencia que aseguren que nuestra FemIT Conf 2019 se desarrolle dentro de un ambiente seguro, confortable e inclusivo para todes. Por ello quienes formamos parte de la organización, sponsors, speakers y panelistas, así como todas las personas que asistan a la conferencia, nos comprometemos a cumplir y hacer cumplir los siguientes valores fundamentales:
+FemIT Conf es un evento para todes y quienes formamos parte de la comunidad de [LAS] de Sistemas nos comprometemos a mantener y fomentar un ambiente confortable, seguro e inclusivo. El objetivo de este documento es comunicar el comportamiento esperado para todas las personas que participen (asistentes, speakers, panelistas, sponsors y organización), así como las consecuencias de un comportamiento inaceptable.
 
-* Mantener, en todo momento, un diálogo amable y respetuoso que propicie la mejor versión del intercambio posible.
+<h3>Comportamiento esperado</h3>
 
-* Respetar las diversidades en todas sus formas: cultural, género, orientación sexual, discapacidad, apariencia física, edad, perspectivas profesionales, religiosas, ideológicas, etc.
+* Participar de forma activa y auténtica mediante un diálogo amable, considerado y respetuoso contribuyendo así a la continuidad de la comunidad.
+* Ser consciente de su entorno y el resto de las personas que participan y notificar a la organización en caso de observar alguna situación ya sea peligrosa o que vulnere este Código de Conducta, incluso si parece no tener consecuencias.
 
-* No discriminar, excluir, acosar o ejercer actos que de algún modo afecten la dignidad de las personas o violente su intimidad de cualquier forma.
+<h3>Comportamiento inaceptable</h3>
 
-* Asumir responsabilidad por el espacio compartido cuidando del mismo.
+* Comentarios ofensivos, como por ejemplo, aquellos relacionados con el género, identidad de género, expresión de género, orientación sexual, capacidades físicas, salud mental, apariencia física, etnia o religión.
+* Comentarios no deseados sobre las prácticas o elecciones de estilo de vida de una persona, incluyendo aquellos relacionados con alimentación, salud, trabajo, crianza o uso de drogas.
+* Uso intencional e incorrecto de los pronombres elegidos o utilización del ‘dead name’<sup>1</sup> al referirse a una persona.
+* Imágenes o comportamientos sexuales no solicitados, tanto virtuales como presenciales.
+* Amenazas.
+* Incitación a la violencia hacia alguna persona, incluyendo incentivar a alguien a cometer suicidio o lastimarse a sí misme o a otres.
+* Intimidación intencional.
+* Interrupciones constantes de las discusiones.
+* Atención sexual no solicitada.
+* Comunicación privada que no cesa cuando se solicita.
+* Publicaciones de comunicaciones privadas que no califican como acoso.
+* Envío de spam en canales públicos o comunicaciones privadas.
 
-* Abstenerse de presentar material, imágenes o actividades cuyo contenido pueda dañar, disminuir u objetivizar personas o grupos.
+<sup>1</sup> ‘dead name’ es aquel nombre que se le asignó a una persona al nacer y ya no lo utiliza más.
 
-En caso de detectar comportamientos que contraríen estos valores, la organización intervendrá de inmediato y, de acuerdo al caso, se podrá proceder a la expulsión y posterior registro para la no admisión de la persona responsable en futuros eventos de la comunidad.
+<h3>Consecuencias de un comportamiento inaceptable</h3>
 
-Si sos víctima o advertís cualquier tipo de situación que transgreda estos principios, comunicate inmediatamente con la organización. Durante el evento podés acercarte a cualquier persona del staff y además brindaremos un número de teléfono para que puedas contactarte.
+El comportamiento inaceptable no será tolerado por parte de la organización. Si une participante se involucra en una conducta inaceptable, les organizadores de la conferencia pueden tomar cualquier acción que consideren apropiada, inclusive la expulsión de la conferencia sin previo aviso.
 
-Esperamos contar con la colaboración activa de todes les asistentes para velar por el respeto de este código de conducta y así poder generar un espacio sano de intercambio colectivo e integrador.
+<h3>Denuncias y consultas</h3>
 
-<p class="uk-text-small gray-light">Este código de conducta es una derivación de <a class="gray-light" target="_blank" rel="noopener" href="https://nerdear.la/codigo-de-conducta"> nerdear.la/codigo-de-conducta </a> creado por Dig Encuentros y modificado bajo la licencia <a class="gray-light" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC</a> por [LAS] de Sistemas.</p>
+Si te están acosando, notás que otra persona está siendo acosada, ves algún comportamiento inaceptable o tenés cualquier otra inquietud, podés denunciar completando este <a class="gray-light" target="_blank" rel="noopener" href="">formulario</a>.
+
+<p class="uk-text-small gray-light">Este código de conducta está inspirado en <a class="gray-light" target="_blank" rel="noopener" href="https://womenofreact.com/code-of-conduct">Women of React Conf</a>.</p>
