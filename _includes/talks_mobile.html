@@ -59,10 +59,12 @@
           </li>
         {% else %}
           <li>
-            <div class="uk-margin-large-left">
-              <p class="uk-text-small"> {{ talk.time }}</p>
-              <h3 class="purple-lighter uk-text-bold talk-title-mobile"> {{ talk.title }}</h3>
-            </div>
+            <a class="uk-accordion-title hide-accordion" href="#" class="uk-accordion-hidden">
+              <div class="uk-margin-large-left">
+                <p class="uk-text-small"> {{ talk.time }}</p>
+                <h3 class="purple-lighter uk-text-bold talk-title-mobile"> {{ talk.title }}</h3>
+              </div>
+            </a>
             <hr class="hr-speakers">
           </li>
 

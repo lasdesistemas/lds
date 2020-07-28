@@ -424,3 +424,11 @@ Codigo de conducta
     list-style-image: url($baseurl + '/assets/images/bullet.svg');
   }
 }
+
+.hide-accordion::before {
+  background-image: url() !important
+}
+
+.uk-open>.hide-accordion::before {
+    background-image: url();
+}
