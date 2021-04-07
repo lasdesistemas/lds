@@ -10,7 +10,7 @@ layout: default
     <!-- Logo versión desktop -->
     <div class="uk-width-1-3@m uk-visible@m uk-text-center">
       <img class="uk-padding logo-lds-about" data-src="{{ logo }}" alt="{{ conf.title }}" uk-img>
-      <span class="uk-h3 pink-darker-f uk-text-uppercase">{{ conf.day }} <span class="uk-text-bold">{{ conf.date }}</span></span>
+      <span class="uk-padding-remove uk-h3 pink-darker-f uk-text-uppercase">{{ conf.day }} <span class="uk-text-bold">{{ conf.date }}</span></span>
     </div>
     <!-- Logo versión mobile -->
     <div class="uk-width-1-3@m uk-hidden@m uk-text-center">
@@ -22,12 +22,12 @@ layout: default
         <button class="uk-button uk-button-default uk-hidden@s button-default-femit">Registrarse</button>
       {% endif %}
       {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase uk-hidden@s">
+      <span class="uk-text-middle uk-h3 pink-darker-f uk-hidden@s">
         ¡Próximamente novedades!
       </span>
       {% endif %}
       {% if conf.youtube %}
-        <a href="{{ conf.youtube }}" target="_blank" class="uk-h3 purple-lighter uk-hidden@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
+        <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 purple-lighter uk-hidden@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
       {% endif %}
       </div>
     </div>
@@ -41,12 +41,12 @@ layout: default
       <button class="uk-button uk-button-default button-default-femit uk-visible@s">Registrarse</button>
       {% endif %}
       {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase uk-visible@s">
+      <span class="uk-text-middle uk-h3 pink-darker-f uk-visible@s">
         ¡Próximamente novedades!
       </span>
       {% endif %}
       {% if conf.youtube %}
-      <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 pink-darker-f uk-visible@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
+      <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 purple-lighter uk-visible@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
       {% endif %}
     </div>
   </div>
