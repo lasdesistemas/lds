@@ -22,12 +22,12 @@ layout: default
         <button class="uk-button uk-button-default uk-hidden@s button-default-femit">Registrarse</button>
       {% endif %}
       {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase">
+      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase uk-hidden@s">
         ¡Próximamente novedades!
       </span>
       {% endif %}
       {% if conf.youtube %}
-        <a href="{{ conf.youtube }}" target="_blank" class="uk-h3 pink-darker-f uk-hidden@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
+        <a href="{{ conf.youtube }}" target="_blank" class="uk-h3 purple-lighter uk-hidden@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
       {% endif %}
       </div>
     </div>
@@ -41,12 +41,12 @@ layout: default
       <button class="uk-button uk-button-default button-default-femit uk-visible@s">Registrarse</button>
       {% endif %}
       {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase">
+      <span class="uk-text-middle uk-h3 pink-darker-f uk-text-uppercase uk-visible@s">
         ¡Próximamente novedades!
       </span>
       {% endif %}
       {% if conf.youtube %}
-      <a href="{{ conf.youtube }}" target="_blank" class="uk-h3 pink-darker-f uk-visible@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
+      <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 pink-darker-f uk-visible@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
       {% endif %}
     </div>
   </div>
