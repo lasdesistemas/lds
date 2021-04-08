@@ -16,13 +16,6 @@ $gray-lighter: #bdbdbd;
 $gray-light: #999999;
 $gray-dark: #323232;
 
-// Colors Femit 2020
-$pink-lighter-f: #fac5d2;
-$pink-light-f: #f2a2b5;
-$pink-dark-f: #ed6781;
-$pink-darker-f: #ee4d6c;
-
-
 body {
   background: $white;
   color: $black;
@@ -66,7 +59,7 @@ h4, h5, h6,
 // Colors
 
 .purple-lighter{
-  color: $purple-lighter;
+  color: $purple-lighter !important;
 }
 
 .pink-darker-f{

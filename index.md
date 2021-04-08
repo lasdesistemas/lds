@@ -1,8 +1,5 @@
 ---
 layout: home
 title: "Home"
+year: 2021
 ---
-
-## You're ready to go!
-
-Start developing your Jekyll website.
