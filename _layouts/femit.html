@@ -17,19 +17,6 @@ layout: default
       <br>
       <img class="uk-padding-remove logo-lds-about-mobile" data-src="{{ logo }}" alt="{{ conf.title }}" uk-img>
       <p class="uk-h3 pink-darker-f uk-text-uppercase"> {{ conf.day }} <span class="uk-text-bold">{{ conf.date }}</span></p>
-      <div class="uk-hidden@s">
-      {% if conf.registro %}
-        <button class="uk-button uk-button-default uk-hidden@s button-default-femit">Registrarse</button>
-      {% endif %}
-      {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-hidden@s">
-        ¡Próximamente novedades!
-      </span>
-      {% endif %}
-      {% if conf.youtube %}
-        <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 purple-lighter uk-hidden@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
-      {% endif %}
-      </div>
     </div>
     <!-- Fin logo versión mobile -->
     <div class="uk-width-2-3@m uk-padding">
@@ -38,15 +25,15 @@ layout: default
         {{ conf.description }}
       </p>
       {% if conf.registro %}
-      <button class="uk-button uk-button-default button-default-femit uk-visible@s">Registrarse</button>
+      <button class="uk-button uk-button-default button-default-femit">Registrarse</button>
       {% endif %}
       {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f uk-visible@s">
+      <span class="uk-text-middle uk-h3 pink-darker-f">
         ¡Próximamente novedades!
       </span>
       {% endif %}
       {% if conf.youtube %}
-      <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 purple-lighter uk-visible@s">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
+      <a href="{{ conf.youtube }}" target="_blank" class="uk-h4 purple-lighter">¡Encontrá todas las charlas de {{conf.hashtag}} en YouTube!</a>
       {% endif %}
     </div>
   </div>
