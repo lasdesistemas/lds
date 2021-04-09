@@ -1,23 +1,26 @@
+{% assign conf = site.data.confs[page.datakey] %}
+{% assign path = conf.year | prepend: 'femitconf' %}
 <nav class="bg-black">
 
-  <div class="uk-navbar-container uk-container bg-black uk-light navbar-femit  uk-visible@s" uk-navbar>
+  <div class="uk-navbar-container uk-container bg-black uk-light navbar-femit uk-visible@s" uk-navbar>
 
     <div class="uk-navbar-left">
-      <a href="{{ '/femit2020' | relative_url }}">
-        <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/femit2020_white.svg' | relative_url }}" alt="Logo conferencia FEMIT 2020" uk-img>
+      <a href="{{ site.baseurl }}/">
+        <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Las de Sistemas" uk-img>
       </a>
     </div>
 
     <div class="uk-navbar-center">
       <ul class="uk-navbar-nav">
-        <li><a href="{{ site.baseurl }}/femit2020">Home</a></li>
-        <li><a href="{{ site.baseurl }}/femit2020#agenda-femit">Agenda</a></li>
+        <li><a href="{{ site.baseurl }}/femitconf2021">Home</a></li>
+        <li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit">Agenda</a></li>
         <li><a href="{{ site.baseurl }}/code">Código de conducta</a></li>
-        <li><a href="{{ site.baseurl }}/femit2020#sponsors-femit">Sponsors</a></li>
+        <li><a href="{{ site.baseurl }}/{{ path }}#sponsors-femit">Sponsors</a></li>
         <li>
-          <a href="{{ '/femit2020' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Ediciones anteriores</a>
+          <a href="{{ '/femitconf2021' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Ediciones anteriores</a>
           <div class="uk-navbar-dropdown uk-padding-remove">
             <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li><a href="{{ site.baseurl }}/femitconf2020" rel="noopener" class="uk-text-uppercase">Femit 2020</a></li>
               <li><a href="{{ site.baseurl }}/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
               <li><a href="{{ site.baseurl }}/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
             </ul>
@@ -54,13 +57,14 @@
   </div>
   <div id="js-dropdown" class="uk-hidden">
     <ul class="uk-nav-parent uk-padding-small" uk-nav="multiple: true">
-      <li class="uk-active"><a href="{{ site.baseurl }}/femit2020" class="uk-text-uppercase">Home</a></li>
-      <li><a href="{{ site.baseurl }}/femit2020#agenda-femit" class="uk-text-uppercase">Agenda</a></li>
+      <li class="uk-active"><a href="{{ site.baseurl }}/femitconf2021" class="uk-text-uppercase">Home</a></li>
+      <li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit" class="uk-text-uppercase">Agenda</a></li>
       <li><a href="{{ site.baseurl }}/code" class="uk-text-uppercase">Código de conducta</a></li>
-      <li><a href="{{ site.baseurl }}/femit2020#sponsors-femit" class="uk-text-uppercase">Sponsors</a></li>
+      <li><a href="{{ site.baseurl }}/{{ path }}#sponsors-femit" class="uk-text-uppercase">Sponsors</a></li>
       <li class="uk-parent">
         <a href="#" class="uk-text-uppercase uk-icon-link" uk-icon="triangle-down">Ediciones anteriores</a>
         <ul class="uk-nav-sub">
+          <li><a href="{{ site.baseurl }}/femitconf2020" rel="noopener" class="uk-text-uppercase">Femit 2020</a></li>
           <li><a href="{{ site.baseurl }}/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
           <li><a href="{{ site.baseurl }}/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
         </ul>
