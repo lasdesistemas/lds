@@ -7,3 +7,89 @@ date: 7 de Agosto
 proximamente: true
 registro: false
 fotos: true
+
+sponsors:
+  - name: MURAL
+    category: Platinum
+    link: "https://www.mural.co/"
+    logo: "mural.png"
+  - name: intive
+    category: Platinum
+    link: "https://www.intive.com/es"
+    logo: "intive.png"
+  - name: stensul
+    category: Platinum
+    link: "https://stensul.com/"
+    logo: "stensul.svg"
+  - name: Endava
+    category: Gold
+    link: "http://www.endava.com"
+    logo: "endava.png"
+  - name: GlobalLogic
+    category: Gold
+    link: "https://www.globallogic.com/latam/"
+    logo: "globalLogic.png"
+  - name: Kleer
+    category: Gold
+    link: "https://www.kleer.la/"
+    logo: "kleer.png"
+  - name: tecso
+    category: Gold
+    link: "http://www.tecso.coop"
+    logo: "tecso.png"
+  - name: INNOVID
+    category: Gold
+    link: "http://www.innovid.com"
+    logo: "innovid2.png"
+  - name: MuleSoft
+    category: Gold
+    link: "https://www.mulesoft.com/"
+    logo: "mulesoft.png"
+  - name: Spark Digital
+    category: Gold
+    link: "http://sparkdigital.com"
+    logo: "sparkDigital.png"
+  - name: Grupo Esfera
+    category: Silver
+    link: "https://www.grupoesfera.com.ar/"
+    logo: "grupoEsfera.png"
+  - name: 10Pines
+    category: Silver
+    link: "https://www.10pines.com/"
+    logo: "10pines.png"
+  - name: redbee Studios
+    category: Silver
+    link: "https://www.redbee.io/"
+    logo: "redbee.png"
+  - name: Asociación por los Derechos Civiles
+    category: Silver
+    link: "https://adc.org.ar/"
+    logo: "adc.png"
+  - name: Devecoop
+    category: Silver
+    link: "https://www.devecoop.com/"
+    logo: "devecoop.png"
+  - name: Elastic
+    category: Silver
+    link: "https://www.elastic.co/"
+    logo: "elastic2.png"
+  - name: MajorKey
+    category: Silver
+    link: "http://majorkeytech.com/"
+    logo: "majorKey.png"
+  - name: Medallia
+    category: Silver
+    link: "http://www.medallia.com.ar/"
+    logo: "medallia.png"
+  - name: R/GA
+    category: Silver
+    link: "https://www.rga.com/"
+    logo: "rga.png"
+  - name: ASAPP
+    category: Silver
+    link: "https://www.asapp.com/"
+    logo: "asapp.png"
+  - name: Eryx
+    category: Silver
+    link: "https://eryx.co/"
+    logo: "eryx.png"
