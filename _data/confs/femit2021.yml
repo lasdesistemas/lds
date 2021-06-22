@@ -93,3 +93,7 @@ sponsors:
     category: Silver
     link: "https://eryx.co/"
     logo: "eryx.png"
+  - name: Auth0
+    category: Silver
+    link: "https://auth0.com/"
+    logo: "Auth0.png"
