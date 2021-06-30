@@ -4,9 +4,172 @@ description: FemIT conf es una conferencia sobre tecnología con perspectiva de 
 hashtag: "#FemITConf2021"
 day: Sábado
 date: 7 de Agosto
-proximamente: true
+proximamente: false
 registro: false
 fotos: true
+
+agenda:
+  - title: Apertura
+    time: "10:00"
+    type: orga
+  - title: "Érase una vez en una galaxia muy muy lejana, entre ataques adversarios y detección de patrones anómalos en modelos de aprendizaje profundo"
+    time: "10:20"
+    type: keynote
+    description: "Cuando llevamos modelos de aprendizaje profundo a producción, necesitamos que sean robustos e interpretables. Estos suelen suponer condiciones ideales que rara vez se cumplen en aplicaciones de la vida real. En esta charla veremos cómo podemos ayudar a modelos ya entrenados con la detección de patrones anómalos."
+    speakers:
+      - name: "Celia Cintas"
+        twitter: "https://twitter.com/RTFMCelia"
+        website: "https://celiacintas.github.io/about/"
+        instagram: "https://www.instagram.com/celitacintas/"
+        bio: "Investigadora en el Laboratorio de IBM Research (Kenia). Previamente, becaria doctoral en IPCSH-CONICET y LCI-UNS. Doctora en Cs de la Computación (UNS) y feliz miembro de LinuxChix Argentina. Su investigación se enfoca en métodos de subset scanning aplicados a redes neuronales y sus aplicaciones en salud global."
+        photo: "CeliaCintas.png"
+  - title: Nuevas perspectivas en contenido educativo para atraer diversidad en sistemas
+    time: "11:15"
+    type: talk
+    description: "No todas las personas aprendemos igual, y por suerte, no tenemos que hacerlo. Les invito a descubrir distintas fuentes de contenido educativo, su relación con la diversidad y cómo podemos utilizarlas para alimentar la curiosidad, acompañar procesos de aprendizaje y atraer perfiles diversos."
+    speakers:
+      - name: "Belén Rey"
+        twitter: "https://twitter.com/iamdoomling"
+        website: "https://teloexplicocongatitos.com"
+        instagram: "https://www.instagram.com/teloexplicocongatitos"
+        bio: "Desarrolladora fullstack y diseñadora UI. Emprendedora compulsiva desde hace casi diez años, actualmente hace un poco de todo en CourseIt. Es mamá de una criatura humana, seis gatos y un perro. En su tiempo libre hace #TeLoExplicoConGatitos"
+        photo: "BelenRey.jpeg"
+  - title: Intervalo
+    time: "11:40"
+    type: orga
+  - title: "Sé ágil e inclusivo en MURAL"
+    time: "11:55"
+    type: sponsor
+    speakers:
+      - name: "Gisela Provenzano"
+        website: "https://www.linkedin.com/in/gisela-provenzano/"
+        bio: "Gisela Provenzano trabaja en MURAL como Agile Coach hace casi un año. Es Ingeniera en Sistemas de la Universidad de Tandil y hace 15 años trabaja en el mundo de IT."
+        photo: "GiselaMural.png"
+      - name: "Claudia Korzeniewski"
+        website: "https://www.linkedin.com/in/claudia-korzeniewski-91b3a440/"
+        bio: "Claudia Korzeniewski es Ingeniera en Informática de la UBA y trabaja hace más de 15 años en la industria. Actualmente trabaja en MURAL como Accessibility Engineering Manager."
+        photo: "ClaudiaMural.png"
+    sponsor:
+        name: MURAL
+        photo: "mural.png"
+  - title: Desarrollo, usabilidad y accesibilidad con lectores de pantalla
+    time: "12:10"
+    type: talk
+    description: "La importancia de pensar las aplicaciones con perspectiva de accesibilidad para que no sean una barrera para las personas que utilizan lectores de pantalla.
+Enseñar, desarrollar y testear desde el punto de vista de personas con discapacidad visual."
+    speakers:
+      - name: "Valeria Rocha"
+        twitter: "https://twitter.com/avaltenea"
+        bio: "Estudiante de Ingeniería Informática de la UBA. Programadora backend. Mentora de introducción a la programación con Python en la fundación Itgrarte."
+        photo: "ValeriaRocha.jpeg"
+      - name: "Katherine Vargas"
+        twitter: "https://twitter.com/dragonmoon1522"
+        website: "https://kathwr.wordpress.com"
+        instagram: "https://www.instagram.com/dragonmoon1522"
+        bio: "Desarrolladora de software, mujer trans, y discapacitada visual. Le apasiona la informática, la música y la literatura. Escritora de un blog"
+        photo: "KatherineVargas.jpeg"
+      - name: "Ximena Romero"
+        twitter: "https://twitter.com/ximer81"
+        bio: "Tester de accesibilidad en Nahual IT e Itgrarte. Se formó como Instructora en tecnología para personas ciegas en Madrid e inserción laboral."
+        photo: "XimenaRomero.jpeg"
+  - title: Almuerzo
+    time: "13:00"
+    type: orga
+  - title: Re-apertura
+    time: "14:00"
+    type: orga
+  - title: Crecimiento Contínuo
+    time: "14:10"
+    type: keynote
+    description: "Nos contará sobre cómo la mentalidad de crecimiento le permitió aprender de sus errores a lo largo de su carrera, compartiendo historias y anécdotas del camino que lleva recorrido hasta ahora y de cara a seguir creciendo en el futuro."
+    speakers:
+      - name: "Margarita Manterola"
+        twitter: "https://twitter.com/marga_manterola"
+        bio: "Lleva más de 20 años en la industria de tecnología. Trabajó en empresas chicas y grandes, como desarrolladora, sysadmin y SRE. Actualmente es Principal Engineering Manager en Microsoft."
+        photo: "MargaritaManterola.jpeg"
+  - title: 'Mujeres STEM: "El desafío de unirse y avanzar juntas en Jujuy”'
+    time: "15:05"
+    type: talk
+    description: "Compartimos nuestra experiencia de cómo conformamos desde la Facultad de Ingeniería de la UNJu una organización independiente de Mujeres STEM con estudiantes y profesionales de Jujuy, una de las tres provincias con el nivel más alto de violencia de género en 2019."
+    speakers:
+      - name: "Anahi Chaves"
+        instagram: "https://www.instagram.com/mujeresporingenieria"
+        bio: "Estudiante de Ingeniería Química en la U.N.Ju. Auditora técnica normativa y consultora en tecnologías de gestión de la producción en PyMEs del NOA y Uyuni-Bolivia. Diplomados en Sistemas de Gestión de Calidad en U.N.Ju. y Universidad Católica de Córdoba-IRAM. Fundó Mujeres x Ingeniería."
+        photo: "AnahiChaves.jpeg"      
+  - title: Intervalo
+    time: "15:30"
+    type: orga
+  - title: Charla Codiarte
+    time: "15:45"
+    type: talk
+    description: ""
+    speakers:
+      - name: "Valentin Santiago Berdun "
+        instagram: "https://www.instagram.com/codiandoarte"
+        bio: "Artista, pinta con el codo, hace arte digital y es una persona trans. "
+        photo: "ValentinBerdun.jpeg"
+  - title: Charla de Intive
+    time: "16:10"
+    type: sponsor
+    description: ""
+    speakers:
+      - name: ""
+        twitter: "https://twitter.com/"
+        website: "https://"
+        instagram: "https://www.instagram.com/"
+        bio: ""
+        photo: ""
+    sponsor:
+        name: Intive
+        photo: "intive.png"
+  - title: '¿Te animás a cruzar el puente?: resolviendo acertijos con Prolog'
+    time: "16:25"
+    type: talk
+    description: "¿Alguna vez te preguntaste cómo utilizar la programación lógica en tu vida cotidiana? Prolog es un lenguaje que suele usarse en la IA pero es útil para distintos tipos de problemas. En esta charla vamos a resolver un acertijo aplicando los conceptos principales del paradigma."
+    speakers:
+      - name: "Jessica Saavedra"
+        twitter: "https://twitter.com/Jess_tr"
+        website: "https://www.linkedin.com/in/jessica-saavedra-valenzuela/"
+        instagram: "https://www.instagram.com/jess_saavedra"
+        bio: "Estudiante y ayudante de cátedra en Ingeniería en Sistemas de la UTN, ferviente defensora de la educación pública que le dio la profesión. Es desarrolladora de software en 10Pines, colaboró en distintos proyectos de enseñanza de programación y es una apasionada del CSS."
+        photo: "JessicaSaavedra.jpeg"
+  - title: Intervalo 
+    time: "17:05"
+    type: orga
+  - title: Charla de Stensul
+    time: "17:20"
+    type: sponsor
+    description: ""
+    speakers:
+      - name: ""
+        twitter: "https://twitter.com/"
+        website: "https://"
+        instagram: "https://www.instagram.com/"
+        bio: ""
+        photo: ""
+    sponsor:
+        name: Stensul
+        photo: "stensul.svg"
+  - title: Materializando una idea de desarrollo
+    time: "17:35"
+    type: talk
+    description: "Veremos el proceso de planificación y diseño de una idea, aplicado a proyectos de desarrollo. Indagaremos en metodologías y herramientas para materializar lo antes posible la idea y entender qué se necesita y cómo, desde la necesidad inicial hasta comprender el flujo completo"
+    speakers:
+      - name: "Alicia Rosenthal"
+        facebook: "https://www.facebook.com/estudioaliciarosenthal"
+        website: "https://aliciarosenthal.com.ar/"
+        instagram: "https://www.instagram.com/alismotion"
+        bio: "Diseñadora, desarrolladora web, animadora y docente. Se desempeña como CEO de su estudio, donde coordina proyectos de diseño y desarrollo a medida, aplicaciones de realidad aumentada y animaciones de videoclips, comerciales y videos. Docente de programación, diseño y animación en UNLAM y UBA."
+        photo: "AliciaRosenthal.png"
+  - title: 'Sintetizador DIY en el navegador: La Web Audio API como punto de encuentro entre el desarrollo web y la música.'
+    time: "18:15"
+    type: talk
+    description: "Los navegadores web hoy en día son otra herramienta para la expresión artística. Una de las tantas posibilidades que ofrece la Web Audio API es poder sintetizar y procesar sonidos en un navegador, teniendo el potencial de crear instrumentos musicales que habitan en la web."
+    speakers:
+      - name: "Jus Recondo"
+        instagram: "https://www.instagram.com/jusrecondo"
+        bio: "Músique, docente y programadore. Trabaja como desarrolladore Front End y docente en ALT Cooperativa, primera cooperativa de tecnología matriculada en el país integrada por personas trans. Su identidad de género es no binaria. Le encantan los sintetizadores, los gatos y hacer cosas con JavaScript. "
+        photo: "JusRecondo.jpeg"
 
 sponsors:
   - name: MURAL
