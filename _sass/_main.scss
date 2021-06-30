@@ -66,6 +66,18 @@ h4, h5, h6,
   color: $main-darker-f !important;
 }
 
+.agenda-keynote {
+  color: $agenda-keynote !important;
+}
+
+.agenda-org {
+  color: $agenda-org !important;
+}
+
+.agenda-talk {
+  color: $agenda-talk !important;
+}
+
 .gray-light{
   color: $gray-light !important;
 }
@@ -365,7 +377,7 @@ Agenda Femit
 
   h3, h4{
     font-family: $bodyFont;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .talk-title-mobile{
@@ -381,6 +393,14 @@ Agenda Femit
   }
 }
 
+.circle {
+  width: 10px;
+  height: 10px;
+  background: $main-darker-f;
+  border-radius: 50%;
+  left: 50%;
+}
+
 .image-fit {
   object-fit: cover;
   width: 100px;
@@ -388,6 +408,7 @@ Agenda Femit
   position: relative;
   z-index: 1;
   background-color: #fff;
+  border: 1px solid $main-darker-f;
 }
 
 .image-fit-small {
@@ -396,6 +417,7 @@ Agenda Femit
   height: 60px;
   position: relative;
   z-index: 1;
+  border: 1px solid $main-darker-f;
 }
 
 .timeline {
