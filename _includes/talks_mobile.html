@@ -1,4 +1,4 @@
-<h2 class="uk-text-center pink-darker-f uk-text-uppercase"> Agenda </h2>
+<h2 class="uk-text-center main-darker-f uk-text-uppercase"> Agenda </h2>
 
 <ul uk-accordion="multiple: true">
   {% for talk in conf.agenda %}
@@ -23,7 +23,7 @@
                     </button>
                   </div>
                   <div class="uk-width-1-5 uk-padding-remove uk-text-center uk-text-middle">
-                    <p class="pink-darker-f">+</p>
+                    <p class="main-darker-f">+</p>
                   </div>
                   <div class="uk-width-2-5 uk-padding-remove">
                     {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
@@ -37,11 +37,11 @@
             <div class="uk-width-2-3 uk-padding-remove-top uk-padding-remove-bottom uk-padding-remove-right">
               <p class="uk-text-small"> {{ talk.time }}</p>
               <h3 class="purple-lighter uk-text-bold talk-title-mobile"> {{ talk.title }}</h3>
-              <h4 class="pink-darker-f h4-speaker">
+              <h4 class="main-darker-f h4-speaker">
                 {% for speaker in talk.speakers limit:2%}
                   {% if forloop.first %}  {% else %} + {% endif %}
                   {% assign speaker_code = speaker.name | slugify %}
-                  <button onclick="event.stopPropagation()" class="uk-button uk-button-link modal-title-speaker pink-darker-f uk-text-capitalize" uk-toggle="target: #modal-{{speaker_code}}">
+                  <button onclick="event.stopPropagation()" class="uk-button uk-button-link modal-title-speaker main-darker-f uk-text-capitalize" uk-toggle="target: #modal-{{speaker_code}}">
                     {{ speaker.name }}
                   </button>
                 {% endfor %}
