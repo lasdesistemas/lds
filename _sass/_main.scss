@@ -381,6 +381,18 @@ Agenda Femit
   }
 }
 
+.image-fit {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.image-fit-small {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
 .modal-title-speaker{
   font-family: $bodyFont;
 }
