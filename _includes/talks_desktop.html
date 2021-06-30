@@ -11,22 +11,22 @@
       </div>
       <div class="uk-width-1-6@s uk-text-center">
         {% if talk.speakers.size > 0 %}
-          {% if talk.speakers.size > 1%}
-            {% assign size = "uk-grid-small" %}
+          {% if talk.type != 'sponsor' and talk.speakers.size > 1%}
+            {% assign scale = '50' %}
           {% else %}
-            {% assign size = "uk-grid-medium" %}
+            {% assign scale = '80' %}
           {% endif %}
-          <div uk-grid class="{{size}}">
+          <div uk-grid>
           {% if talk.type == 'sponsor' %}
             <div class="uk-padding-remove">
-              <img class="uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}" alt='{{talk.sponsor.name}}' uk-img>
+              <img width="{{scale}}%" height="{{scale}}%" class="uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}" alt='{{talk.sponsor.name}}' uk-img>
             </div>
           {% else %}
             {% for speaker in talk.speakers %}
               {% assign speaker_code = speaker.name | slugify %}
               <div class="uk-padding-remove">
                 <a href="#modal-{{speaker_code}}" uk-toggle>
-                  <img class="uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}" alt='{{speaker.name}}' uk-img>
+                  <img width="{{scale}}%" height="{{scale}}%" class="uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}" alt='{{speaker.name}}' uk-img>
                 </a>
               </div>
             {% endfor %}
