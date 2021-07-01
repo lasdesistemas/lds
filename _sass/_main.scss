@@ -58,12 +58,24 @@ h4, h5, h6,
 
 // Colors
 
-.purple-lighter{
+.purple-lighter {
   color: $purple-lighter !important;
 }
 
-.pink-darker-f{
-  color: $pink-darker-f !important;
+.main-darker-f {
+  color: $main-darker-f !important;
+}
+
+.agenda-keynote {
+  color: $agenda-keynote !important;
+}
+
+.agenda-org {
+  color: $agenda-org !important;
+}
+
+.agenda-talk {
+  color: $agenda-talk !important;
 }
 
 .gray-light{
@@ -297,21 +309,21 @@ nav{
   li > a:active,
   li.uk-active > a,
   .uk-navbar-dropdown-nav > li > a:active {
-    color: $pink-lighter-f;
+    color: $main-lighter-f;
   }
   // Elementos del navbar cuando se selecciona con el teclado (focus)
   li > a:focus,
   li.uk-active > a:focus,
   .uk-navbar-dropdown-nav > li > a:focus {
     color: $white;
-    border-bottom: 1px ridge $pink-lighter-f;
+    border-bottom: 1px ridge $main-lighter-f;
   }
   // Elementos del navbar cuando se pasa el mouse por encima (hover)
   li > a:hover,
   li.uk-active > a:hover,
   li > a[aria-expanded="true"],
   .uk-navbar-dropdown-nav > li > a:hover {
-    color: $pink-lighter-f;
+    color: $main-lighter-f;
   }
 }
 
@@ -324,17 +336,17 @@ Dropdown del navbar LDS
   // Elementos del dropdown
   li > a {
     font-size: 0.9rem;
-    color: $pink-lighter-f;
+    color: $main-lighter-f;
     padding-left: 20px;
   }
   // Elementos del dropdown pasando el mouse por encima (hover)
   .uk-navbar-dropdown-nav > li > a:hover {
-    background: $pink-lighter-f;
+    background: $main-lighter-f;
     color: $gray-dark;
   }
   // Elementos del dropdown seleccionandolo con el teclado (focus) o seleccionandolo
   .uk-navbar-dropdown-nav > li > a:focus {
-    background: $pink-lighter-f;
+    background: $main-lighter-f;
     color: $gray-dark;
     border-bottom: 1px ridge $gray-lightest;
   }
@@ -345,7 +357,7 @@ Footer Femit
 **/
 
 footer.footer-femit a:hover{
-  color: $pink-lighter-f;
+  color: $main-lighter-f;
 }
 
 foot.footer-femit .uk-link, a {
@@ -365,7 +377,7 @@ Agenda Femit
 
   h3, h4{
     font-family: $bodyFont;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .talk-title-mobile{
@@ -377,11 +389,52 @@ Agenda Femit
   }
 
   .hr-speakers{
-    border-top: 1px solid $pink-darker-f;
+    border-top: 1px solid $main-darker-f;
   }
 }
 
-.modal-title-speaker{
+.circle {
+  width: 10px;
+  height: 10px;
+  background: $main-darker-f;
+  border-radius: 50%;
+  left: 50%;
+}
+
+.image-fit {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid $main-darker-f;
+}
+
+.image-fit-small {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  z-index: 1;
+  border: 1px solid $main-darker-f;
+}
+
+.timeline {
+  position: relative
+} 
+
+.photo::after {
+    content:"";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: -40px;
+    left: 50%;
+    border-left: 3px solid $main-darker-f;
+}
+
+.modal-title-speaker {
   font-family: $bodyFont;
 }
 
