@@ -51,7 +51,7 @@ agenda:
         photo: "ClaudiaMural.png"
     sponsor:
         name: MURAL
-        photo: "mural.png"
+        photo: "muralspeakers.png"
   - title: Desarrollo, usabilidad y accesibilidad con lectores de pantalla
     time: "12:10"
     type: talk
@@ -121,7 +121,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
         photo: ""
     sponsor:
         name: Intive
-        photo: "intive.png"
+        photo: "intivespeakers.png"
   - title: '¿Te animás a cruzar el puente?: resolviendo acertijos con Prolog'
     time: "16:25"
     type: talk
@@ -149,7 +149,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
         photo: ""
     sponsor:
         name: Stensul
-        photo: "stensul.svg"
+        photo: "stensulspeakers.png"
   - title: Materializando una idea de desarrollo
     time: "17:35"
     type: talk

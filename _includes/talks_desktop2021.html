@@ -1,64 +1,68 @@
-<div class="uk-child-width-expand uk-grid-small" uk-grid>
-  <div class="uk-width-1-4@s">
+<div class="uk-child-width-expand" uk-grid>
+  <div class="uk-width-1-5@s">
     <h2 class="main-darker-f uk-text-uppercase">Agenda</h2>
   </div>
   <div uk-grid>
-    {% for talk in conf.talks %}
-    <div class="uk-width-1-5@s uk-text-center">
-      {% if talk.talk %} {% if talk.speakers.size <= 1 %} {% for speaker in
-      talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
-      <a href="#modal-{{speaker_code}}" uk-toggle>
-        <img
-          class="uk-padding-remove uk-border-circle"
-          data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
-          alt="{{speaker.name}}"
-          uk-img
-        />
-      </a>
-      {% endfor %} {% else %}
-      <div uk-grid>
-        <div class="uk-width-2-5 uk-padding-remove">
-          {% assign speaker_code_1 = talk.speakers[0].name | slugify %}
-          <a href="#modal-{{speaker_code_1}}" uk-toggle>
-            <img
-              class="uk-padding-remove uk-border-circle"
-              data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[0].photo}}"
-              alt="{{talk.speakers[0].name}}"
-              uk-img
-            />
-          </a>
-        </div>
-        <div
-          class="uk-width-1-5 uk-padding-remove uk-text-center uk-text-middle"
-        >
-          <p class="main-darker-f">
-            <br /><span class="uk-text-bold uk-h3 main-darker-f">+</span>
-          </p>
-        </div>
-        <div class="uk-width-2-5 uk-padding-remove">
-          {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
-          <a href="#modal-{{speaker_code_2}}" uk-toggle>
-            <img
-              class="uk-padding-remove uk-border-circle"
-              data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[1].photo}}"
-              alt="{{talk.speakers[1].name}}"
-              uk-img
-            />
-          </a>
-        </div>
-      </div>
-      {% endif %} {% endif %}
+    {% for talk in conf.agenda %}
+    <div class="uk-width-1-6@s uk-padding-small uk-text-right uk-width-small">
+      {% if talk.type == 'keynote' %}
+      <p>
+        <br>
+        <div><img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUxMiwxOTcuODE5bC0xODUuOTMzLTEyLjIyOEwyNTYsOS41NzFsLTcwLjA2NywxNzYuMDIxTDAsMTk3LjgybDE0Mi42NTgsMTIwLjkzTDk1Ljg1Niw1MDIuNDI5TDI1Niw0MDEuMjE0ICAgIGwxNjAuMTQ0LDEwMS4yMTVsLTQ2LjgtMTgzLjY3MUw1MTIsMTk3LjgxOXogTTI1NiwzNjUuNzI0bC0xMTIuNDY0LDcxLjA4bDMyLjgyNy0xMjguODMxTDc1LjgyOSwyMjIuODg4bDEzMC45NzEtOC42MDMgICAgTDI1Niw5MC42ODdsNDkuMiwxMjMuNTk5bDEzMS4xMjQsOC42MDJsLTEwMC42ODksODUuMDc3bDMyLjgyOSwxMjguODM5TDI1NiwzNjUuNzI0eiIgZmlsbD0iIzMwODI2MyIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4="
+          width="20"
+          height="20"
+        /></div>
+      </p>
+      {% endif %}
     </div>
-    <div class="uk-width-1-1 uk-width-4-5@s">
-      <p>{{ talk.time }}</p>
-      <h3 class="purple-lighter uk-text-bold">{{ talk.title }}</h3>
-      <h4 class="main-darker-f uk-text-bold">
+    <div class="uk-width-1-6@s uk-text-center timeline">
+      {% if talk.speakers.size > 0 %} {% if talk.type != 'sponsor' and
+      talk.speakers.size > 1%} {% assign img-class = 'image-fit-small' %} {%
+      else %} {% assign img-class = 'image-fit' %} {% endif %}
+      <div uk-grid class="uk-padding-remove uk-margin-remove-first-child photo">
+        {% if talk.type == 'sponsor' %}
+        <div class="uk-width-1-1 uk-padding-remove">
+          <img
+            class="uk-border-circle {{img-class}}"
+            data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
+            alt="{{talk.sponsor.name}}"
+            uk-img
+          />
+        </div>
+        {% else %} {% for speaker in talk.speakers %} {% assign speaker_code =
+        speaker.name | slugify %}
+        <div class="uk-width-1-1 uk-padding-remove uk-margin-small-top">
+          <a href="#modal-{{speaker_code}}" uk-toggle>
+            <img
+              class="uk-border-circle {{img-class}}"
+              data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+              alt="{{speaker.name}}"
+              uk-img
+            />
+          </a>
+        </div>
+        {% endfor %} {% endif %}
+      </div>
+      {% else %}
+      <div class="photo"></div>
+      {% endif %}
+    </div>
+    <div class="uk-width-1-6@s uk-text-right uk-padding-remove">
+      {{ talk.time }} hs
+    </div>
+    <div class="uk-width-1-2 uk-width-3-6@s">
+      {% if talk.type == 'keynote' %} {% assign color = 'agenda-keynote' %} {%
+      elsif talk.type == 'talk' %} {% assign color = 'agenda-talk' %} {% else %}
+      {% assign color = 'agenda-org' %} {% endif %}
+      <h3 class="{{color}} uk-text-bold">{{ talk.title }}</h3>
+      <h4 class="{{color}}">
         {% assign speaker_number = 0 %} {% for speaker in talk.speakers
-        limit:2%} {% if forloop.first %} {% else %} + {% endif %} {% assign
+        limit:3%} {% if forloop.first %} {% else %} + {% endif %} {% assign
         speaker_code = speaker.name | slugify %}
         <a
           href="#modal-{{speaker_code}}"
-          class="modal-title-speaker main-darker-f"
+          class="modal-title-speaker {{color}}"
           uk-toggle
           >{{ speaker.name }}</a
         >
@@ -91,7 +95,7 @@
                     />
                   </div>
                   <div class="uk-width-1-2">
-                    <h4 class="modal-title-speaker main-darker-f uk-text-bold">
+                    <h4 class="modal-title-speaker {{color}} uk-text-bold">
                       {{ speaker.name }}
                     </h4>
                   </div>
@@ -99,11 +103,7 @@
               </div>
               <div class="uk-width-1-1 uk-width-2-3@s">
                 <h4
-                  class="
-                    modal-title-speaker
-                    main-darker-f
-                    uk-text-bold uk-visible@s
-                  "
+                  class="modal-title-speaker {{color}} uk-text-bold uk-visible@s"
                 >
                   {{ speaker.name }}
                 </h4>
@@ -111,7 +111,7 @@
                 <p>
                   {% if speaker.instagram %}
                   <a
-                    class="main-darker-f"
+                    class="{{color}}"
                     href="{{speaker.instagram}}"
                     class="uk-icon-link"
                     uk-icon="instagram"
@@ -121,7 +121,7 @@
                   ></a>
                   {% endif %} {% if speaker.facebook %}
                   <a
-                    class="main-darker-f"
+                    class="{{color}}"
                     href="{{speaker.facebook}}"
                     class="uk-icon-link"
                     uk-icon="facebook"
@@ -131,7 +131,7 @@
                   ></a>
                   {% endif %} {% if speaker.twitter %}
                   <a
-                    class="main-darker-f"
+                    class="{{color}}"
                     href="{{speaker.twitter}}"
                     class="uk-icon-link"
                     uk-icon="twitter"
@@ -141,7 +141,7 @@
                   ></a>
                   {% endif %} {% if speaker.github %}
                   <a
-                    class="main-darker-f"
+                    class="{{color}}"
                     href="{{speaker.github}}"
                     class="uk-icon-link"
                     uk-icon="github"
@@ -151,7 +151,7 @@
                   ></a>
                   {% endif %} {% if speaker.website %}
                   <a
-                    class="main-darker-f"
+                    class="{{color}}"
                     href="{{speaker.website}}"
                     class="uk-icon-link"
                     uk-icon="world"
@@ -168,7 +168,7 @@
         <!-- Speaker modal end -->
         {% if speaker.facebook %}
         <a
-          class="main-darker-f"
+          class="{{color}}"
           href="{{speaker.facebook}}"
           class="uk-icon-link"
           uk-icon="facebook"
@@ -178,7 +178,7 @@
         ></a>
         {% endif %} {% if speaker.twitter %}
         <a
-          class="main-darker-f"
+          class="{{color}}"
           href="{{speaker.twitter}}"
           class="uk-icon-link"
           uk-icon="twitter"
@@ -188,7 +188,7 @@
         ></a>
         {% endif %} {% if speaker.instagram %}
         <a
-          class="main-darker-f"
+          class="{{color}}"
           href="{{speaker.instagram}}"
           class="uk-icon-link"
           uk-icon="instagram"
@@ -198,7 +198,7 @@
         ></a>
         {% endif %} {% if speaker.github %}
         <a
-          class="main-darker-f"
+          class="{{color}}"
           href="{{speaker.github}}"
           class="uk-icon-link"
           uk-icon="github"
@@ -208,7 +208,7 @@
         ></a>
         {% endif %} {% if speaker.website %}
         <a
-          class="main-darker-f"
+          class="{{color}}"
           href="{{speaker.website}}"
           class="uk-icon-link"
           uk-icon="world"
