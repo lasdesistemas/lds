@@ -40,6 +40,7 @@ agenda:
   - title: "Sé ágil e inclusivo en MURAL"
     time: "11:55"
     type: sponsor
+    description: "Mural fue creada en 2011 con 10 personas. Hoy somos más de 500 en +10 países trabajando remotamente y de manera colaborativa. Esto nos impulsó a trabajar estrategias de inclusión y procesos ágiles para seguir escalando nuestro producto, brindando siempre una experiencia de alta calidad."
     speakers:
       - name: "Gisela Provenzano"
         website: "https://www.linkedin.com/in/gisela-provenzano/"
@@ -66,7 +67,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
         twitter: "https://twitter.com/dragonmoon1522"
         website: "https://kathwr.wordpress.com"
         instagram: "https://www.instagram.com/dragonmoon1522"
-        bio: "Desarrolladora de software, mujer trans, y discapacitada visual. Le apasiona la informática, la música y la literatura. Escritora de un blog"
+        bio: "Desarrolladora de software, mujer trans, y persona con discapacidad visual. Le apasiona la informática, la música y la literatura. Escritora de un blog"
         photo: "KatherineVargas.jpeg"
       - name: "Ximena Romero"
         twitter: "https://twitter.com/ximer81"
@@ -90,35 +91,38 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
   - title: 'Mujeres STEM: "El desafío de unirse y avanzar juntas en Jujuy”'
     time: "15:05"
     type: talk
-    description: "Compartimos nuestra experiencia de cómo conformamos desde la Facultad de Ingeniería de la UNJu una organización independiente de Mujeres STEM con estudiantes y profesionales de Jujuy, una de las tres provincias con el nivel más alto de violencia de género en 2019."
+    description: "La experiencia desde el 2018 de cómo logramos conformar y mantener activa una organización independiente de Mujeres STEM, con estudiantes y profesionales, en la Facultad de Ingeniería-UNJu-Jujuy: una de las 3 provincias con el nivel más alto de violencia de género en 2019 del país."
     speakers:
       - name: "Anahi Chaves"
         instagram: "https://www.instagram.com/mujeresporingenieria"
-        bio: "Estudiante de Ingeniería Química en la U.N.Ju. Auditora técnica normativa y consultora en tecnologías de gestión de la producción en PyMEs del NOA y Uyuni-Bolivia. Diplomados en Sistemas de Gestión de Calidad en U.N.Ju. y Universidad Católica de Córdoba-IRAM. Fundó Mujeres x Ingeniería."
+        bio: "Auditora y consultora normativa. Estudiante de Ingeniería Química, tesis en la UNJu Complejo Solar Híbrido: Estudio de viabilidad técnico-económico de producción a escala industrial de Sal Solar mejorada con nanopartículas para centrales CSP-PV. Fundadora de Mujeres x Ingeniería."
         photo: "AnahiChaves.jpeg"      
   - title: Intervalo
     time: "15:30"
     type: orga
-  - title: Charla Codiarte
+  - title: "Codiandoarte: Aplicaciones y herramientas digitales para ganar autonomía"
     time: "15:45"
     type: talk
-    description: ""
+    description: "El arte es muy importante en mi vida. Al comienzo de la pandemia, poder continuar haciendo arte en formato digital, me ayudó a poder transitarla de la mejor manera.
+Sin las herramientas digitales que potencian mi autonomía e independencia, sería realmente muy difícil para mí, ya que soy una persona con discapacidad y uso mi codo para escribir y pintar en mi tablet."
     speakers:
       - name: "Valentin Santiago Berdun "
         instagram: "https://www.instagram.com/codiandoarte"
-        bio: "Artista, pinta con el codo, hace arte digital y es una persona trans. "
+        bio: 'Artista, pinta con el codo, hace arte digital y es transgénero, le encanta informarse cada día más sobre el tema e ir a las marchas.
+"No soy un diagnóstico o una silla de ruedas, soy una persona y aparte tengo parálisis cerebral, pero eso es aparte"'
         photo: "ValentinBerdun.jpeg"
-  - title: Charla de Intive
+  - title: "Un nuevo comienzo: Cambiar de profesión y sumarse al mundo IT"
     time: "16:10"
     type: sponsor
-    description: ""
+    description: "Seguramente alguna vez pensaste que ya era tarde para darle un giro a tu vida profesional, sobre todo para insertarte en el mundo de sistemas, siendo mujer, claro! Mariana y Lourdes nos cuentan cómo, cuándo y por qué decidieron jugársela y comenzar a derribar mitos."
     speakers:
-      - name: ""
-        twitter: "https://twitter.com/"
-        website: "https://"
-        instagram: "https://www.instagram.com/"
-        bio: ""
-        photo: ""
+      - name: "Lourdes Ramírez"
+        website: "https://www.linkedin.com/in/marialourdesramirez"
+        bio: "Lourdes es Lic. en Administración Hotelera. Trabajó en este rubro por más de 15 años y siempre siguió aprendiendo cosas nuevas, buscando nuevas oportunidades. A los 37 comenzó a aprender a programar desde cero y, luego de un año, comenzó a trabajar como desarrolladora frontend en intive."
+        photo: "LourdesRamirez.png"
+      - name: "Mariana Balsamo"
+        bio: "Diseñadora gráfica que luego de 10 años ejerciendo, decidió convertirse en programadora. Desde 2019 trabaja en Intive como desarrolladora frontend. Se frustra cuando las cosas no salen, se alegra cuando si, y no para de aprender. Se desconecta pintando o leyendo al sol con su galguita Marly."
+        photo: "MarianaBalsamo.png"
     sponsor:
         name: Intive
         photo: "intivespeakers.png"
@@ -170,6 +174,9 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
         instagram: "https://www.instagram.com/jusrecondo"
         bio: "Músique, docente y programadore. Trabaja como desarrolladore Front End y docente en ALT Cooperativa, primera cooperativa de tecnología matriculada en el país integrada por personas trans. Su identidad de género es no binaria. Le encantan los sintetizadores, los gatos y hacer cosas con JavaScript. "
         photo: "JusRecondo.jpeg"
+  - title: Cierre
+    time: "19:00"
+    type: orga
 
 sponsors:
   - name: MURAL
