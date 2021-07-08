@@ -16,6 +16,11 @@
       </p>
       {% endif %}
     </div>
+    {% if talk.type == 'keynote' %} {% assign color = 'agenda-keynote' %} {%
+    elsif talk.type == 'talk' %} {% assign color = 'agenda-talk' %}
+    {% elsif talk.type == 'sponsor' %} {% assign color = 'agenda-sponsor' %}
+    {% else %} {% assign color = 'agenda-org' %}
+    {% endif %}
     <div class="uk-width-1-6@s uk-text-center timeline">
       {% if talk.speakers.size > 0 %} {% if talk.type != 'sponsor' and
       talk.speakers.size > 1%} {% assign img-class = 'image-fit-small' %} {%
@@ -24,7 +29,7 @@
         {% if talk.type == 'sponsor' %}
         <div class="uk-width-1-1 uk-padding-remove">
           <img
-            class="uk-border-circle {{img-class}}"
+            class="uk-border-circle {{img-class}} {{color}}"
             data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
             alt="{{talk.sponsor.name}}"
             uk-img
@@ -35,7 +40,7 @@
         <div class="uk-width-1-1 uk-padding-remove uk-margin-small-top">
           <a href="#modal-{{speaker_code}}" uk-toggle>
             <img
-              class="uk-border-circle {{img-class}}"
+              class="uk-border-circle {{img-class}} {{color}}"
               data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
               alt="{{speaker.name}}"
               uk-img
@@ -52,9 +57,7 @@
       {{ talk.time }} hs
     </div>
     <div class="uk-width-1-2 uk-width-3-6@s">
-      {% if talk.type == 'keynote' %} {% assign color = 'agenda-keynote' %} {%
-      elsif talk.type == 'talk' %} {% assign color = 'agenda-talk' %} {% else %}
-      {% assign color = 'agenda-org' %} {% endif %}
+
       <h3 class="{{color}} uk-text-bold">{{ talk.title }}</h3>
       <h4 class="{{color}}">
         {% assign speaker_number = 0 %} {% for speaker in talk.speakers
