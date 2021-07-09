@@ -1,7 +1,17 @@
 <h2 class="uk-text-center main-darker-f uk-text-uppercase">Agenda</h2>
 
 <ul uk-accordion="multiple: true">
-  {% for talk in conf.agenda %} {% if talk.speakers.size > 0 %}
+  {% for talk in conf.agenda %}
+    {% if talk.type == 'keynote' %}
+      {% assign color = 'agenda-keynote' %}
+    {% elsif talk.type == 'talk' %}
+      {% assign color = 'agenda-talk' %}
+    {% elsif talk.type == 'sponsor' %}
+      {% assign color = 'agenda-sponsor' %}
+    {% else %}
+      {% assign color = 'agenda-org' %}
+    {% endif %}
+    {% if talk.speakers.size > 0 %}
   <li>
     <a class="uk-accordion-title" href="#">
       <div class="grid-profile-mobile" uk-grid>
@@ -89,9 +99,6 @@
           "
         >
           <p class="uk-text-small">{{ talk.time }}</p>
-          {% if talk.type == 'keynote' %} {% assign color = 'agenda-keynote' %}
-          {% elsif talk.type == 'talk' %} {% assign color = 'agenda-talk' %} {%
-          else %} {% assign color = 'agenda-org' %} {% endif %}
           <h3 class="{{color}} uk-text-bold talk-title-mobile">
             {{ talk.title }}
           </h3>
@@ -135,7 +142,7 @@
         <p class="uk-text-small">
           {{ talk.time }}
         </p>
-        <h3 class="purple-lighter uk-text-bold talk-title-mobile">
+        <h3 class="{{color}} uk-text-bold talk-title-mobile">
           {{ talk.title }}
         </h3>
       </div>
