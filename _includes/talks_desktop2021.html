@@ -43,17 +43,23 @@
             />
           </div>
           {% else %} 
-            {% for speaker in talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
-            <div class="uk-width-1-1">
-              <a href="#modal-{{speaker_code}}" uk-toggle>
-                <img
-                  class="uk-border-circle {{img-class}} {{color}}"
-                  data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
-                  alt="{{speaker.name}}"
-                  uk-img
-                />
-              </a>
-            </div>
+            {% for speaker in talk.speakers %} 
+              {% assign speaker_code = speaker.name | slugify %}
+              {% if forloop.first %}
+                {% assign margin = '' %}
+              {% else %}
+                {% assign margin = 'uk-margin-small-top' %}
+              {% endif %}
+              <div class="uk-width-1-1 {{margin}}">
+                <a href="#modal-{{speaker_code}}" uk-toggle>
+                  <img
+                    class="uk-border-circle {{img-class}} {{color}}"
+                    data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                    alt="{{speaker.name}}"
+                    uk-img
+                  />
+                </a>
+              </div>
             {% endfor %}
           {% endif %}
         </div>
