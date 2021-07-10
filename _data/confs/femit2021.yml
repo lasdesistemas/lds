@@ -13,7 +13,7 @@ agenda:
     time: "10:00"
     type: orga
   - title: "Érase una vez en una galaxia muy muy lejana, entre ataques adversarios y detección de patrones anómalos en modelos de aprendizaje profundo"
-    time: "10:20"
+    time: "10:15"
     type: keynote
     description: "Cuando llevamos modelos de aprendizaje profundo a producción, necesitamos que sean robustos e interpretables. Estos suelen suponer condiciones ideales que rara vez se cumplen en aplicaciones de la vida real. En esta charla veremos cómo podemos ayudar a modelos ya entrenados con la detección de patrones anómalos."
     speakers:
@@ -24,7 +24,7 @@ agenda:
         bio: "Investigadora en el Laboratorio de IBM Research (Kenia). Previamente, becaria doctoral en IPCSH-CONICET y LCI-UNS. Doctora en Cs de la Computación (UNS) y feliz miembro de LinuxChix Argentina. Su investigación se enfoca en métodos de subset scanning aplicados a redes neuronales y sus aplicaciones en salud global."
         photo: "CeliaCintas.png"
   - title: Nuevas perspectivas en contenido educativo para atraer diversidad en sistemas
-    time: "11:15"
+    time: "11:10"
     type: talk
     description: "No todas las personas aprendemos igual, y por suerte, no tenemos que hacerlo. Les invito a descubrir distintas fuentes de contenido educativo, su relación con la diversidad y cómo podemos utilizarlas para alimentar la curiosidad, acompañar procesos de aprendizaje y atraer perfiles diversos."
     speakers:
@@ -38,7 +38,7 @@ agenda:
     time: "11:40"
     type: orga
   - title: "Sé ágil e inclusivo en MURAL"
-    time: "11:55"
+    time: "11:50"
     type: sponsor
     description: "Mural fue creada en 2011 con 10 personas. Hoy somos más de 500 en +10 países trabajando remotamente y de manera colaborativa. Esto nos impulsó a trabajar estrategias de inclusión y procesos ágiles para seguir escalando nuestro producto, brindando siempre una experiencia de alta calidad."
     speakers:
@@ -54,7 +54,7 @@ agenda:
         name: MURAL
         photo: "muralspeakers.png"
   - title: Desarrollo, usabilidad y accesibilidad con lectores de pantalla
-    time: "12:10"
+    time: "12:05"
     type: talk
     description: "La importancia de pensar las aplicaciones con perspectiva de accesibilidad para que no sean una barrera para las personas que utilizan lectores de pantalla.
 Enseñar, desarrollar y testear desde el punto de vista de personas con discapacidad visual."
@@ -80,7 +80,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
     time: "14:00"
     type: orga
   - title: Crecimiento Contínuo
-    time: "14:10"
+    time: "14:05"
     type: keynote
     description: "Nos contará sobre cómo la mentalidad de crecimiento le permitió aprender de sus errores a lo largo de su carrera, compartiendo historias y anécdotas del camino que lleva recorrido hasta ahora y de cara a seguir creciendo en el futuro."
     speakers:
@@ -89,7 +89,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
         bio: "Lleva más de 20 años en la industria de tecnología. Trabajó en empresas chicas y grandes, como desarrolladora, sysadmin y SRE. Actualmente es Principal Engineering Manager en Microsoft."
         photo: "MargaritaManterola.jpeg"
   - title: 'Mujeres STEM: "El desafío de unirse y avanzar juntas en Jujuy”'
-    time: "15:05"
+    time: "15:00"
     type: talk
     description: "La experiencia desde el 2018 de cómo logramos conformar y mantener activa una organización independiente de Mujeres STEM, con estudiantes y profesionales, en la Facultad de Ingeniería-UNJu-Jujuy: una de las 3 provincias con el nivel más alto de violencia de género en 2019 del país."
     speakers:
@@ -101,7 +101,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
     time: "15:30"
     type: orga
   - title: "Codiandoarte: Aplicaciones y herramientas digitales para ganar autonomía"
-    time: "15:45"
+    time: "15:40"
     type: talk
     description: "El arte es muy importante en mi vida. Al comienzo de la pandemia, poder continuar haciendo arte en formato digital, me ayudó a poder transitarla de la mejor manera.
 Sin las herramientas digitales que potencian mi autonomía e independencia, sería realmente muy difícil para mí, ya que soy una persona con discapacidad y uso mi codo para escribir y pintar en mi tablet."
@@ -112,7 +112,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
 "No soy un diagnóstico o una silla de ruedas, soy una persona y aparte tengo parálisis cerebral, pero eso es aparte"'
         photo: "ValentinBerdun.jpeg"
   - title: "Un nuevo comienzo: Cambiar de profesión y sumarse al mundo IT"
-    time: "16:10"
+    time: "16:05"
     type: sponsor
     description: "Seguramente alguna vez pensaste que ya era tarde para darle un giro a tu vida profesional, sobre todo para insertarte en el mundo de sistemas, siendo mujer, claro! Mariana y Lourdes nos cuentan cómo, cuándo y por qué decidieron jugársela y comenzar a derribar mitos."
     speakers:
@@ -127,7 +127,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
         name: Intive
         photo: "intivespeakers.png"
   - title: '¿Te animás a cruzar el puente?: resolviendo acertijos con Prolog'
-    time: "16:25"
+    time: "16:20"
     type: talk
     description: "¿Alguna vez te preguntaste cómo utilizar la programación lógica en tu vida cotidiana? Prolog es un lenguaje que suele usarse en la IA pero es útil para distintos tipos de problemas. En esta charla vamos a resolver un acertijo aplicando los conceptos principales del paradigma."
     speakers:
@@ -141,7 +141,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
     time: "17:05"
     type: orga
   - title: 'Todavía nos falta camino, pero lo estamos cambiando'
-    time: "17:20"
+    time: "17:15"
     type: sponsor
     description: "Nos reunimos en un after virtual junto a algunes de les integrantes de stensul tanto de Argentina, como de USA. En donde, charlamos y reflexionamos sobre las experiencias dentro de la industria, el aprendizaje, cómo fueron sus primeras oportunidades y cómo juntes podemos construir una industria distinta."
     speakers:
@@ -161,7 +161,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
         name: Stensul
         photo: "stensulspeakers.png"
   - title: Materializando una idea de desarrollo
-    time: "17:35"
+    time: "17:30"
     type: talk
     description: "Veremos el proceso de planificación y diseño de una idea, aplicado a proyectos de desarrollo. Indagaremos en metodologías y herramientas para materializar lo antes posible la idea y entender qué se necesita y cómo, desde la necesidad inicial hasta comprender el flujo completo"
     speakers:
@@ -172,7 +172,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
         bio: "Diseñadora, desarrolladora web, animadora y docente. Se desempeña como CEO de su estudio, donde coordina proyectos de diseño y desarrollo a medida, aplicaciones de realidad aumentada y animaciones de videoclips, comerciales y videos. Docente de programación, diseño y animación en UNLAM y UBA."
         photo: "AliciaRosenthal.png"
   - title: 'Sintetizador DIY en el navegador: La Web Audio API como punto de encuentro entre el desarrollo web y la música.'
-    time: "18:15"
+    time: "18:10"
     type: talk
     description: "Los navegadores web hoy en día son otra herramienta para la expresión artística. Una de las tantas posibilidades que ofrece la Web Audio API es poder sintetizar y procesar sonidos en un navegador, teniendo el potencial de crear instrumentos musicales que habitan en la web."
     speakers:
