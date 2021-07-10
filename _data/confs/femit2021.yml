@@ -140,17 +140,23 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
   - title: Intervalo 
     time: "17:05"
     type: orga
-  - title: Charla de Stensul
+  - title: 'Todavía nos falta camino, pero lo estamos cambiando'
     time: "17:20"
     type: sponsor
-    description: ""
+    description: "Nos reunimos en un after virtual junto a algunes de les integrantes de stensul tanto de Argentina, como de USA. En donde, charlamos y reflexionamos sobre las experiencias dentro de la industria, el aprendizaje, cómo fueron sus primeras oportunidades y cómo juntes podemos construir una industria distinta."
     speakers:
-      - name: ""
-        twitter: "https://twitter.com/"
-        website: "https://"
-        instagram: "https://www.instagram.com/"
-        bio: ""
-        photo: ""
+      - name: "Equipo de Stensul"
+        twitter: "https://twitter.com/stensul_ar"
+        website: "https://stensul.com/careers"
+        instagram: "https://www.instagram.com/lifeatstensul"
+        bio: "Rosaura Barrile, Directora de Operaciones RRHH y Cultura, Latam stensul.
+              Melina Cytryn, Consultora en Operaciones, RRHH y Cultura, stensul.
+              Agustina Fernández, Desarrolladora en Implementaciones, stensul.
+              Delfina Bourdieu, Desarrolladora en Implementaciones, stensul.
+              Pamela Pereyra, Desarrolladora de software, stensul.
+              Natalie Rast, Directora de Operaciones, RRHH y Cultura, stensul.
+              Sarah Ogden, Directora de atención al cliente, stensul. "
+        photo: "stensulspeakers.png"
     sponsor:
         name: Stensul
         photo: "stensulspeakers.png"
