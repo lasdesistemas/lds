@@ -4,8 +4,8 @@ description: FemIT conf es una conferencia sobre tecnología con perspectiva de 
 hashtag: "#FemITConf2021"
 day: Sábado
 date: 7 de Agosto
-proximamente: true
-registro: false
+proximamente: false
+registro: true
 fotos: true
 
 sponsors:
