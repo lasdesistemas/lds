@@ -46,7 +46,7 @@ sponsors:
     link: "https://www.mulesoft.com/"
     logo: "mulesoft.png"
   - name: Spark Digital
-    category: Gold
+    category: Gold_last
     link: "http://sparkdigital.com"
     logo: "sparkDigital.png"
   - name: Grupo Esfera
@@ -98,6 +98,6 @@ sponsors:
     link: "https://auth0.com/"
     logo: "Auth0.png"
   - name: ripio
-    category: Silver
+    category: Silver_last
     link: "https://launchpad.ripio.com/"
     logo: "ripio.png"
