@@ -85,7 +85,9 @@
       {% if talk.type == 'keynote' %} 
         {% assign color = 'agenda-keynote' %} 
       {% elsif talk.type == 'talk' %} 
-        {% assign color = 'agenda-talk' %} 
+        {% assign color = 'agenda-talk' %}
+        {% elsif talk.type == 'sponsor' %} 
+        {% assign color = 'agenda-sponsor' %} 
       {% else %}
         {% assign color = 'agenda-org' %} 
       {% endif %}
