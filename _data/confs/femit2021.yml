@@ -5,7 +5,7 @@ hashtag: "#FemITConf2021"
 day: Sábado
 date: 7 de Agosto
 proximamente: false
-registro: false
+registro: true
 fotos: true
 
 agenda:
@@ -96,7 +96,7 @@ Enseñar, desarrollar y testear desde el punto de vista de personas con discapac
       - name: "Anahi Chaves"
         instagram: "https://www.instagram.com/mujeresporingenieria"
         bio: "Auditora y consultora normativa. Estudiante de Ingeniería Química, tesis en la UNJu Complejo Solar Híbrido: Estudio de viabilidad técnico-económico de producción a escala industrial de Sal Solar mejorada con nanopartículas para centrales CSP-PV. Fundadora de Mujeres x Ingeniería."
-        photo: "AnahiChaves.jpeg"      
+        photo: "AnahiChaves.jpeg"
   - title: Intervalo
     time: "15:30"
     type: orga
@@ -137,7 +137,7 @@ Sin las herramientas digitales que potencian mi autonomía e independencia, ser�
         instagram: "https://www.instagram.com/jess_saavedra"
         bio: "Estudiante y ayudante de cátedra en Ingeniería en Sistemas de la UTN, ferviente defensora de la educación pública que le dio la profesión. Es desarrolladora de software en 10Pines, colaboró en distintos proyectos de enseñanza de programación y es una apasionada del CSS."
         photo: "JessicaSaavedra.jpeg"
-  - title: Intervalo 
+  - title: Intervalo
     time: "17:05"
     type: orga
   - title: 'Todavía nos falta camino, pero lo estamos cambiando'
@@ -197,7 +197,7 @@ sponsors:
   - name: stensul
     category: Platinum
     link: "https://stensul.com/"
-    logo: "stensul.png"
+    logo: "stensul.svg"
   - name: Endava
     category: Gold
     link: "http://www.endava.com"
@@ -223,7 +223,7 @@ sponsors:
     link: "https://www.mulesoft.com/"
     logo: "mulesoft.png"
   - name: Spark Digital
-    category: Gold
+    category: Gold_last
     link: "http://sparkdigital.com"
     logo: "sparkDigital.png"
   - name: Grupo Esfera
@@ -275,6 +275,6 @@ sponsors:
     link: "https://auth0.com/"
     logo: "Auth0.png"
   - name: ripio
-    category: Silver
+    category: Silver_last
     link: "https://launchpad.ripio.com/"
     logo: "ripio.png"
