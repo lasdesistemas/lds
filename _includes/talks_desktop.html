@@ -1,86 +1,225 @@
 <div class="uk-child-width-expand uk-grid-small" uk-grid>
   <div class="uk-width-1-4@s">
-    <h2 class="pink-darker-f uk-text-uppercase"> Agenda </h2>
+    <h2 class="main-darker-f uk-text-uppercase">Agenda</h2>
   </div>
   <div uk-grid>
     {% for talk in conf.talks %}
-      <div class="uk-width-1-5@s uk-text-center">
-        {% if talk.talk %}
-          {% if talk.speakers.size <= 1 %}
-            {% for speaker in talk.speakers %}
-              {% assign speaker_code = speaker.name | slugify %}
-              <a href="#modal-{{speaker_code}}" uk-toggle>
-                <img class="uk-padding-remove uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}" alt='{{speaker.name}}' uk-img>
-              </a>
-            {% endfor %}
-          {% else %}
-            <div uk-grid>
-              <div class="uk-width-2-5 uk-padding-remove">
-                {% assign speaker_code_1 = talk.speakers[0].name | slugify %}
-                <a href="#modal-{{speaker_code_1}}" uk-toggle>
-                  <img class="uk-padding-remove uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[0].photo}}" alt='{{talk.speakers[0].name}}' uk-img>
-                </a>
-              </div>
-              <div class="uk-width-1-5 uk-padding-remove uk-text-center uk-text-middle">
-                <p class="pink-darker-f"><br><span class="uk-text-bold uk-h3 pink-darker-f">+</span></p>
-              </div>
-              <div class="uk-width-2-5 uk-padding-remove">
-                {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
-                <a href="#modal-{{speaker_code_2}}" uk-toggle>
-                  <img class="uk-padding-remove uk-border-circle" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[1].photo}}" alt='{{talk.speakers[1].name}}' uk-img>
-                </a>
-              </div>
-            </div>
-          {% endif %}
-        {% endif %}
+    <div class="uk-width-1-5@s uk-text-center">
+      {% if talk.talk %} {% if talk.speakers.size <= 1 %} {% for speaker in
+      talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
+      <a href="#modal-{{speaker_code}}" uk-toggle>
+        <img
+          class="uk-padding-remove uk-border-circle"
+          data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+          alt="{{speaker.name}}"
+          uk-img
+        />
+      </a>
+      {% endfor %} {% else %}
+      <div uk-grid>
+        <div class="uk-width-2-5 uk-padding-remove">
+          {% assign speaker_code_1 = talk.speakers[0].name | slugify %}
+          <a href="#modal-{{speaker_code_1}}" uk-toggle>
+            <img
+              class="uk-padding-remove uk-border-circle"
+              data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[0].photo}}"
+              alt="{{talk.speakers[0].name}}"
+              uk-img
+            />
+          </a>
+        </div>
+        <div
+          class="uk-width-1-5 uk-padding-remove uk-text-center uk-text-middle"
+        >
+          <p class="main-darker-f">
+            <br /><span class="uk-text-bold uk-h3 main-darker-f">+</span>
+          </p>
+        </div>
+        <div class="uk-width-2-5 uk-padding-remove">
+          {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
+          <a href="#modal-{{speaker_code_2}}" uk-toggle>
+            <img
+              class="uk-padding-remove uk-border-circle"
+              data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[1].photo}}"
+              alt="{{talk.speakers[1].name}}"
+              uk-img
+            />
+          </a>
+        </div>
       </div>
-      <div class="uk-width-1-1 uk-width-4-5@s">
-        <p> {{ talk.time }}</p>
-        <h3 class="purple-lighter uk-text-bold"> {{ talk.title }} </h3>
-        <h4 class="pink-darker-f uk-text-bold">
-          {% assign speaker_number = 0 %}
-          {% for speaker in talk.speakers limit:2%}
-            {% if forloop.first %}  {% else %} + {% endif %}
-            {% assign speaker_code = speaker.name | slugify %}
-            <a href="#modal-{{speaker_code}}" class="modal-title-speaker pink-darker-f" uk-toggle>{{ speaker.name }}</a>
-            <!-- Speaker modal -->
-            <div id="modal-{{speaker_code}}" uk-modal>
-              <div class="uk-modal-dialog uk-modal-body">
-                <button class="uk-modal-close-default" aria-label="Cerrar" type="button" uk-close></button>
-                <div class="uk-grid-small" uk-grid>
-                  <div class="uk-width-1-3@s uk-visible@s uk-text-center">
-                    <img class="uk-padding-remove" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}" alt='{{speaker.name}}' uk-img>
+      {% endif %} {% endif %}
+    </div>
+    <div class="uk-width-1-1 uk-width-4-5@s">
+      <p>{{ talk.time }}</p>
+      <h3 class="purple-lighter uk-text-bold">{{ talk.title }}</h3>
+      <h4 class="main-darker-f uk-text-bold">
+        {% assign speaker_number = 0 %} {% for speaker in talk.speakers
+        limit:2%} {% if forloop.first %} {% else %} + {% endif %} {% assign
+        speaker_code = speaker.name | slugify %}
+        <a
+          href="#modal-{{speaker_code}}"
+          class="modal-title-speaker main-darker-f"
+          uk-toggle
+          >{{ speaker.name }}</a
+        >
+        <!-- Speaker modal -->
+        <div id="modal-{{speaker_code}}" uk-modal>
+          <div class="uk-modal-dialog uk-modal-body">
+            <button
+              class="uk-modal-close-default"
+              aria-label="Cerrar"
+              type="button"
+              uk-close
+            ></button>
+            <div class="uk-grid-small" uk-grid>
+              <div class="uk-width-1-3@s uk-visible@s uk-text-center">
+                <img
+                  class="uk-padding-remove"
+                  data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                  alt="{{speaker.name}}"
+                  uk-img
+                />
+              </div>
+              <div class="uk-width-1-1 uk-hidden@s">
+                <div class="uk-flex uk-flex-middle uk-text-center">
+                  <div class="uk-width-1-2">
+                    <img
+                      class="uk-padding-remove"
+                      data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                      alt="{{speaker.name}}"
+                      uk-img
+                    />
                   </div>
-                  <div class="uk-width-1-1 uk-hidden@s">
-                    <div class="uk-flex uk-flex-middle uk-text-center">
-                      <div class="uk-width-1-2"><img class="uk-padding-remove" data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}" alt='{{speaker.name}}' uk-img></div>
-                      <div class="uk-width-1-2"><h4 class="modal-title-speaker pink-darker-f uk-text-bold">{{ speaker.name }}</h4></div>
-                    </div>
-                  </div>
-                  <div class="uk-width-1-1 uk-width-2-3@s">
-                    <h4 class="modal-title-speaker pink-darker-f uk-text-bold uk-visible@s">{{ speaker.name }}</h4>
-                    <p>{{speaker.bio}}</p>
-                    <p>
-                      {% if speaker.instagram %} <a class="pink-darker-f" href="{{speaker.instagram}}" class="uk-icon-link" uk-icon="instagram" target="_blank" rel="noopener" aria-label="Instagram de {{speaker.name}}"></a> {% endif %}
-                      {% if speaker.facebook %} <a class="pink-darker-f" href="{{speaker.facebook}}" class="uk-icon-link" uk-icon="facebook" target="_blank" rel="noopener" aria-label="Facebook de {{speaker.name}}"></a> {% endif %}
-                      {% if speaker.twitter %} <a class="pink-darker-f" href="{{speaker.twitter}}" class="uk-icon-link" uk-icon="twitter" target="_blank" rel="noopener" aria-label="Twitter de {{speaker.name}}"></a> {% endif %}
-                      {% if speaker.github %} <a class="pink-darker-f" href="{{speaker.github}}" class="uk-icon-link" uk-icon="github" target="_blank" rel="noopener" aria-label="Website {{speaker.github}}"></a> {% endif %}
-                      {% if speaker.website %} <a class="pink-darker-f" href="{{speaker.website}}" class="uk-icon-link" uk-icon="world" target="_blank" rel="noopener" aria-label="Website {{speaker.website}}"></a> {% endif %}
-                    </p>
+                  <div class="uk-width-1-2">
+                    <h4 class="modal-title-speaker main-darker-f uk-text-bold">
+                      {{ speaker.name }}
+                    </h4>
                   </div>
                 </div>
               </div>
+              <div class="uk-width-1-1 uk-width-2-3@s">
+                <h4
+                  class="
+                    modal-title-speaker
+                    main-darker-f
+                    uk-text-bold uk-visible@s
+                  "
+                >
+                  {{ speaker.name }}
+                </h4>
+                <p>{{speaker.bio}}</p>
+                <p>
+                  {% if speaker.instagram %}
+                  <a
+                    class="main-darker-f"
+                    href="{{speaker.instagram}}"
+                    class="uk-icon-link"
+                    uk-icon="instagram"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram de {{speaker.name}}"
+                  ></a>
+                  {% endif %} {% if speaker.facebook %}
+                  <a
+                    class="main-darker-f"
+                    href="{{speaker.facebook}}"
+                    class="uk-icon-link"
+                    uk-icon="facebook"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Facebook de {{speaker.name}}"
+                  ></a>
+                  {% endif %} {% if speaker.twitter %}
+                  <a
+                    class="main-darker-f"
+                    href="{{speaker.twitter}}"
+                    class="uk-icon-link"
+                    uk-icon="twitter"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter de {{speaker.name}}"
+                  ></a>
+                  {% endif %} {% if speaker.github %}
+                  <a
+                    class="main-darker-f"
+                    href="{{speaker.github}}"
+                    class="uk-icon-link"
+                    uk-icon="github"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Website {{speaker.github}}"
+                  ></a>
+                  {% endif %} {% if speaker.website %}
+                  <a
+                    class="main-darker-f"
+                    href="{{speaker.website}}"
+                    class="uk-icon-link"
+                    uk-icon="world"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Website {{speaker.website}}"
+                  ></a>
+                  {% endif %}
+                </p>
+              </div>
             </div>
-            <!-- Speaker modal end -->
-            {% if speaker.facebook %} <a class="pink-darker-f" href="{{speaker.facebook}}" class="uk-icon-link" uk-icon="facebook" target="_blank" rel="noopener" aria-label="Facebook de {{speaker.name}}"></a> {% endif %}
-            {% if speaker.twitter %} <a class="pink-darker-f" href="{{speaker.twitter}}" class="uk-icon-link" uk-icon="twitter" target="_blank" rel="noopener" aria-label="Twitter de {{speaker.name}}"></a> {% endif %}
-            {% if speaker.instagram %} <a class="pink-darker-f" href="{{speaker.instagram}}" class="uk-icon-link" uk-icon="instagram" target="_blank" rel="noopener" aria-label="Instagram de {{speaker.name}}"></a> {% endif %}
-            {% if speaker.github %} <a class="pink-darker-f" href="{{speaker.github}}" class="uk-icon-link" uk-icon="github" target="_blank" rel="noopener" aria-label="Website {{speaker.github}}"></a> {% endif %}
-            {% if speaker.website %} <a class="pink-darker-f" href="{{speaker.website}}" class="uk-icon-link" uk-icon="world" target="_blank" rel="noopener" aria-label="Website {{speaker.website}}"></a> {% endif %}
-          {% endfor %}
-        </h4>
-        <p> {{talk.description}} </p>
-      </div>
+          </div>
+        </div>
+        <!-- Speaker modal end -->
+        {% if speaker.facebook %}
+        <a
+          class="main-darker-f"
+          href="{{speaker.facebook}}"
+          class="uk-icon-link"
+          uk-icon="facebook"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook de {{speaker.name}}"
+        ></a>
+        {% endif %} {% if speaker.twitter %}
+        <a
+          class="main-darker-f"
+          href="{{speaker.twitter}}"
+          class="uk-icon-link"
+          uk-icon="twitter"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter de {{speaker.name}}"
+        ></a>
+        {% endif %} {% if speaker.instagram %}
+        <a
+          class="main-darker-f"
+          href="{{speaker.instagram}}"
+          class="uk-icon-link"
+          uk-icon="instagram"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram de {{speaker.name}}"
+        ></a>
+        {% endif %} {% if speaker.github %}
+        <a
+          class="main-darker-f"
+          href="{{speaker.github}}"
+          class="uk-icon-link"
+          uk-icon="github"
+          target="_blank"
+          rel="noopener"
+          aria-label="Website {{speaker.github}}"
+        ></a>
+        {% endif %} {% if speaker.website %}
+        <a
+          class="main-darker-f"
+          href="{{speaker.website}}"
+          class="uk-icon-link"
+          uk-icon="world"
+          target="_blank"
+          rel="noopener"
+          aria-label="Website {{speaker.website}}"
+        ></a>
+        {% endif %} {% endfor %}
+      </h4>
+      <p>{{talk.description}}</p>
+    </div>
     {% endfor %}
   </div>
 </div>

@@ -8,6 +8,183 @@ proximamente: false
 registro: true
 fotos: true
 
+agenda:
+  - title: Apertura
+    time: "10:00"
+    type: orga
+  - title: "Érase una vez en una galaxia muy muy lejana, entre ataques adversarios y detección de patrones anómalos en modelos de aprendizaje profundo"
+    time: "10:15"
+    type: keynote
+    description: "Cuando llevamos modelos de aprendizaje profundo a producción, necesitamos que sean robustos e interpretables. Estos suelen suponer condiciones ideales que rara vez se cumplen en aplicaciones de la vida real. En esta charla veremos cómo podemos ayudar a modelos ya entrenados con la detección de patrones anómalos."
+    speakers:
+      - name: "Celia Cintas"
+        twitter: "https://twitter.com/RTFMCelia"
+        website: "https://celiacintas.github.io/about/"
+        instagram: "https://www.instagram.com/celitacintas/"
+        bio: "Investigadora en el Laboratorio de IBM Research (Kenia). Previamente, becaria doctoral en IPCSH-CONICET y LCI-UNS. Doctora en Cs de la Computación (UNS) y feliz miembro de LinuxChix Argentina. Su investigación se enfoca en métodos de subset scanning aplicados a redes neuronales y sus aplicaciones en salud global."
+        photo: "CeliaCintas.png"
+  - title: Nuevas perspectivas en contenido educativo para atraer diversidad en sistemas
+    time: "11:10"
+    type: talk
+    description: "No todas las personas aprendemos igual, y por suerte, no tenemos que hacerlo. Les invito a descubrir distintas fuentes de contenido educativo, su relación con la diversidad y cómo podemos utilizarlas para alimentar la curiosidad, acompañar procesos de aprendizaje y atraer perfiles diversos."
+    speakers:
+      - name: "Belén Rey"
+        twitter: "https://twitter.com/iamdoomling"
+        website: "https://teloexplicocongatitos.com"
+        instagram: "https://www.instagram.com/teloexplicocongatitos"
+        bio: "Desarrolladora fullstack y diseñadora UI. Emprendedora compulsiva desde hace casi diez años, actualmente hace un poco de todo en CourseIt. Es mamá de una criatura humana, seis gatos y un perro. En su tiempo libre hace #TeLoExplicoConGatitos"
+        photo: "BelenRey.jpeg"
+  - title: Intervalo
+    time: "11:40"
+    type: orga
+  - title: "Sé ágil e inclusivo en MURAL"
+    time: "11:50"
+    type: sponsor
+    description: "Mural fue creada en 2011 con 10 personas. Hoy somos más de 500 en +10 países trabajando remotamente y de manera colaborativa. Esto nos impulsó a trabajar estrategias de inclusión y procesos ágiles para seguir escalando nuestro producto, brindando siempre una experiencia de alta calidad."
+    speakers:
+      - name: "Gisela Provenzano"
+        website: "https://www.linkedin.com/in/gisela-provenzano/"
+        bio: "Gisela Provenzano trabaja en MURAL como Agile Coach hace casi un año. Es Ingeniera en Sistemas de la Universidad de Tandil y hace 15 años trabaja en el mundo de IT."
+        photo: "GiselaMural.png"
+      - name: "Claudia Korzeniewski"
+        website: "https://www.linkedin.com/in/claudia-korzeniewski-91b3a440/"
+        bio: "Claudia Korzeniewski es Ingeniera en Informática de la UBA y trabaja hace más de 15 años en la industria. Actualmente trabaja en MURAL como Accessibility Engineering Manager."
+        photo: "ClaudiaMural.png"
+    sponsor:
+        name: MURAL
+        photo: "muralspeakers.png"
+  - title: Desarrollo, usabilidad y accesibilidad con lectores de pantalla
+    time: "12:05"
+    type: talk
+    description: "La importancia de pensar las aplicaciones con perspectiva de accesibilidad para que no sean una barrera para las personas que utilizan lectores de pantalla.
+Enseñar, desarrollar y testear desde el punto de vista de personas con discapacidad visual."
+    speakers:
+      - name: "Valeria Rocha"
+        twitter: "https://twitter.com/avaltenea"
+        bio: "Estudiante de Ingeniería Informática de la UBA. Programadora backend. Mentora de introducción a la programación con Python en la fundación Itgrarte."
+        photo: "ValeriaRocha.jpeg"
+      - name: "Katherine Vargas"
+        twitter: "https://twitter.com/dragonmoon1522"
+        website: "https://kathwr.wordpress.com"
+        instagram: "https://www.instagram.com/dragonmoon1522"
+        bio: "Desarrolladora de software, mujer trans, y persona con discapacidad visual. Le apasiona la informática, la música y la literatura. Escritora de un blog"
+        photo: "KatherineVargas.jpeg"
+      - name: "Ximena Romero"
+        twitter: "https://twitter.com/ximer81"
+        bio: "Tester de accesibilidad en Nahual IT e Itgrarte. Se formó como Instructora en tecnología para personas ciegas en Madrid e inserción laboral."
+        photo: "XimenaRomero.jpeg"
+  - title: Almuerzo
+    time: "13:00"
+    type: orga
+  - title: Re-apertura
+    time: "14:00"
+    type: orga
+  - title: Crecimiento Contínuo
+    time: "14:05"
+    type: keynote
+    description: "Nos contará sobre cómo la mentalidad de crecimiento le permitió aprender de sus errores a lo largo de su carrera, compartiendo historias y anécdotas del camino que lleva recorrido hasta ahora y de cara a seguir creciendo en el futuro."
+    speakers:
+      - name: "Margarita Manterola"
+        twitter: "https://twitter.com/marga_manterola"
+        bio: "Lleva más de 20 años en la industria de tecnología. Trabajó en empresas chicas y grandes, como desarrolladora, sysadmin y SRE. Actualmente es Principal Engineering Manager en Microsoft."
+        photo: "MargaritaManterola.jpeg"
+  - title: 'Mujeres STEM: "El desafío de unirse y avanzar juntas en Jujuy”'
+    time: "15:00"
+    type: talk
+    description: "La experiencia desde el 2018 de cómo logramos conformar y mantener activa una organización independiente de Mujeres STEM, con estudiantes y profesionales, en la Facultad de Ingeniería-UNJu-Jujuy: una de las 3 provincias con el nivel más alto de violencia de género en 2019 del país."
+    speakers:
+      - name: "Anahi Chaves"
+        instagram: "https://www.instagram.com/mujeresporingenieria"
+        bio: "Auditora y consultora normativa. Estudiante de Ingeniería Química, tesis en la UNJu Complejo Solar Híbrido: Estudio de viabilidad técnico-económico de producción a escala industrial de Sal Solar mejorada con nanopartículas para centrales CSP-PV. Fundadora de Mujeres x Ingeniería."
+        photo: "AnahiChaves.jpeg"
+  - title: Intervalo
+    time: "15:30"
+    type: orga
+  - title: "Codiandoarte: Aplicaciones y herramientas digitales para ganar autonomía"
+    time: "15:40"
+    type: talk
+    description: "El arte es muy importante en mi vida. Al comienzo de la pandemia, poder continuar haciendo arte en formato digital, me ayudó a poder transitarla de la mejor manera.
+Sin las herramientas digitales que potencian mi autonomía e independencia, sería realmente muy difícil para mí, ya que soy una persona con discapacidad y uso mi codo para escribir y pintar en mi tablet."
+    speakers:
+      - name: "Valentin Santiago Berdun "
+        instagram: "https://www.instagram.com/codiandoarte"
+        bio: 'Artista, pinta con el codo, hace arte digital y es transgénero, le encanta informarse cada día más sobre el tema e ir a las marchas.
+"No soy un diagnóstico o una silla de ruedas, soy una persona y aparte tengo parálisis cerebral, pero eso es aparte"'
+        photo: "ValentinBerdun.jpeg"
+  - title: "Un nuevo comienzo: Cambiar de profesión y sumarse al mundo IT"
+    time: "16:05"
+    type: sponsor
+    description: "Seguramente alguna vez pensaste que ya era tarde para darle un giro a tu vida profesional, sobre todo para insertarte en el mundo de sistemas, siendo mujer, claro! Mariana y Lourdes nos cuentan cómo, cuándo y por qué decidieron jugársela y comenzar a derribar mitos."
+    speakers:
+      - name: "Lourdes Ramírez"
+        website: "https://www.linkedin.com/in/marialourdesramirez"
+        bio: "Lourdes es Lic. en Administración Hotelera. Trabajó en este rubro por más de 15 años y siempre siguió aprendiendo cosas nuevas, buscando nuevas oportunidades. A los 37 comenzó a aprender a programar desde cero y, luego de un año, comenzó a trabajar como desarrolladora frontend en intive."
+        photo: "LourdesRamirez.png"
+      - name: "Mariana Balsamo"
+        bio: "Diseñadora gráfica que luego de 10 años ejerciendo, decidió convertirse en programadora. Desde 2019 trabaja en Intive como desarrolladora frontend. Se frustra cuando las cosas no salen, se alegra cuando si, y no para de aprender. Se desconecta pintando o leyendo al sol con su galguita Marly."
+        photo: "MarianaBalsamo.png"
+    sponsor:
+        name: Intive
+        photo: "intivespeakers.png"
+  - title: '¿Te animás a cruzar el puente?: resolviendo acertijos con Prolog'
+    time: "16:20"
+    type: talk
+    description: "¿Alguna vez te preguntaste cómo utilizar la programación lógica en tu vida cotidiana? Prolog es un lenguaje que suele usarse en la IA pero es útil para distintos tipos de problemas. En esta charla vamos a resolver un acertijo aplicando los conceptos principales del paradigma."
+    speakers:
+      - name: "Jessica Saavedra"
+        twitter: "https://twitter.com/Jess_tr"
+        website: "https://www.linkedin.com/in/jessica-saavedra-valenzuela/"
+        instagram: "https://www.instagram.com/jess_saavedra"
+        bio: "Estudiante y ayudante de cátedra en Ingeniería en Sistemas de la UTN, ferviente defensora de la educación pública que le dio la profesión. Es desarrolladora de software en 10Pines, colaboró en distintos proyectos de enseñanza de programación y es una apasionada del CSS."
+        photo: "JessicaSaavedra.jpeg"
+  - title: Intervalo
+    time: "17:05"
+    type: orga
+  - title: 'Todavía nos falta camino, pero lo estamos cambiando'
+    time: "17:15"
+    type: sponsor
+    description: "Nos reunimos en un after virtual junto a algunes de les integrantes de stensul tanto de Argentina, como de USA. En donde, charlamos y reflexionamos sobre las experiencias dentro de la industria, el aprendizaje, cómo fueron sus primeras oportunidades y cómo juntes podemos construir una industria distinta."
+    speakers:
+      - name: "Equipo de Stensul"
+        twitter: "https://twitter.com/stensul_ar"
+        website: "https://stensul.com/careers"
+        instagram: "https://www.instagram.com/lifeatstensul"
+        bio: "Rosaura Barrile, Directora de Operaciones RRHH y Cultura, Latam stensul.
+              Melina Cytryn, Consultora en Operaciones, RRHH y Cultura, stensul.
+              Agustina Fernández, Desarrolladora en Implementaciones, stensul.
+              Delfina Bourdieu, Desarrolladora en Implementaciones, stensul.
+              Pamela Pereyra, Desarrolladora de software, stensul.
+              Natalie Rast, Directora de Operaciones, RRHH y Cultura, stensul.
+              Julian Damore, Especialista en Experiencia en RRHH, stensul.
+              Sarah Ogden, Directora de atención al cliente, stensul. "
+        photo: "stensulspeakers.png"
+    sponsor:
+        name: Stensul
+        photo: "stensulspeakers.png"
+  - title: Materializando una idea de desarrollo
+    time: "17:30"
+    type: talk
+    description: "Veremos el proceso de planificación y diseño de una idea, aplicado a proyectos de desarrollo. Indagaremos en metodologías y herramientas para materializar lo antes posible la idea y entender qué se necesita y cómo, desde la necesidad inicial hasta comprender el flujo completo"
+    speakers:
+      - name: "Alicia Rosenthal"
+        facebook: "https://www.facebook.com/estudioaliciarosenthal"
+        website: "https://aliciarosenthal.com.ar/"
+        instagram: "https://www.instagram.com/alismotion"
+        bio: "Diseñadora, desarrolladora web, animadora y docente. Se desempeña como CEO de su estudio, donde coordina proyectos de diseño y desarrollo a medida, aplicaciones de realidad aumentada y animaciones de videoclips, comerciales y videos. Docente de programación, diseño y animación en UNLAM y UBA."
+        photo: "AliciaRosenthal.png"
+  - title: 'Sintetizador DIY en el navegador: La Web Audio API como punto de encuentro entre el desarrollo web y la música.'
+    time: "18:10"
+    type: talk
+    description: "Los navegadores web hoy en día son otra herramienta para la expresión artística. Una de las tantas posibilidades que ofrece la Web Audio API es poder sintetizar y procesar sonidos en un navegador, teniendo el potencial de crear instrumentos musicales que habitan en la web."
+    speakers:
+      - name: "Jus Recondo"
+        instagram: "https://www.instagram.com/jusrecondo"
+        bio: "Músique, docente y programadore. Trabaja como desarrolladore Front End y docente en ALT Cooperativa, primera cooperativa de tecnología matriculada en el país integrada por personas trans. Su identidad de género es no binaria. Le encantan los sintetizadores, los gatos y hacer cosas con JavaScript. "
+        photo: "JusRecondo.jpeg"
+  - title: Cierre
+    time: "19:00"
+    type: orga
+
 sponsors:
   - name: MURAL
     category: Platinum
@@ -20,7 +197,7 @@ sponsors:
   - name: stensul
     category: Platinum
     link: "https://stensul.com/"
-    logo: "stensul.svg"
+    logo: "stensul.png"
   - name: Endava
     category: Gold
     link: "http://www.endava.com"

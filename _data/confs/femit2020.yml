@@ -3,7 +3,7 @@ year: 2020
 description: FemITConf 2020 fue nuestra primera edición virtual y fue todo un éxito. Participaron un 67% de mujeres cis, un 4.5 % de lesbianas, 2.7% de no binaries, 1.8% de personas de género fluído y 0.5% de mujeres trans entre otras identidades poco representadas en nuestra industria. <br>La virtualidad nos permitió llegar a más países y provincias, contando con oradoras de Canadá, Jujuy, Santiago del Estero, Córdoba, Bahía Blanca, Buenos Aires, Panamá, Estados Unidos y España.
 hashtag: "#FemITConf2020"
 day: Edición 2020
-date:  
+date:
 registro: false
 proximamente: false
 youtube: https://www.youtube.com/watch?v=oKn9tlefZyE&list=PLZUtrL5CTyaSZTdC8aToXhfW8x2mIgDUt
@@ -16,12 +16,12 @@ talks:
     time: "10:30"
     talk: true
     description: "A través de una visión más amplia de la accesibilidad descubrimos una herramienta que habilita espacios para los grupos marginados por la sociedad (mujeres, personas trans, personas en situación de pobreza, personas con discapacidad y madres). La puesta en producción de código inaccesible como acto político de exclusión. La colaboración entre estos colectivos como solución y aporte incalculable a la ciencia y a la tecnología."
-    speakers: 
+    speakers:
       - name: "Invitada Especial: Susana Pallero"
-        twitter: 'https://twitter.com/perosincera'
-        website: 'https://www.linkedin.com/in/susipalleroarguello'
+        twitter: "https://twitter.com/perosincera"
+        website: "https://www.linkedin.com/in/susipalleroarguello"
         bio: "Directora de eSSENTIAL Accessibility LATAM. Co-chair del Comité de Programa de Inclusión y Diversidad Digital para RightsCon y fundadora de DALAT (Desarrollo Accesible Latinoamericano). Actualmente se encuentra cursando las Diplomaturas de 'Derechos Humanos del Siglo XXI', 'Derechos Humanos de las Mujeres' e 'Igualdad y Empoderamiento de la Mujer'."
-        photo: 'susi.jpg'
+        photo: "susi.jpg"
   - title: Intervalo
     time: "11:20"
   - title: "¿Dónde está Wally?: desarrollando modelos de predicción de la visión al buscar objetos"
@@ -30,23 +30,23 @@ talks:
     description: "Poder buscar objetos con la vista es clave en nuestra vida, pero aún no existen programas capaces de predecir el recorrido de la mirada a la perfección. En esta charla veremos cómo desarrollamos un modelo que ayuda a predecirlo y es compatible con cómo funciona el cerebro, además de sus aplicaciones a otras áreas."
     speakers:
       - name: Melanie Sclar
-        twitter: 'https://twitter.com/melaniesclar'
-        website: 'https://www.linkedin.com/in/melanie-sclar-077047b5/'
+        twitter: "https://twitter.com/melaniesclar"
+        website: "https://www.linkedin.com/in/melanie-sclar-077047b5/"
         bio: "Lic. en Cs. de la Computación. Realizó su tesis en modelos de búsqueda visual. Multipremiada en olimpíadas de matemática e informática a nivel internacional, Melanie trabajó en Facebook, obteniendo dos patentes por su trabajo. Actualmente es Lead Machine Learning Engineer en ASAPP."
-        photo: 'melanie.png'
+        photo: "melanie.png"
   - title: "Cómo montar una servidora feminista con una conexión casera"
     time: "12:30"
     talk: true
     description: "¿Cómo es la infraestructura que sostiene nuestro activismo feminista? Este es el resultado de un proceso de aprendizaje de más de un año en el que documentamos cómo crear un espacio web seguro y autónomo para colectivas y organizaciones feministas. Nuestras webs, nuestras reglas."
     speakers:
       - name: Inés Binder
-        website: 'https://mastodon.social/@rowanda'
+        website: "https://mastodon.social/@rowanda"
         bio: Comunicadora e investigadora, preocupada por la relación entre feminismos y tecnología. Forma parte del Centro de Producciones Radiofónicas y del espacio hackfeminista la_bekka.
-        photo: 'ines.png'
+        photo: "ines.png"
       - name: Martu Isla
         twitter: https://twitter.com/isla_martu
         bio: Activista trans-hack-feminista e impulsora del hacklab feminista la_bekka. Es técnica en administración de sistemas informáticos y desde 2016 facilita formaciones y acompañamientos en protección digital para defensoras de derechos humanos y activistas feministas en el estado español.
-        photo: 'martu.jpg'
+        photo: "martu.jpg"
   - title: Almuerzo
     time: "13:00"
     talk: false
@@ -66,13 +66,13 @@ talks:
     speakers:
       - name: Ángeles Franco
         facebook: "https://www.facebook.com/Lab.ArquitecturaReceptiva"
-        instagram: 'https://www.instagram.com/4ngelesfr4nco/'
+        instagram: "https://www.instagram.com/4ngelesfr4nco/"
         bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucumán Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
-        photo: 'maria.png'
+        photo: "maria.png"
       - name: Mariana Juárez
-        instagram: 'https://www.instagram.com/no_tan__mariana___________/'
+        instagram: "https://www.instagram.com/no_tan__mariana___________/"
         bio: "L.A.R. es un Laboratorio de Arquitectura Receptiva, que muta en Arte Robótico. Desde Tucumán Ángeles Franco y Mariana Juárez, desarrollan dispositivos microcontrolados de código abierto en distintas escalas, con un común denominador: la retroalimentación. Abarcan desde una prenda hasta arquitectura."
-        photo: 'mariana.png'
+        photo: "mariana.png"
   - title: Intervalo
     time: "15:30"
     talk: false
@@ -85,7 +85,7 @@ talks:
         website: "https://www.linkedin.com/in/belen-lafon-707891a9/"
         twitter: "https://twitter.com/belulafon"
         bio: "Estudió Física en la UBA y luego, motivada por la curiosidad de vivir en otra ciudad, viajó al exterior a hacer un doctorado en Neurociencia. Hoy trabaja en el área de investigación de una empresa de tecnología desarrollando algoritmos. Es apasionada por los ciclos menstruales y la danza."
-        photo: 'belen.png'
+        photo: "belen.png"
   - title: "Charla relámpago: Desarrollar videojuegos es para todo el mundo"
     time: "16:40"
     talk: true
@@ -96,7 +96,7 @@ talks:
         twitter: "https://twitter.com/Kawzar__"
         instagram: "https://instagram.com/mhaspert"
         bio: "Femiñoña, programadora bisexual con trastorno de ansiedad. Trabajó 5 años como desarrolladora .NET y ahora se dedica a hacer jueguitos. Estudiante y tutora docente en la tecnicatura en diseño y programación de videojuegos de la UNL. Miembro activa de la Comunidad de Desarrolladores de Videojuegos de Bahía Blanca."
-        photo: 'macarena.png'
+        photo: "macarena.png"
   - title: "Charla relámpago: Programando futuro, Mujeres en la Educación Técnico Profesional en Argentina"
     time: "16:55"
     talk: true
@@ -108,7 +108,7 @@ talks:
         instagram: "https://www.instagram.com/silvina.chivy/"
         facebook: "https://www.facebook.com/sbsil"
         bio: "Técnica mecánica, profesora de Educación Técnica Profesional, Lic. en Educación y Lic. en Gestión Educativa. Actualmente se desempeña en el desarrollo de proyectos educativos de Prácticas Profesionalizantes en la Dirección de Educación Técnica dependiente del Min. de Educación de CABA. Investiga sobre el rol de la mujer en la Educación Técnica en Argentina."
-        photo: 'silvina.png'
+        photo: "silvina.png"
   - title: "Intervalo"
     time: "17:10"
     talk: false
@@ -121,7 +121,7 @@ talks:
         website: "https://www.linkedin.com/in/sascharam/"
         github: "https://github.com/Sascha-Tech"
         bio: "Artista multidisciplinaria, feminista, amante de la innovación. Su trabajo en lo tecnológico se enfoca en la búsqueda de soluciones utilizando la inteligencia colectiva e innovación ciudadana. Co-fundadora de la Asociación de Estudios Sociales Innovación y Cultura de Barcelona, donde contribuye en la asistencia de asesorías a otras organizaciones."
-        photo: 'sascha.png'
+        photo: "sascha.png"
   - title: Sorteo y cierre del evento
     time: "18:10"
     talk: false
@@ -129,65 +129,65 @@ talks:
 sponsors:
   - name: SOUTHWORKS
     category: Platinum
-    link: 'https://www.southworks.com'
-    logo: 'southworks.png'
+    link: "https://www.southworks.com"
+    logo: "southworks.png"
   - name: tecso
     category: Gold
-    link: 'http://www.tecso.coop'
-    logo: 'tecso.png'
+    link: "http://www.tecso.coop"
+    logo: "tecso.png"
   - name: Elastic
     category: Gold
-    link: 'https://www.elastic.co/'
-    logo: 'elastic.png'
+    link: "https://www.elastic.co/"
+    logo: "elastic.png"
   - name: gcoop Cooperativa de Software Libre
     category: Silver
-    link: 'https://www.gcoop.coop/'
-    logo: 'gcoop.png'
+    link: "https://www.gcoop.coop/"
+    logo: "gcoop.png"
   - name: ASAPP
     category: Platinum
-    link: 'https://www.asapp.com/'
-    logo: 'asapp.png'
+    link: "https://www.asapp.com/"
+    logo: "asapp.png"
   - name: Acámica
     category: Platinum
-    link: 'https://www.acamica.com/'
-    logo: 'acamica.png'
+    link: "https://www.acamica.com/"
+    logo: "acamica.png"
   - name: intive
     category: Silver
-    link: 'https://www.intive.com/es'
-    logo: 'intive.png'
+    link: "https://www.intive.com/es"
+    logo: "intive.png"
   - name: INNOVID
     category: Platinum
-    link: 'http://www.innovid.com'
-    logo: 'innovid.png'
+    link: "http://www.innovid.com"
+    logo: "innovid.png"
   - name: TradeHelm Inc.
     category: Gold
-    link: 'https://tradehelm.com/es/'
-    logo: 'tradehelm.png'
+    link: "https://tradehelm.com/es/"
+    logo: "tradehelm.png"
   - name: Kleer
     category: Silver
-    link: 'https://www.kleer.la/'
-    logo: 'kleer.png'
+    link: "https://www.kleer.la/"
+    logo: "kleer.png"
   - name: 10Pines
     category: Silver
-    link: 'https://www.10pines.com/'
-    logo: '10pines.png'
+    link: "https://www.10pines.com/"
+    logo: "10pines.png"
   - name: stensul
     category: Silver
-    link: 'https://stensul.com/'
-    logo: 'stensul.svg'
+    link: "https://stensul.com/"
+    logo: "stensul.svg"
   - name: Medallia
     category: Gold
-    link: 'http://www.medallia.com.ar/careers/'
-    logo: 'medallia.png'
+    link: "http://www.medallia.com.ar/careers/"
+    logo: "medallia.png"
   - name: R/GA
     category: Gold
-    link: 'https://www.rga.com/'
-    logo: 'rga.png'
+    link: "https://www.rga.com/"
+    logo: "rga.png"
   - name: Eryx
     category: Silver
-    link: 'https://eryx.co/'
-    logo: 'eryx.png'
+    link: "https://eryx.co/"
+    logo: "eryx.png"
   - name: Endava
-    link: 'http://www.endava.com'
-    logo: 'endava.png'
+    link: "http://www.endava.com"
+    logo: "endava.png"
     category: Gold
