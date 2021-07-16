@@ -8,7 +8,7 @@
   {% if talk.speakers.size > 0 %}
   <li>
     <a class="uk-accordion-title" href="#">
-      <div class="grid-profile-mobile" uk-grid>
+      <div class="grid-profile-mobile uk-margin-left" uk-grid>
         <div class="uk-width-1-3">
           {% if talk.speakers.size == 1 %} {% for speaker in talk.speakers %} {%
           assign speaker_code = speaker.name | slugify %}
