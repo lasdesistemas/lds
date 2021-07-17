@@ -10,8 +10,39 @@
     <a class="uk-accordion-title" href="#">
       <div class="grid-profile-mobile uk-margin-left" uk-grid>
         <div class="uk-width-1-3">
-          {% if talk.speakers.size == 1 %} {% for speaker in talk.speakers %} {%
-          assign speaker_code = speaker.name | slugify %}
+          {% if talk.type == 'sponsor' %}
+          {% if talk.speakers.size == 1 %} 
+          {% for speaker in talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
+            
+              <img
+                class="uk-border-circle {{color}}"
+                data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
+                alt="{{talk.sponsor.name}}"
+                uk-img
+              />
+            
+            {% endfor %} {% else %}
+            <div uk-grid>
+              <div>
+                {% assign speaker_code_1 = talk.speakers[0].name | slugify %}
+                {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
+                {% assign speaker_code_3 = talk.speakers[2].name | slugify %}
+                
+                <img
+                class="uk-border-circle {{color}}"
+                data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
+                alt="{{talk.sponsor.name}}"
+                uk-img
+              />
+              
+              </div>
+            </div>
+            {% endif %}
+          </div>
+          {% endif %} 
+           {% if talk.speakers.size == 1 %} 
+           
+          {% for speaker in talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
           <button
             onclick="event.stopPropagation()"
             class="uk-button uk-button-link"
