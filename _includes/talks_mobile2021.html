@@ -1,10 +1,16 @@
 <h2 class="uk-text-center agenda-title uk-text-uppercase">Agenda</h2>
 
 <ul uk-accordion="multiple: true">
-  {% for talk in conf.agenda %} {% if talk.type == 'keynote' %} {% assign color
-  = 'agenda-keynote' %} {% elsif talk.type == 'talk' %} {% assign color =
-  'agenda-talk' %} {% elsif talk.type == 'sponsor' %} {% assign color =
-  'agenda-sponsor' %} {% else %} {% assign color = 'agenda-org' %} {% endif %}
+  {% for talk in conf.agenda %} 
+    {% if talk.type == 'keynote' %} 
+      {% assign color = 'agenda-keynote' %} 
+    {% elsif talk.type == 'talk' %} 
+      {% assign color = 'agenda-talk' %} 
+    {% elsif talk.type == 'sponsor' %} 
+      {% assign color = 'agenda-sponsor' %} 
+    {% else %} 
+      {% assign color = 'agenda-org' %} 
+    {% endif %}
   {% if talk.speakers.size > 0 %}
   <li>
     <a class="uk-accordion-title" href="#">
@@ -14,7 +20,7 @@
           assign speaker_code = speaker.name | slugify %}
             {% if talk.type == 'sponsor' %}
               <img
-                  class="uk-border-circle {{color}}"
+                  class="uk-border-circle image-fit-mobile {{color}}"
                   data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
                   alt="{{talk.sponsor.name}}"
                   uk-img
@@ -27,7 +33,7 @@
                 aria-label="{{speaker.name}}"
               >
                 <img
-                  class="uk-padding-remove uk-border-circle"
+                  class="uk-padding-remove image-fit-mobile uk-border-circle {{color}}"
                   data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
                   alt="{{speaker.name}}"
                   uk-img
@@ -38,12 +44,8 @@
           <div uk-grid>
             {% if talk.type == 'sponsor' %}
               <div>
-                {% assign speaker_code_1 = talk.speakers[0].name | slugify %}
-                {% assign speaker_code_2 = talk.speakers[1].name | slugify %}
-                {% assign speaker_code_3 = talk.speakers[2].name | slugify %}
-
                 <img
-                    class="uk-border-circle {{color}}"
+                    class="uk-border-circle image-fit-mobile {{color}}"
                     data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
                     alt="{{talk.sponsor.name}}"
                     uk-img
@@ -60,7 +62,7 @@
                   aria-label="{{speaker.name}}"
                 >
                   <img
-                    class="uk-padding-remove uk-border-circle"
+                    class="uk-padding-remove uk-border-circle image-fit-small-mobile {{color}}"
                     data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[0].photo}}"
                     alt="{{talk.speakers[0].name}}"
                     uk-img
@@ -81,7 +83,7 @@
                   aria-label="{{speaker.name}}"
                 >
                   <img
-                    class="uk-padding-remove uk-border-circle"
+                    class="uk-padding-remove uk-border-circle image-fit-small-mobile {{color}}"
                     data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[1].photo}}"
                     alt="{{talk.speakers[1].name}}"
                     uk-img
@@ -97,7 +99,7 @@
                   aria-label="{{speaker.name}}"
                 >
                   <img
-                    class="uk-padding-remove uk-border-circle"
+                    class="uk-padding-remove uk-border-circle image-fit-small-mobile {{color}}"
                     data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{talk.speakers[2].photo}}"
                     alt="{{talk.speakers[2].name}}"
                     uk-img
@@ -149,7 +151,7 @@
       </div>
     </a>
     <div class="uk-accordion-content">
-      <p>{{talk.description}}</p>
+      <p class="uk-margin-left uk-margin-right">{{talk.description}}</p>
     </div>
     <hr class="hr-speakers" />
   </li>
