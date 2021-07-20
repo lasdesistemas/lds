@@ -415,8 +415,8 @@ Agenda Femit
 
 .image-fit {
   object-fit: cover;
-  width: 100px;
-  height: 100px;
+  max-width: 120px;
+  max-height: 120px;
   position: relative;
   z-index: 1;
   background-color: #fff;
@@ -425,8 +425,23 @@ Agenda Femit
 
 .image-fit-small {
   object-fit: cover;
-  width: 60px;
-  height: 60px;
+  max-width: 80px;
+  max-height: 80px;
+  position: relative;
+  z-index: 1;
+  border: 2px solid;
+}
+
+.image-fit-mobile {
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  border: 2px solid;
+}
+
+.image-fit-small-mobile {
+  object-fit: cover;
   position: relative;
   z-index: 1;
   border: 2px solid;
