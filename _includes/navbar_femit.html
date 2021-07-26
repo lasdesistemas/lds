@@ -1,12 +1,24 @@
-{% assign conf = site.data.confs[page.datakey] %}
-{% assign path = conf.year | prepend: 'femitconf' %}
+{% assign conf = site.data.confs[page.datakey] %} {% assign path = conf.year |
+prepend: 'femitconf' %}
 <nav class="bg-black">
-
-  <div class="uk-navbar-container uk-container bg-black uk-light navbar-femit uk-visible@s" uk-navbar>
-
+  <div
+    class="
+      uk-navbar-container uk-container
+      bg-black
+      uk-light
+      navbar-femit
+      uk-visible@s
+    "
+    uk-navbar
+  >
     <div class="uk-navbar-left">
       <a href="{{ site.baseurl }}/">
-        <img class="logo-navbar uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Las de Sistemas" uk-img>
+        <img
+          class="logo-navbar uk-padding-small"
+          data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}"
+          alt="Las de Sistemas"
+          uk-img
+        />
       </a>
     </div>
 
@@ -15,40 +27,116 @@
         <li><a href="{{ site.baseurl }}/femitconf2021">Home</a></li>
         <li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit">Agenda</a></li>
         <li><a href="{{ site.baseurl }}/code">Código de conducta</a></li>
-        <li><a href="{{ site.baseurl }}/{{ path }}#sponsors-femit">Sponsors</a></li>
         <li>
-          <a href="{{ '/femitconf2021' | relative_url }}" class="uk-icon-link" uk-icon="triangle-down">Ediciones anteriores</a>
+          <a href="{{ site.baseurl }}/{{ path }}#sponsors-femit">Sponsors</a>
+        </li>
+        <li><a href="{{ site.baseurl }}/donaciones">Donaciones</a></li>
+        <li>
+          <a
+            href="{{ '/femitconf2021' | relative_url }}"
+            class="uk-icon-link"
+            uk-icon="triangle-down"
+            >Ediciones anteriores</a
+          >
           <div class="uk-navbar-dropdown uk-padding-remove">
             <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li><a href="{{ site.baseurl }}/femitconf2020" rel="noopener" class="uk-text-uppercase">Femit 2020</a></li>
-              <li><a href="{{ site.baseurl }}/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
-              <li><a href="{{ site.baseurl }}/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
+              <li>
+                <a
+                  href="{{ site.baseurl }}/femitconf2020"
+                  rel="noopener"
+                  class="uk-text-uppercase"
+                  >Femit 2020</a
+                >
+              </li>
+              <li>
+                <a
+                  href="{{ site.baseurl }}/femitconf2019"
+                  target="_blank"
+                  rel="noopener"
+                  class="uk-text-uppercase"
+                  >Femit 2019</a
+                >
+              </li>
+              <li>
+                <a
+                  href="{{ site.baseurl }}/femitconf2018"
+                  target="_blank"
+                  rel="noopener"
+                  class="uk-text-uppercase"
+                  >Femit 2018</a
+                >
+              </li>
             </ul>
           </div>
         </li>
       </ul>
     </div>
-
   </div>
 
-
-  <div class="uk-navbar-container bg-black uk-container uk-hidden-small uk-padding-remove navbar-femit uk-hidden@s" uk-navbar>
-
+  <div
+    class="
+      uk-navbar-container
+      bg-black
+      uk-container uk-hidden-small uk-padding-remove
+      navbar-femit
+      uk-hidden@s
+    "
+    uk-navbar
+  >
     <div class="uk-navbar-left">
       <a href="{{ site.baseurl }}/">
-        <img class="logo-navbar-mobile uk-padding-small" data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}" alt="Las de Sistemas" uk-img>
+        <img
+          class="logo-navbar-mobile uk-padding-small"
+          data-src="{{ '/assets/images/logos/LDS_white.svg' | relative_url }}"
+          alt="Las de Sistemas"
+          uk-img
+        />
       </a>
     </div>
 
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
         <li>
-          <button class="uk-button-link button-responsive-menu button-responsive-menu-femit" aria-label="menu" onclick="responsiveMenu()">
-            <svg width="56" height="88" viewBox="0 0 96 88" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11 3.99998H86C89.866 3.99998 93 7.13397 93 11V77.9999C93 81.866 89.866 85 86 85H11C7.13403 85 3.99997 81.866 3.99997 77.9999V11C3.99997 7.13398 7.13403 3.99998 11 3.99998Z" fill="black" fill-opacity="0.01" stroke="#DCDCDC" stroke-width="4"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 30V26H74V30H24Z" fill="#DCDCDC"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 46V42H74V46H24Z" fill="#DCDCDC"/>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 62V58H74V62H24Z" fill="#DCDCDC"/>
+          <button
+            class="
+              uk-button-link
+              button-responsive-menu button-responsive-menu-femit
+            "
+            aria-label="menu"
+            onclick="responsiveMenu()"
+          >
+            <svg
+              width="56"
+              height="88"
+              viewBox="0 0 96 88"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 3.99998H86C89.866 3.99998 93 7.13397 93 11V77.9999C93 81.866 89.866 85 86 85H11C7.13403 85 3.99997 81.866 3.99997 77.9999V11C3.99997 7.13398 7.13403 3.99998 11 3.99998Z"
+                fill="black"
+                fill-opacity="0.01"
+                stroke="#DCDCDC"
+                stroke-width="4"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M24 30V26H74V30H24Z"
+                fill="#DCDCDC"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M24 46V42H74V46H24Z"
+                fill="#DCDCDC"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M24 62V58H74V62H24Z"
+                fill="#DCDCDC"
+              />
             </svg>
           </button>
         </li>
@@ -57,19 +145,71 @@
   </div>
   <div id="js-dropdown" class="uk-hidden">
     <ul class="uk-nav-parent uk-padding-small" uk-nav="multiple: true">
-      <li class="uk-active"><a href="{{ site.baseurl }}/femitconf2021" class="uk-text-uppercase">Home</a></li>
-      <li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit" class="uk-text-uppercase">Agenda</a></li>
-      <li><a href="{{ site.baseurl }}/code" class="uk-text-uppercase">Código de conducta</a></li>
-      <li><a href="{{ site.baseurl }}/{{ path }}#sponsors-femit" class="uk-text-uppercase">Sponsors</a></li>
+      <li class="uk-active">
+        <a href="{{ site.baseurl }}/femitconf2021" class="uk-text-uppercase"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}/{{ path }}#agenda-femit"
+          class="uk-text-uppercase"
+          >Agenda</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/code" class="uk-text-uppercase"
+          >Código de conducta</a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ site.baseurl }}/{{ path }}#sponsors-femit"
+          class="uk-text-uppercase"
+          >Sponsors</a
+        >
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/donaciones" class="uk-text-uppercase"
+          >Donaciones</a
+        >
+      </li>
       <li class="uk-parent">
-        <a href="#" class="uk-text-uppercase uk-icon-link" uk-icon="triangle-down">Ediciones anteriores</a>
+        <a
+          href="#"
+          class="uk-text-uppercase uk-icon-link"
+          uk-icon="triangle-down"
+          >Ediciones anteriores</a
+        >
         <ul class="uk-nav-sub">
-          <li><a href="{{ site.baseurl }}/femitconf2020" rel="noopener" class="uk-text-uppercase">Femit 2020</a></li>
-          <li><a href="{{ site.baseurl }}/femitconf2019" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2019</a></li>
-          <li><a href="{{ site.baseurl }}/femitconf2018" target="_blank" rel="noopener" class="uk-text-uppercase">Femit 2018</a></li>
+          <li>
+            <a
+              href="{{ site.baseurl }}/femitconf2020"
+              rel="noopener"
+              class="uk-text-uppercase"
+              >Femit 2020</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ site.baseurl }}/femitconf2019"
+              target="_blank"
+              rel="noopener"
+              class="uk-text-uppercase"
+              >Femit 2019</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ site.baseurl }}/femitconf2018"
+              target="_blank"
+              rel="noopener"
+              class="uk-text-uppercase"
+              >Femit 2018</a
+            >
+          </li>
         </ul>
       </li>
     </ul>
   </div>
-
 </nav>
