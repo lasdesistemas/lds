@@ -5,8 +5,9 @@ hashtag: "#FemITConf2021"
 day: Sábado
 date: 7 de Agosto
 proximamente: false
-registro: true
+registro: false
 fotos: true
+youtube: https://www.youtube.com/playlist?list=PLZUtrL5CTyaT0u9beI9xA7VfjWVmCEIJG
 
 agenda:
   - title: Apertura
