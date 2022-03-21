@@ -4,7 +4,7 @@ title: "Preguntas frecuentes"
 year: 2021
 ---
 
-Les integrantes de la comunidad trabajamos en ella de manera voluntaria en nuestro tiempo libre. Por lo tanto concentramos en esta sección las respuestas a algunas preguntas que nos llegan frecuentemente, para reducir el tiempo que nos toma responder cada correo individualmente.
+Les integrantes de la comunidad trabajamos en ella de manera voluntaria en nuestro tiempo libre. Por lo tanto concentramos en esta sección las respuestas a algunas preguntas que nos llegan frecuentemente, para reducir los tiempos de gestión.
 
 <h3>Represento a una empresa. ¿Qué actividades podemos hacer en conjunto con [Las] de Sistemas o cómo podemos colaborar con la comunidad?</h3>
 
@@ -12,9 +12,10 @@ Por lo general nuestras opciones de alianza con empresas se basan en:
 - el sponsoreo de FemIT Conf, una conferencia de tecnología y género que organizamos anualmente (<a href="mailto:femit@lasdesistemas.org" target="_blank" class="purple-lighter">femit@lasdesistemas.org</a>)
 - el sponsoreo de otros eventos más pequeños que puedan surgir eventualmente
 - becas o capacitaciones gratuitas brindadas por las empresas para integrantes de nuestra comunidad, a sortearse dentro de nuestro Slack o en redes sociales, sólo para personas del colectivo. A cambio se realizará un posteo de agradecimiento en redes (<a href="mailto:becas@lasdesistemas.org" target="_blank" class="purple-lighter">becas@lasdesistemas.org</a>)
-- recibir búsquedas laborales en y compartirlas con les integrantes de nuestra comunidad (<a href="mailto:empleos@lasdesistemas.org" target="_blank" class="purple-lighter">empleos@lasdesistemas.org</a>)
+- recibir búsquedas laborales y compartirlas con les integrantes de nuestra comunidad (<a href="mailto:empleos@lasdesistemas.org" target="_blank" class="purple-lighter">empleos@lasdesistemas.org</a>)
 
-Si tu empresa tiene interés en participar de alguna de estas actividades, pueden enviarnos sus consultas o propuestas a los mails indicados en cada caso
+Si tu empresa tiene interés en participar de alguna de estas actividades, pueden enviarnos sus consultas o propuestas a los mails indicados en cada caso.
+Si tenés cualquier otra propuesta concreta nos encantaría escucharla y evaluarla, lo que no podemos prometerte es tiempo para reuniones exploratorias.
 
 <h3>¿[Las] de Sistemas dan charlas en empresas?</h3>
 
