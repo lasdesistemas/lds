@@ -24,22 +24,30 @@ prepend: 'femitconf' %}
 
     <div class="uk-navbar-center">
       <ul class="uk-navbar-nav">
-        <li><a href="{{ site.baseurl }}/femitconf2021">Home</a></li>
+        <li><a href="{{ site.baseurl }}/femitconf2022">Home</a></li>
         <li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit">Agenda</a></li>
         <li><a href="{{ site.baseurl }}/code">Código de conducta</a></li>
         <li>
           <a href="{{ site.baseurl }}/{{ path }}#sponsors-femit">Sponsors</a>
         </li>
-        <li><a href="{{ site.baseurl }}/donaciones">Donaciones</a></li>
+        <!--li><a href="{{ site.baseurl }}/donaciones">Donaciones</a></li-->
         <li>
           <a
-            href="{{ '/femitconf2021' | relative_url }}"
+            href="{{ '/femitconf2022' | relative_url }}"
             class="uk-icon-link"
             uk-icon="triangle-down"
             >Ediciones anteriores</a
           >
           <div class="uk-navbar-dropdown uk-padding-remove">
             <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li>
+                <a
+                  href="{{ site.baseurl }}/femitconf2021"
+                  rel="noopener"
+                  class="uk-text-uppercase"
+                  >Femit 2021</a
+                >
+              </li>
               <li>
                 <a
                   href="{{ site.baseurl }}/femitconf2020"
@@ -146,7 +154,7 @@ prepend: 'femitconf' %}
   <div id="js-dropdown" class="uk-hidden">
     <ul class="uk-nav-parent uk-padding-small" uk-nav="multiple: true">
       <li class="uk-active">
-        <a href="{{ site.baseurl }}/femitconf2021" class="uk-text-uppercase"
+        <a href="{{ site.baseurl }}/femitconf2022" class="uk-text-uppercase"
           >Home</a
         >
       </li>
@@ -169,11 +177,11 @@ prepend: 'femitconf' %}
           >Sponsors</a
         >
       </li>
-      <li>
+      <!--li>
         <a href="{{ site.baseurl }}/donaciones" class="uk-text-uppercase"
           >Donaciones</a
         >
-      </li>
+      </li-->
       <li class="uk-parent">
         <a
           href="#"
@@ -182,6 +190,14 @@ prepend: 'femitconf' %}
           >Ediciones anteriores</a
         >
         <ul class="uk-nav-sub">
+          <li>
+            <a
+              href="{{ site.baseurl }}/femitconf2021"
+              rel="noopener"
+              class="uk-text-uppercase"
+              >Femit 2021</a
+            >
+          </li>
           <li>
             <a
               href="{{ site.baseurl }}/femitconf2020"

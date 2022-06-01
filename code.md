@@ -1,8 +1,8 @@
 ---
 layout: code
 title: "Código de conducta"
-year: 2021
-datakey: femit2021
+year: 2022
+datakey: femit2022
 ---
 
 FemIT Conf es un evento para todes y quienes formamos parte de la comunidad de [LAS] de Sistemas nos comprometemos a mantener y fomentar un ambiente confortable, seguro e inclusivo. El objetivo de este documento es comunicar el comportamiento esperado para todas las personas que participen (asistentes, speakers, panelistas, sponsors y organización), así como las consecuencias de un comportamiento inaceptable.
