@@ -4,18 +4,14 @@ layout: default
 
 {% include navbar_femit.html %} 
 {% assign logo = conf.year | prepend: '/assets/images/logos/femit' | append: '_color.svg' | relative_url %}
-{% if conf.year == 2022 %}
-{%  assign class_logo = 'logo-femit-wide' %}
-{% else %} 
-{%  assign class_logo = 'logo-femit' %}
-{% endif %}
+
 <div id="about-femit" class="uk-section uk-container uk-container-small">
   <h2 class="screen-reader-text" aria-label="Femit">Femit</h2>
   <div uk-grid>
     <!-- Logo versión desktop -->
     <div class="uk-width-1-3@m uk-visible@m uk-text-center">
       <img
-        class="{{ class_logo }}"
+        class="uk-padding logo-lds-about"
         data-src="{{ logo }}"
         alt="{{ conf.title }}"
         uk-img
