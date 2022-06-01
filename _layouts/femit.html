@@ -2,21 +2,26 @@
 layout: default
 ---
 
-{% include navbar_femit.html %} {% assign logo = conf.year | prepend:
-'/assets/images/logos/femit' | append: '_color.svg' | relative_url %}
+{% include navbar_femit.html %} 
+{% assign logo = conf.year | prepend: '/assets/images/logos/femit' | append: '_color.svg' | relative_url %}
+{% if conf.year == 2022 %}
+{%  assign class_logo = 'logo-femit-wide' %}
+{% else %} 
+{%  assign class_logo = 'logo-femit' %}
+{% endif %}
 <div id="about-femit" class="uk-section uk-container uk-container-small">
   <h2 class="screen-reader-text" aria-label="Femit">Femit</h2>
   <div uk-grid>
     <!-- Logo versión desktop -->
     <div class="uk-width-1-3@m uk-visible@m uk-text-center">
       <img
-        class="uk-padding logo-lds-about"
+        class="{{ class_logo }}"
         data-src="{{ logo }}"
         alt="{{ conf.title }}"
         uk-img
       />
       <span class="uk-padding-remove uk-h3 main-darker-f uk-text-uppercase"
-        >{{ conf.day }} <span class="uk-text-bold">{{ conf.date }}</span></span
+        >{{ conf.day }}<br><span class="uk-text-bold">{{ conf.date }}</span></span
       >
     </div>
     <!-- Logo versión mobile -->
@@ -30,6 +35,7 @@ layout: default
       />
       <p class="uk-h3 main-darker-f uk-text-uppercase">
         {{ conf.day }}
+        <br>
         <span class="uk-text-bold">{{ conf.date }}</span>
       </p>
     </div>
@@ -42,12 +48,12 @@ layout: default
       {% if conf.registro %}
       <button
         class="uk-button uk-button-default button-default-femit"
-        onclick="location.href='https://www.eventbrite.com.ar/e/femit-conf-2021-tickets-154729735805'"
+        onclick="location.href=''"
       >
         Registrarse
       </button>
       {% endif %} {% if conf.proximamente %}
-      <span class="uk-text-middle uk-h3 pink-darker-f">
+      <span class="uk-text-middle uk-h3 main-darker-f">
         ¡Próximamente novedades!
       </span>
       {% endif %} {% if conf.youtube %}
@@ -110,10 +116,10 @@ layout: default
   class="uk-section uk-container uk-container-small uk-padding-remove"
 >
   <!-- Desktop agenda -->
-  <div class="uk-visible@s">{% include talks_desktop2021.html %}</div>
+  <div class="uk-visible@s">{% include talks_desktop.html %}</div>
   <!-- Desktop agenda fin -->
   <!-- Mobile agenda -->
-  <div class="uk-hidden@s">{% include talks_mobile2021.html %}</div>
+  <div class="uk-hidden@s">{% include talks_mobile.html %}</div>
   <!-- Mobile agenda fin -->
 </div>
 {% endif %} {% if conf.sponsors %}
