@@ -503,3 +503,23 @@ Codigo de conducta
 .uk-open>.hide-accordion::before {
     background-image: url();
 }
+
+.agenda-title {
+  color: #772077;
+}
+
+.button {
+  background-color: $main-darker-f;
+  border-color: $main-darker-f;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.button:hover {
+  background-color: $main-light-f;
+  border-color: $main-light-f;
+  color: #384057;
+}
