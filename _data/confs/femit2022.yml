@@ -7,4 +7,133 @@ date: 12 de Noviembre
 proximamente: true
 registro: false
 fotos: false
-youtube: 
+youtube:
+
+sponsors:
+  - name: MURAL
+    category: Platinum
+    link: "https://www.mural.co/"
+    logo: "mural.png"
+  - name: intive
+    category: Platinum
+    link: "https://www.intive.com/es"
+    logo: "intive.png"
+  - name: stensul
+    category: Platinum
+    link: "https://stensul.com/"
+    logo: "stensul.png"
+  - name: Endava
+    category: Gold
+    link: "http://www.endava.com"
+    logo: "endava.png"
+  - name: GlobalLogic
+    category: Gold
+    link: "https://www.globallogic.com/latam/"
+    logo: "globalLogic.png"
+  - name: Kleer
+    category: Gold
+    link: "https://www.kleer.la/"
+    logo: "kleer.png"
+  - name: tecso
+    category: Gold
+    link: "http://www.tecso.coop"
+    logo: "tecso.png"
+  - name: INNOVID
+    category: Gold
+    link: "http://www.innovid.com"
+    logo: "innovid2.png"
+  - name: MuleSoft
+    category: Gold
+    link: "https://www.mulesoft.com/"
+    logo: "mulesoft.png"
+  - name: Spark Digital
+    category: Gold_last
+    link: "http://sparkdigital.com"
+    logo: "sparkDigital.png"
+  - name: Grupo Esfera
+    category: Silver
+    link: "https://www.grupoesfera.com.ar/"
+    logo: "grupoEsfera.png"
+  - name: 10Pines
+    category: Silver
+    link: "https://www.10pines.com/"
+    logo: "10pines.png"
+  - name: redbee Studios
+    category: Silver
+    link: "https://www.redbee.io/"
+    logo: "redbee.png"
+  - name: Asociación por los Derechos Civiles
+    category: Silver
+    link: "https://adc.org.ar/"
+    logo: "adc.png"
+  - name: Devecoop
+    category: Silver
+    link: "https://www.devecoop.com/"
+    logo: "devecoop.png"
+  - name: Elastic
+    category: Silver
+    link: "https://www.elastic.co/"
+    logo: "elastic2.png"
+  - name: MajorKey
+    category: Silver
+    link: "http://majorkeytech.com/"
+    logo: "majorKey.png"
+  - name: Medallia
+    category: Silver
+    link: "http://www.medallia.com.ar/"
+    logo: "medallia.png"
+  - name: R/GA
+    category: Silver
+    link: "https://www.rga.com/"
+    logo: "rga.png"
+  - name: ASAPP
+    category: Silver
+    link: "https://www.asapp.com/"
+    logo: "asapp.png"
+  - name: Eryx
+    category: Silver
+    link: "https://eryx.co/"
+    logo: "eryx.png"
+  - name: Auth0
+    category: Silver
+    link: "https://auth0.com/"
+    logo: "Auth0.png"
+  - name: ripio
+    category: Silver_last
+    link: "https://launchpad.ripio.com/"
+    logo: "ripio.png"
+
+  - name: DataGenero
+    category: Media_partners
+    link: "https://sites.google.com/view/datagenero"
+    logo: "Logo-16 (1) - DataGénero Observatorio.png"
+  - name: FrontEndCafe
+    category: Media_partners
+    link: "https://frontend.cafe/"
+    logo: "symbol-fec - Frontend Cafe.png"
+  - name: ItGrarte
+    category: Media_partners
+    link: "https://www.itgrarte.org/"
+    logo: "logo itgrarte - itgrarte fundación.png"
+  - name: MeT
+    category: Media_partners
+    link: "https://mujeresentecnologia.org/"
+    logo: "Copia de 010_Sin bajada para fondo oscuro_Sin fondo (3) - Sol Madero.png"
+  - name: Asociación Civil Python Argentina
+    category: Media_partners
+    link: "https://ac.python.org.ar/"
+    logo: "Color horizontal - Facundo Batista.png"
+  - name: R-ladies Buenos Aires
+    category: Media_partners
+    link: "https://rladiesba.netlify.app/"
+    logo: "Recurso 2 - Andrea Gomez Vargas.png"
+  - name: Sysarmy
+    category: Media_partners
+    link: "https://sysarmy.com/"
+    logo: "SYSARMY_logo-01 - Ariel Jolo.png"
+  - name: Transistemas
+    category: Media_partners
+    link: "http://transistemas.org"
+    logo: "Transistemas_Logo_2 - Abe Quiroga.png"
+
+    
