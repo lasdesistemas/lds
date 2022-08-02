@@ -81,16 +81,16 @@ layout: default
   <!-- Mobile agenda fin -->
 </div>
 {% endif %}
-<!-- {% if conf.sponsors %} -->
-<!-- <div id="sponsors-femit" class="uk-section uk-container uk-container-small"> -->
+{% if conf.sponsors %}
+<div id="sponsors-femit" class="uk-section uk-container uk-container-small">
   <!-- Desktop sponsors -->
-  <!-- <div class="uk-visible@s">{% include media_partners.html %}</div> -->
+  <div class="uk-visible@s">{% include sponsors_desktop.html %}</div>
   <!-- Desktop sponsors fin -->
   <!-- Mobile sponsors -->
-  <!-- <div class="uk-hidden@s">{% include media_partners_mobile.html %}</div> -->
+  <div class="uk-hidden@s">{% include sponsors_mobile.html %}</div>
   <!-- Mobile sponsors fin -->
-<!-- </div>
-{% endif %}  -->
+</div>
+{% endif %} 
 {% if conf.mediaPartners %}
 <div id="sponsors-femit" class="uk-section uk-container uk-container-small">
   <!-- Desktop mediaPartners -->
