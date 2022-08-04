@@ -1,5 +1,3 @@
-@import './palettes/femit2022';
-
 // Fonts
 $bodyFont: 'Montserrat', sans-serif;
 $titleFont: 'Oswald', sans-serif;
@@ -44,10 +42,6 @@ h4, h5, h6,
   font-family: $titleFont;
   font-weight: lighter;
   margin-top: 0px;
-}
-
-.edition2022{
-  color: $color_anioedicion;
 }
 
 .screen-reader-text {
@@ -530,4 +524,8 @@ Codigo de conducta
   background-color: $main-light-f;
   border-color: $main-light-f;
   color: #384057;
+}
+
+.edition2022{
+  color: $color-anioedicion;
 }
