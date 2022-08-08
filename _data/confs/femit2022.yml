@@ -13,13 +13,37 @@ mediaPartners:
   - name: DataGenero
     link: "https://sites.google.com/view/datagenero"
     logo: "DataGenero Observatorio.png"
+  - name: AsaditoJs
+    link: "https://ar.linkedin.com/company/asaditojs"
+    logo: "Asadito js.png"
+  - name: TechnoLatinas
+    link: "http://technolatinas.org/"
+    logo: "TechnoLatinas no bg 2x.png"
+  - name: Chicas Poderosas Argentina
+    link: "https://chicaspoderosas.org/"
+    logo: "Chicas Poderosas Argentina - sq.png"
+  - name: EducacionIT
+    link: "https://www.educacionit.com/"
+    logo: "EducacionIT.png"
+  - name: DALAT
+    link: "http://dalatcomunidad.org"
+    logo: "DALAT.png"
+  - name: Fundación Activismo Feminista Digital
+    link: "https://activismofeministadigital.org/"
+    logo: "Activismo Feminista Digital Fundación.png"
+  - name: Chicas en Tecnología
+    link: "https://chicasentecnologia.org/"
+    logo: "Chicas en tecnologia.png"
+  - name: Women in Bioinformatics and Data Science
+    link: "https://wbds.la/#"
+    logo: "Women in Bioinformatics and Data Science LA.png"
   - name: FrontEndCafe
     link: "https://frontend.cafe/"
     logo: "Frontend Cafe cuadrado.png"
   - name: ItGrarte
     link: "https://www.itgrarte.org/"
     logo: "itgrarte fundación.png"
-  - name: MeT
+  - name: MeT [Mujeres en Tecnología]
     link: "https://mujeresentecnologia.org/"
     logo: "Mujeres en tecnologia.png"
   - name: Asociación Civil Python Argentina
