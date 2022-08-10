@@ -1,5 +1,5 @@
 <div uk-grid>
-    <div uk-grid class="uk-flex uk-flex-center">
+    <div uk-grid class="uk-flex uk-flex-center uk-flex-middle">
         <div class="uk-width-1-1 uk-padding-remove-left">
             <div class="uk-text-center">
                 <h2 class="uk-visible@s main-darker-f uk-text-uppercase ">Media partners</h2>
@@ -8,11 +8,11 @@
         </div>
         <div>
             {% assign media_partners = conf.mediaPartners %}
-            <div class="uk-child-width-1-2 uk-child-width-1-5@s" uk-grid>
+            <div class="uk-child-width-1-4@s" uk-grid>
                 {% for mediaPartners in media_partners %}
-                <div>
+                <div class="uk-flex uk-flex-center uk-flex-middle uk-margin-remove-top">
                     <a href="{{mediaPartners.link}}" target="_blank" rel="noopener">
-                        <img class="uk-padding-small"
+                        <img class="uk-padding-small logo-mp"
                             data-src="{{site.url}}{{site.baseurl}}/assets/images/mediapartners/{{mediaPartners.logo}}"
                             alt="{{mediaPartners.name}}" uk-img />
                     </a>
