@@ -159,6 +159,7 @@ prepend: 'femitconf' %}
           >Home</a
         >
       </li>
+      {% if conf.agenda %}
       <li>
         <a
           href="{{ site.baseurl }}/{{ path }}#agenda-femit"
@@ -166,11 +167,18 @@ prepend: 'femitconf' %}
           >Agenda</a
         >
       </li>
+      {% endif %}
+      {% if conf.mediaPartners %}
+      <li>
+        <a href="{{ site.baseurl }}/{{ path }}#mediapartners">MEDIA PARTNERS</a>
+      </li>
+      {% endif %}
       <li>
         <a href="{{ site.baseurl }}/code" class="uk-text-uppercase"
           >Código de conducta</a
         >
       </li>
+      {% if conf.sponsors %}
       <li>
         <a
           href="{{ site.baseurl }}/{{ path }}#sponsors-femit"
@@ -178,6 +186,7 @@ prepend: 'femitconf' %}
           >Sponsors</a
         >
       </li>
+      {% endif %}
       <!--li>
         <a href="{{ site.baseurl }}/donaciones" class="uk-text-uppercase"
           >Donaciones</a
