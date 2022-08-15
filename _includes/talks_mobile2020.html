@@ -1,7 +1,7 @@
 <h2 class="uk-text-center main-darker-f uk-text-uppercase">Agenda</h2>
 
 <ul uk-accordion="multiple: true">
-  {% for talk in conf.talks %} {% if talk.speakers.size > 0 %}
+  {% for talk in conf.agenda %} {% if talk.speakers.size > 0 %}
   <li>
     <a class="uk-accordion-title" href="#">
       <div class="grid-profile-mobile" uk-grid>

@@ -3,7 +3,7 @@
     <h2 class="main-darker-f uk-text-uppercase">Agenda</h2>
   </div>
   <div uk-grid>
-    {% for talk in conf.talks %}
+    {% for talk in conf.agenda %}
     <div class="uk-width-1-5@s uk-text-center">
       {% if talk.talk %} {% if talk.speakers.size <= 1 %} {% for speaker in
       talk.speakers %} {% assign speaker_code = speaker.name | slugify %}
