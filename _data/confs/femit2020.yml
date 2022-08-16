@@ -8,7 +8,7 @@ registro: false
 proximamente: false
 youtube: https://www.youtube.com/watch?v=oKn9tlefZyE&list=PLZUtrL5CTyaSZTdC8aToXhfW8x2mIgDUt
 
-talks:
+agenda:
   - title: Apertura
     time: "10:00"
     talk: false
