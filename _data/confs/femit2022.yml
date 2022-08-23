@@ -32,7 +32,7 @@ sponsors:
     logo: "devecoop.png"
   - name: Asapp
     category: Platinum
-    link: "www.asapp.com"
+    link: "https://www.asapp.com"
     logo: "asapp.png"
   - name: Stensul
     category: Silver
@@ -48,7 +48,7 @@ sponsors:
     logo: "nubimetrics.png"
   - name: Qontigo
     category: Platinum
-    link: "www.qontigo.com"
+    link: "https://www.qontigo.com"
     logo: "qontigo.png"
   - name: Genosha
     category: Silver
