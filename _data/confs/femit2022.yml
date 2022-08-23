@@ -74,10 +74,10 @@ sponsors:
     category: Gold
     link: "https://www.nearsure.com/"
     logo: "nearsure.png"
-  - name: Austin Software
-    category: Gold
-    link: "https://www.austinsoftware.com"
-    logo: "austin software.png"
+  # - name: Austin Software
+  #   category: Gold
+  #   link: "https://www.austinsoftware.com"
+  #   logo: "austin software.png"
 
 mediaPartners:
   - name: AsaditoJs
