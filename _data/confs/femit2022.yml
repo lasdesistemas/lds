@@ -6,8 +6,78 @@ day: Sábado
 date: 12 de Noviembre
 proximamente: false
 registro: false
-fotos: false
+fotos: true
 youtube:
+
+sponsors:
+  - name: Kleer
+    category: Silver
+    link: "https://www.kleer.la/"
+    logo: "kleer.png"
+  - name: 10Pines
+    category: Gold
+    link: "https://10pines.com/"
+    logo: "10pines.png"
+  - name: Grupo Esfera SA
+    category: Gold
+    link: "https://www.grupoesfera.com.ar/"
+    logo: "grupoEsfera.png"
+  - name: Fintual
+    category: Platinum
+    link: "https://fintual.cl/"
+    logo: "fintual.png"
+  - name: Cooperativa de Trabajo Devecoop Ltda
+    category: Silver
+    link: "https://www.devecoop.com"
+    logo: "devecoop.png"
+  - name: Asapp
+    category: Platinum
+    link: "https://www.asapp.com"
+    logo: "asapp.png"
+  - name: Stensul
+    category: Silver
+    link: "https://stensul.com/"
+    logo: "stensul.png"
+  - name: Dialpad
+    category: Gold
+    link: "https://dialpad.com"
+    logo: "dialpad.png"
+  - name: Nubimetrics
+    category: Gold
+    link: "https://www.nubimetrics.com/"
+    logo: "nubimetrics.png"
+  - name: Qontigo
+    category: Platinum
+    link: "https://www.qontigo.com"
+    logo: "qontigo.png"
+  - name: Genosha
+    category: Silver
+    link: "https://www.genosha.com.ar/"
+    logo: "genosha.png"
+  - name: Cooperativa de trabajo tecso ltda
+    category: Gold
+    link: "https://tecso.coop/ "
+    logo: "tecso.png"
+  - name: Medallia
+    category: Gold
+    link: "https://www.medallia.com.ar/"
+    logo: "medallia.png"
+  - name: Majorkey Technologies
+    category: Gold
+    link: "https://www.majorkeytech.com/"
+    logo: "majorKey.png"
+  - name: Asociación por los Derechos Civiles
+    category: Silver
+    link: "https://adc.org.ar/"
+    logo: "adc.png"
+  - name: Nearsure
+    category: Gold
+    link: "https://www.nearsure.com/"
+    logo: "nearsure.png"
+  - name: Austin Software
+    category: Gold
+    link: "https://www.austinsoftware.com"
+    logo: "austin.png"
 
 mediaPartners:
   - name: AsaditoJs
@@ -23,7 +93,7 @@ mediaPartners:
     link: "https://chicaspoderosas.org/"
     logo: "Chicas Poderosas Argentina - sq.png"
   - name: DALAT
-    link: "http://dalatcomunidad.org"
+    link: "https://dalatcomunidad.org"
     logo: "DALAT.png"
   - name: DataGenero
     link: "https://sites.google.com/view/datagenero"
@@ -50,13 +120,13 @@ mediaPartners:
     link: "https://sysarmy.com/"
     logo: "SYSARMY.png"
   - name: TechnoLatinas
-    link: "http://technolatinas.org/"
-    logo: "TechnoLatinas no bg 2x.png"
+    link: "https://technolatinas.org/"
+    logo: "TechnoLatinas.png"
   - name: Transistemas
-    link: "http://transistemas.org"
+    link: "https://transistemas.org"
     logo: "Transistemas letras violeta.png"
   - name: Women in Bioinformatics and Data Science
     link: "https://wbds.la/#"
     logo: "Women in Bioinformatics and Data Science LA.png"
 
-    
+

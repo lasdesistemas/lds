@@ -27,10 +27,10 @@ prepend: 'femitconf' %}
         <li><a href="{{ site.baseurl }}/femitconf2022">Home</a></li>
         {% if conf.agenda %}<li><a href="{{ site.baseurl }}/{{ path }}#agenda-femit">Agenda</a></li>{% endif %}
         <li><a href="{{ site.baseurl }}/code">Código de conducta</a></li>
-        {% if conf.mediaPartners %}<li><a href="{{ site.baseurl }}/{{ path }}#mediapartners">Media partners</a></li>{% endif %}
         {% if conf.sponsors %}<li>
           <a href="{{ site.baseurl }}/{{ path }}#sponsors-femit">Sponsors</a>
         </li>{% endif %}
+        {% if conf.mediaPartners %}<li><a href="{{ site.baseurl }}/{{ path }}#mediapartners">Media partners</a></li>{% endif %}
         <!--li><a href="{{ site.baseurl }}/donaciones">Donaciones</a></li-->
         <li>
           <a
@@ -168,11 +168,6 @@ prepend: 'femitconf' %}
         >
       </li>
       {% endif %}
-      {% if conf.mediaPartners %}
-      <li>
-        <a href="{{ site.baseurl }}/{{ path }}#mediapartners">MEDIA PARTNERS</a>
-      </li>
-      {% endif %}
       <li>
         <a href="{{ site.baseurl }}/code" class="uk-text-uppercase"
           >Código de conducta</a
@@ -185,6 +180,14 @@ prepend: 'femitconf' %}
           class="uk-text-uppercase"
           >Sponsors</a
         >
+      </li>
+      {% endif %}
+      {% if conf.mediaPartners %}
+      <li>
+        <a href="{{ site.baseurl }}/{{ path }}#mediapartners"
+        class="uk-text-uppercase"
+        >Media partners
+        </a>
       </li>
       {% endif %}
       <!--li>
