@@ -12,8 +12,8 @@ youtube:
 sponsors:
   - name: Kleer
     category: Silver
-    link: "http://www.kleer.la/"
-    logo: "Kleer mas texto.png"
+    link: "https://www.kleer.la/"
+    logo: "kleer.png"
   - name: 10Pines
     category: Gold
     link: "https://10pines.com/"
@@ -25,10 +25,10 @@ sponsors:
   - name: Fintual
     category: Platinum
     link: "https://fintual.cl/"
-    logo: "Fintual.png"
+    logo: "fintual.png"
   - name: Cooperativa de Trabajo Devecoop Ltda
     category: Silver
-    link: "http://www.devecoop.com"
+    link: "https://www.devecoop.com"
     logo: "devecoop.png"
   - name: Asapp
     category: Platinum
@@ -60,7 +60,7 @@ sponsors:
     logo: "tecso.png"
   - name: Medallia
     category: Gold
-    link: "http://www.medallia.com.ar/"
+    link: "https://www.medallia.com.ar/"
     logo: "medallia.png"
   - name: Majorkey Technologies
     category: Gold
@@ -93,7 +93,7 @@ mediaPartners:
     link: "https://chicaspoderosas.org/"
     logo: "Chicas Poderosas Argentina - sq.png"
   - name: DALAT
-    link: "http://dalatcomunidad.org"
+    link: "https://dalatcomunidad.org"
     logo: "DALAT.png"
   - name: DataGenero
     link: "https://sites.google.com/view/datagenero"
@@ -120,10 +120,10 @@ mediaPartners:
     link: "https://sysarmy.com/"
     logo: "SYSARMY.png"
   - name: TechnoLatinas
-    link: "http://technolatinas.org/"
+    link: "https://technolatinas.org/"
     logo: "TechnoLatinas.png"
   - name: Transistemas
-    link: "http://transistemas.org"
+    link: "https://transistemas.org"
     logo: "Transistemas letras violeta.png"
   - name: Women in Bioinformatics and Data Science
     link: "https://wbds.la/#"
