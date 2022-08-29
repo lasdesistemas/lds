@@ -56,6 +56,14 @@ h4, h5, h6,
    word-wrap:normal !important;
 }
 
+.title-size{
+  font-size: $agenda-size;
+}
+
+.time-bold{
+  font-weight: $time-bold;
+}
+
 // Colors
 
 .purple-lighter {
@@ -516,7 +524,7 @@ Codigo de conducta
 }
 
 .agenda-title {
-  color: #772077;
+  color: $agenda-title;
 }
 
 .button {
