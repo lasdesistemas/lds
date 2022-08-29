@@ -414,8 +414,8 @@ Agenda Femit
 }
 
 .circle {
-  width: 12px;
-  height: 12px;
+  width: $circle-size;
+  height: $circle-size;
   border: 4px solid $agenda-line;
   border-radius: 50%;
   background: white;
