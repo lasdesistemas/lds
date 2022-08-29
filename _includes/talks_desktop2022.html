@@ -1,0 +1,269 @@
+<div class="uk-flex-center" uk-grid>
+  <!-- <div class="uk-width-1-5@s">
+  </div> -->
+  <div class="uk-width-1-5@s uk-padding-remove-left uk-margin-large-bottom">
+    <h2 class="agenda-title uk-text-uppercase uk-text-center title-size" >Agenda</h2> 
+  </div>
+  <div uk-grid>
+    {% for talk in conf.agenda %}
+    <div class="uk-width-1-6@s uk-padding-small uk-text-right uk-width-small">
+      <!-- {% if talk.type == 'keynote' %}
+      <p>
+        <br>
+        <div><img
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUxMiwxOTcuODE5bC0xODUuOTMzLTEyLjIyOEwyNTYsOS41NzFsLTcwLjA2NywxNzYuMDIxTDAsMTk3LjgybDE0Mi42NTgsMTIwLjkzTDk1Ljg1Niw1MDIuNDI5TDI1Niw0MDEuMjE0ICAgIGwxNjAuMTQ0LDEwMS4yMTVsLTQ2LjgtMTgzLjY3MUw1MTIsMTk3LjgxOXogTTI1NiwzNjUuNzI0bC0xMTIuNDY0LDcxLjA4bDMyLjgyNy0xMjguODMxTDc1LjgyOSwyMjIuODg4bDEzMC45NzEtOC42MDMgICAgTDI1Niw5MC42ODdsNDkuMiwxMjMuNTk5bDEzMS4xMjQsOC42MDJsLTEwMC42ODksODUuMDc3bDMyLjgyOSwxMjguODM5TDI1NiwzNjUuNzI0eiIgZmlsbD0iIzMwODI2MyIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4="
+          width="20"
+          height="20"
+        /></div>
+      </p>
+      {% endif %} -->
+    </div>
+    {% if talk.type == 'keynote' %} 
+      {% assign color = 'agenda-keynote' %} 
+    {% elsif talk.type == 'talk' %} 
+      {% assign color = 'agenda-talk' %}
+    {% elsif talk.type == 'sponsor' %} 
+      {% assign color = 'agenda-sponsor' %}
+    {% else %} 
+      {% assign color = 'agenda-org' %}
+    {% endif %}
+    <div class="uk-width-1-6@s uk-text-center timeline uk-padding-remove">
+      {% if talk.speakers.size > 0 %} 
+        {% if talk.type != 'sponsor' and talk.speakers.size > 1%} 
+          {% assign img-class = 'image-fit-small' %} 
+        {% else %} 
+          {% assign img-class = 'image-fit' %} 
+        {% endif %}
+        <div uk-grid class="photo">
+          {% if talk.type == 'sponsor' %}
+          <div class="uk-width-1-1">
+            <img
+              class="uk-border-circle {{img-class}} {{color}}"
+              data-src="{{site.url}}{{site.baseurl}}/assets/images/sponsors/{{talk.sponsor.photo}}"
+              alt="{{talk.sponsor.name}}"
+              uk-img
+            />
+          </div>
+          {% else %} 
+            {% for speaker in talk.speakers %} 
+              {% assign speaker_code = speaker.name | slugify %}
+              {% if forloop.first %}
+                {% assign margin = '' %}
+              {% else %}
+                {% assign margin = 'uk-margin-small-top' %}
+              {% endif %}
+              <div class="uk-width-1-1 {{margin}}">
+                <a href="#modal-{{speaker_code}}" uk-toggle>
+                  <img
+                    class="uk-border-circle {{img-class}} {{color}}"
+                    data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                    alt="{{speaker.name}}"
+                    uk-img
+                  />
+                </a>
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% else %}
+        {% if forloop.last %}
+          {% assign class = '' %}
+        {% else %} 
+          {% assign class = 'photo' %}
+        {% endif %}
+        <div class="{{ class }} circle-container">
+          {% if forloop.first or forloop.last %}
+            <div class="circle"></div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="uk-width-1-6@s uk-text-right uk-padding-remove time-bold">
+      {{ talk.time }} hs
+    </div>
+    <div class="uk-width-1-2 uk-width-3-6@s">
+      {% if talk.type == 'keynote' %} 
+        {% assign color = 'agenda-keynote' %} 
+      {% elsif talk.type == 'talk' %} 
+        {% assign color = 'agenda-talk' %}
+        {% elsif talk.type == 'sponsor' %} 
+        {% assign color = 'agenda-sponsor' %} 
+      {% else %}
+        {% assign color = 'agenda-org' %} 
+      {% endif %}
+      <h3 class="{{color}} uk-text-bold">{{ talk.title }}</h3>
+      <h4 class="{{color}}">
+        {% assign speaker_number = 0 %} 
+        {% for speaker in talk.speakers limit:3%} 
+        {% if forloop.first %} {% else %} + {% endif %} 
+        {% assign speaker_code = speaker.name | slugify %}
+        <a
+          href="#modal-{{speaker_code}}"
+          class="modal-title-speaker {{color}}"
+          uk-toggle>{{ speaker.name }}</a>
+        <!-- Speaker modal -->
+        <div id="modal-{{speaker_code}}" uk-modal>
+          <div class="uk-modal-dialog uk-modal-body">
+            <button
+              class="uk-modal-close-default"
+              aria-label="Cerrar"
+              type="button"
+              uk-close
+            ></button>
+            <div class="uk-grid-small" uk-grid>
+              <div class="uk-width-1-3@s uk-visible@s uk-text-center">
+                <img
+                  class="uk-padding-remove"
+                  data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                  alt="{{speaker.name}}"
+                  uk-img
+                />
+              </div>
+              <div class="uk-width-1-1 uk-hidden@s">
+                <div class="uk-flex uk-flex-middle uk-text-center">
+                  <div class="uk-width-1-2">
+                    <img
+                      class="uk-padding-remove"
+                      data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                      alt="{{speaker.name}}"
+                      uk-img
+                    />
+                  </div>
+                  <div class="uk-width-1-2">
+                    <h4 class="modal-title-speaker {{color}} uk-text-bold">
+                      {{ speaker.name }}
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="uk-width-1-1 uk-width-2-3@s">
+                <h4
+                  class="modal-title-speaker {{color}} uk-text-bold uk-visible@s"
+                >
+                  {{ speaker.name }}
+                </h4>
+                <p>{{speaker.bio}}</p>
+                <p>
+                  {% if speaker.instagram %}
+                  <a
+                    class="{{color}}"
+                    href="{{speaker.instagram}}"
+                    class="uk-icon-link"
+                    uk-icon="instagram"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Instagram de {{speaker.name}}"
+                  ></a>
+                  {% endif %} 
+                  {% if speaker.facebook %}
+                  <a
+                    class="{{color}}"
+                    href="{{speaker.facebook}}"
+                    class="uk-icon-link"
+                    uk-icon="facebook"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Facebook de {{speaker.name}}"
+                  ></a>
+                  {% endif %} 
+                  {% if speaker.twitter %}
+                  <a
+                    class="{{color}}"
+                    href="{{speaker.twitter}}"
+                    class="uk-icon-link"
+                    uk-icon="twitter"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Twitter de {{speaker.name}}"
+                  ></a>
+                  {% endif %} 
+                  {% if speaker.github %}
+                  <a
+                    class="{{color}}"
+                    href="{{speaker.github}}"
+                    class="uk-icon-link"
+                    uk-icon="github"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Website {{speaker.github}}"
+                  ></a>
+                  {% endif %} 
+                  {% if speaker.website %}
+                  <a
+                    class="{{color}}"
+                    href="{{speaker.website}}"
+                    class="uk-icon-link"
+                    uk-icon="world"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Website {{speaker.website}}"
+                  ></a>
+                  {% endif %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Speaker modal end -->
+        {% if speaker.facebook %}
+        <a
+          class="{{color}}"
+          href="{{speaker.facebook}}"
+          class="uk-icon-link"
+          uk-icon="facebook"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook de {{speaker.name}}"
+        ></a>
+        {% endif %} 
+        {% if speaker.twitter %}
+        <a
+          class="{{color}}"
+          href="{{speaker.twitter}}"
+          class="uk-icon-link"
+          uk-icon="twitter"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter de {{speaker.name}}"
+        ></a>
+        {% endif %} 
+        {% if speaker.instagram %}
+        <a
+          class="{{color}}"
+          href="{{speaker.instagram}}"
+          class="uk-icon-link"
+          uk-icon="instagram"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram de {{speaker.name}}"
+        ></a>
+        {% endif %} 
+        {% if speaker.github %}
+        <a
+          class="{{color}}"
+          href="{{speaker.github}}"
+          class="uk-icon-link"
+          uk-icon="github"
+          target="_blank"
+          rel="noopener"
+          aria-label="Website {{speaker.github}}"
+        ></a>
+        {% endif %} 
+        {% if speaker.website %}
+        <a
+          class="{{color}}"
+          href="{{speaker.website}}"
+          class="uk-icon-link"
+          uk-icon="world"
+          target="_blank"
+          rel="noopener"
+          aria-label="Website {{speaker.website}}"
+        ></a>
+        {% endif %} 
+        {% endfor %}
+      </h4>
+      <p>{{talk.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
