@@ -478,12 +478,34 @@ Agenda Femit
     border-left: 3px solid $agenda-line;
 }
 
+.overlayBg{
+  background-color: rgba(0,0,0,0.8);
+}
+
+.circlePhoto{
+  border-radius: 100%;
+}
+
 .modal-title-speaker {
   font-family: $bodyFont;
 }
 
+.modalColors {
+  background-color: $bg-modal-color;
+  color: $text-modal-color;
+}
+
 .h4-speaker {
   line-height: 1rem;
+}
+
+.lineDivider{
+  height: 2px;
+  background-color: $titleandsocialmedia-modal-color;
+}
+
+.socialMediaTitleandLine{
+  color: $titleandsocialmedia-modal-color;
 }
 
 /**
