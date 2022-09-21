@@ -56,11 +56,11 @@ h4, h5, h6,
    word-wrap:normal !important;
 }
 
-.title-size{
+.title-size {
   font-size: $agenda-size;
 }
 
-.time-bold{
+.time-bold {
   font-weight: $time-bold;
 }
 
@@ -90,27 +90,27 @@ h4, h5, h6,
   color: $agenda-talk !important;
 }
 
-.gray-light{
+.gray-light {
   color: $gray-light !important;
 }
 
 // Backgrounds
 
-.bg-purple-light{
+.bg-purple-light {
   background: $purple-light !important;
 }
 
-.bg-black{
+.bg-black {
   background: $black !important;
 }
 
-.bg-gray-dark{
+.bg-gray-dark {
   background: $gray-dark !important;
 }
 
 
 /** Buttons **/
-.button-default-femit{
+.button-default-femit {
   background-color: $purple-lighter;
   color: $white;
   font-family: $titleFont;
@@ -121,7 +121,7 @@ h4, h5, h6,
 }
 
 .button-default-femit:hover,
-.button-default-femit:focus{
+.button-default-femit:focus {
   background-color: #bf73bc;
   color: $white;
 }
@@ -130,7 +130,7 @@ h4, h5, h6,
 Navbar LDS
 **/
 
-.uk-navbar-nav{
+.uk-navbar-nav {
   body{
     font-family: $titleFont;
   }
@@ -167,24 +167,24 @@ Navbar LDS
   .uk-nav-divider {
       margin: 10px;
   }
-  .uk-nav-header{
+  .uk-nav-header {
     padding-left: 20px;
     color: $gray-lighter;
     margin-top: 5px;
   }
-  .li-previous-femit{
+  .li-previous-femit {
     padding-left: 10px;
     color: $white;
   }
 
 }
 
-.uk-navbar-toggle{
+.uk-navbar-toggle {
   color: $white;
 }
 
 .uk-navbar-toggle:hover,
-.uk-navbar-toggle:active{
+.uk-navbar-toggle:active {
   color: $gray-lightest;
 }
 
@@ -192,7 +192,7 @@ Navbar LDS
 Dropdown del navbar LDS
 **/
 
-.uk-navbar-dropdown{
+.uk-navbar-dropdown {
   background: $black;
   // Elementos del dropdown
   li > a {
@@ -213,20 +213,20 @@ Dropdown del navbar LDS
   }
 }
 
-.logo-navbar{
+.logo-navbar {
   height: 110px;
 }
 
-.logo-navbar-mobile{
+.logo-navbar-mobile {
   height: 90px;
 }
 
-.uk-navbar-dropdown-mobile{
+.uk-navbar-dropdown-mobile {
   // width: 300px;
   margin: 0px;
 }
 
-.button-responsive-menu{
+.button-responsive-menu {
   padding-right: 20px;
   border: none;
 }
@@ -255,12 +255,12 @@ Dropdown del navbar LDS
   color: white;
 }
 
-#js-dropdown > ul > li.uk-parent.uk-open > ul > li > a:hover{
+#js-dropdown > ul > li.uk-parent.uk-open > ul > li > a:hover {
   color: white;
 }
 
 // Home LDS
-.logo-lds-about{
+.logo-lds-about {
   width: 100%;
 }
 
@@ -290,7 +290,7 @@ Footer LDS
   justify-content: space-between
 }
 
-footer{
+footer {
 
   p, a{
     font-family: $titleFont;
@@ -298,16 +298,16 @@ footer{
 
   color: $white;
 
-  h1, h2, h3, h4{
+  h1, h2, h3, h4 {
     color: $white;
   }
 
-  a:hover{
+  a:hover {
     color: $gray-light;
   }
 }
 
-.icon-margin{
+.icon-margin {
   margin: 48dp;
 }
 
@@ -315,11 +315,11 @@ footer{
 /**
 Navbar Femit
 **/
-nav{
+nav {
   font-family: $titleFont;
 }
 
-.navbar-femit .uk-navbar-nav{
+.navbar-femit .uk-navbar-nav {
 
   // Elementos del navbar
   li > a {
@@ -351,7 +351,7 @@ nav{
 Dropdown del navbar LDS
 **/
 
-.navbar-femit .uk-navbar-dropdown{
+.navbar-femit .uk-navbar-dropdown {
   background: $gray-dark;
   // Elementos del dropdown
   li > a {
@@ -376,7 +376,7 @@ Dropdown del navbar LDS
 Footer Femit
 **/
 
-footer.footer-femit a:hover{
+footer.footer-femit a:hover {
   color: $main-lighter-f;
 }
 
@@ -389,7 +389,7 @@ foot.footer-femit .uk-link, a {
 Agenda Femit
 **/
 
-#agenda-femit{
+#agenda-femit {
 
   h2{
     font-weight: normal;
@@ -400,7 +400,7 @@ Agenda Femit
     font-size: 1.1rem;
   }
 
-  .talk-title-mobile{
+  .talk-title-mobile {
     font-size: 1rem;
   }
 
@@ -408,7 +408,7 @@ Agenda Femit
     margin: 0;
   }
 
-  .hr-speakers{
+  .hr-speakers {
     border-top: 1px solid $agenda-line;
   }
 }
@@ -429,13 +429,13 @@ Agenda Femit
   text-align: center;
 }
 
-.keynote-image{
+.keynote-image {
   position: relative;
   top: 0;
   left: 0;
 }
 
-.keynote-border{
+.keynote-border {
   z-index: 2;
   position: absolute;
   max-width: 150px;
@@ -499,7 +499,7 @@ Agenda Femit
   background-color: rgba(0,0,0,0.8);
 }
 
-.circlePhoto{
+.circlePhoto {
   border-radius: 100%;
 }
 
@@ -516,12 +516,12 @@ Agenda Femit
   line-height: 1rem;
 }
 
-.lineDivider{
+.lineDivider {
   height: 2px;
   background-color: $title-modal-color;
 }
 
-.socialMediaTitleandLine{
+.socialMediaTitleandLine {
   color: $title-modal-color;
 }
 
@@ -529,11 +529,11 @@ Agenda Femit
 Agenda Femit mobile
 **/
 
-.grid-profile-mobile{
+.grid-profile-mobile {
   margin-left: 0px;
 }
 
-#sponsors-femit{
+#sponsors-femit {
   h2{
     font-weight: normal;
   }
@@ -544,7 +544,7 @@ Codigo de conducta
 **/
 
 
-#code-femit{
+#code-femit {
   font-family: $titleFont;
   text-align: justify;
 
@@ -584,6 +584,6 @@ Codigo de conducta
   color: #384057;
 }
 
-.edition2022{
+.edition2022 {
   color: $color-anioedicion;
 }
