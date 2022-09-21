@@ -429,6 +429,23 @@ Agenda Femit
   text-align: center;
 }
 
+.keynote-image{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.keynote-border{
+  z-index: 2;
+  position: absolute;
+  max-width: 150px;
+  max-height: 150px;
+  top: -14px;
+  left: 31px;
+  // top: 0;
+  // left: 0;
+}
+
 .image-fit {
   object-fit: cover;
   max-width: 120px;

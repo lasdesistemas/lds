@@ -52,6 +52,19 @@
               {% else %}
                 {% assign margin = 'uk-margin-small-top' %}
               {% endif %}
+              {% if talk.type == 'keynote'%}
+              <div class="uk-width-1-1 keynote-image {{margin}}">
+                <a href="#modal-{{speaker_code}}" uk-toggle>
+                  <img src="/assets/images/keynote-wavy-border.png" class="keynote-border" alt="ondas keynote" >
+                  <img
+                    class="uk-border-circle {{img-class}}"
+                    data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                    alt="{{speaker.name}}"
+                    uk-img
+                  />
+                </a>
+              </div>
+              {% else %}
               <div class="uk-width-1-1 {{margin}}">
                 <a href="#modal-{{speaker_code}}" uk-toggle>
                   <img
@@ -62,6 +75,7 @@
                   />
                 </a>
               </div>
+              {% endif %}
             {% endfor %}
           {% endif %}
         </div>
