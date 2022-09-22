@@ -436,14 +436,14 @@ Agenda Femit
 }
 
 .keynote-border {
-  z-index: 2;
+  z-index: 1;
   position: absolute;
-  max-width: 150px;
-  max-height: 150px;
-  top: -14px;
-  left: 31px;
-  // top: 0;
-  // left: 0;
+  max-width: 140px;
+  max-height: 140px;
+  // top: -14px;
+  // left: 31px;
+  margin-left: -11px;
+  margin-top: -10px;
 }
 
 .image-fit {
@@ -451,7 +451,7 @@ Agenda Femit
   max-width: 120px;
   max-height: 120px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: #fff;
   border: 2px solid;
 }
