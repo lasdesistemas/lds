@@ -34,6 +34,9 @@
         {% else %} 
           {% assign img-class = 'image-fit' %} 
         {% endif %}
+        {% if talk.type == 'keynote' %}
+        {% assign img-class = 'image-keynote-fit' %}
+        {% endif %}
         <div uk-grid class="photo">
           {% if talk.type == 'sponsor' %}
           <div class="uk-width-1-1">
