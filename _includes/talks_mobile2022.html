@@ -25,6 +25,24 @@
                   alt="{{talk.sponsor.name}}"
                   uk-img
               />
+              {% elsif talk.type == 'keynote' %}
+              <button
+                onclick="event.stopPropagation()"
+                class="uk-button uk-button-link"
+                uk-toggle="target: #modal-{{speaker_code}}"
+                aria-label="{{speaker.name}}"
+              >
+                <img src="/assets/images/keynote-wavy-border-whitebg.png"
+                class="keynote-border-mobile"
+                alt="ondas keynote"
+                >
+                <img
+                  class="uk-padding-remove image-fit-mobile-keynote uk-border-circle {{color}}"
+                  data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
+                  alt="{{speaker.name}}"
+                  uk-img
+                />
+              </button>
             {% else %}
               <button
                 onclick="event.stopPropagation()"
