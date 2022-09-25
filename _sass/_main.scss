@@ -493,19 +493,29 @@ Agenda Femit
   position: relative;
   z-index: 1;
   background-color: #fff;
+  grid-row: 1;
+  grid-column: 1;
+  width: 80%;
+  margin: 10%;
 }
 
 .keynote-border-mobile {
   z-index: 1;
-  position: absolute;
-  // max-width: 140px;
-  // max-height: 140px;
-  height: 50vw;
-  width: auto;
-  // top: -14px;
-  // left: 31px;
-  margin-left: -11px;
-  margin-top: -10px;
+  position: relative;
+  width: 120%;
+  align-content: center;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.uk-button-link {
+  padding: 0;
+  line-height: 1.5;
+  background: 0 0;
+  color: #1e87f0;
+  display: grid;
+  align-items: start;
+  align-content: center;
 }
 
 .timeline {
