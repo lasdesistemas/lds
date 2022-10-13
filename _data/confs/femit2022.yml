@@ -13,176 +13,151 @@ agenda:
   - title: Apertura
     time: "10:00"
     type: orga
-  - title: "Érase una vez en una galaxia muy muy lejana, entre ataques adversarios y detección de patrones anómalos en modelos de aprendizaje profundo"
-    time: "10:15"
+  - title: "Haciendo ciencia y la ciencia de emprender"
+    time: "10:20"
     type: keynote
-    description: "Cuando llevamos modelos de aprendizaje profundo a producción, necesitamos que sean robustos e interpretables. Estos suelen suponer condiciones ideales que rara vez se cumplen en aplicaciones de la vida real. En esta charla veremos cómo podemos ayudar a modelos ya entrenados con la detección de patrones anómalos."
+    description: "Viviana nos cuenta su travesía en  la que construyó su carrera académica a través de UBA, Paris-XI y Harvard. Creó su startup y logró pivotear su carrera e intereses superando barreras de sesgos culturales y de géneros."
     speakers:
-      - name: "Celia Cintas"
-        twitter: "https://twitter.com/RTFMCelia"
-        website: "https://celiacintas.github.io/about/"
-        instagram: "https://www.instagram.com/celitacintas/"
-        bio: "Investigadora en el Laboratorio de IBM Research (Kenia). Previamente, becaria doctoral en IPCSH-CONICET y LCI-UNS. Doctora en Cs de la Computación (UNS) y feliz miembro de LinuxChix Argentina. Su investigación se enfoca en métodos de subset scanning aplicados a redes neuronales y sus aplicaciones en salud global."
-        photo: "CeliaCintas.png"
-  - title: Nuevas perspectivas en contenido educativo para atraer diversidad en sistemas
-    time: "11:10"
-    type: talk
-    description: "No todas las personas aprendemos igual, y por suerte, no tenemos que hacerlo. Les invito a descubrir distintas fuentes de contenido educativo, su relación con la diversidad y cómo podemos utilizarlas para alimentar la curiosidad, acompañar procesos de aprendizaje y atraer perfiles diversos."
+      - name: "Viviana Siless"
+        twitter: "https://twitter.com/vsiless"
+        website: "https://www.linkedin.com/in/viviana-siless/"
+        bio: "Profesora/investigadora de Inteligencia artificial en Di Tella. Co-fundadora y CTO de Quipu Bank."
+        photo: "Viviana Siless.jpeg"
+  - title: ¿Cómo me convertí en científica de datos? De la academia a la industria del conocimiento
+    time: "11:15"
+    type: sponsor
+    description: "Datos, datos everywhere… 
+La ciencia de datos atrajo mucho la atención de la industria en los últimos años prometiendo traducir enormes cantidades de datos en predicciones y en conocimiento para la toma de decisiones.
+Pero … ¿De dónde viene y qué hace un data scientist?
+En esta charla te voy a contar cómo me convertí en data scientist y cómo Asapp usa la ciencia de datos para mejorar sus productos."
     speakers:
-      - name: "Belén Rey"
-        twitter: "https://twitter.com/iamdoomling"
-        website: "https://teloexplicocongatitos.com"
-        instagram: "https://www.instagram.com/teloexplicocongatitos"
-        bio: "Desarrolladora fullstack y diseñadora UI. Emprendedora compulsiva desde hace casi diez años, actualmente hace un poco de todo en CourseIt. Es mamá de una criatura humana, seis gatos y un perro. En su tiempo libre hace #TeLoExplicoConGatitos"
-        photo: "BelenRey.jpeg"
+      - name: "Natalia Montroull"
+        website: "https://www.linkedin.com/in/natalia-montroull-119104203?originalSubdomain=ar"
+        bio: "Data scientist en ASAPP, pero antes de eso hizo la licenciatura y el doctorado en Ciencias de la Atmósfera y los Océanos en la UBA. Tiene +5 años de experiencia como investigadora de CONICET en temas de Cambio Climático y +10 años de docencia en Exactas, UBA."
+        photo: "Natalia Montroull.jpeg"
+    sponsor:
+        name: Asapp
+        photo: "asapp.png"
+        website: https://www.linkedin.com/company/asappco/
   - title: Intervalo
     time: "11:40"
     type: orga
-  - title: "Sé ágil e inclusivo en MURAL"
-    time: "11:50"
-    type: sponsor
-    description: "Mural fue creada en 2011 con 10 personas. Hoy somos más de 500 en +10 países trabajando remotamente y de manera colaborativa. Esto nos impulsó a trabajar estrategias de inclusión y procesos ágiles para seguir escalando nuestro producto, brindando siempre una experiencia de alta calidad."
-    speakers:
-      - name: "Gisela Provenzano"
-        website: "https://www.linkedin.com/in/gisela-provenzano/"
-        bio: "Gisela Provenzano trabaja en MURAL como Agile Coach hace casi un año. Es Ingeniera en Sistemas de la Universidad de Tandil y hace 15 años trabaja en el mundo de IT."
-        photo: "GiselaMural.png"
-      - name: "Claudia Korzeniewski"
-        website: "https://www.linkedin.com/in/claudia-korzeniewski-91b3a440/"
-        bio: "Claudia Korzeniewski es Ingeniera en Informática de la UBA y trabaja hace más de 15 años en la industria. Actualmente trabaja en MURAL como Accessibility Engineering Manager."
-        photo: "ClaudiaMural.png"
-    sponsor:
-        name: MURAL
-        photo: "muralspeakers.png"
-  - title: Desarrollo, usabilidad y accesibilidad con lectores de pantalla
-    time: "12:05"
+  - title: "Identidad de género: Ninguna de las anteriores"
+    time: "12:00"
     type: talk
-    description: "La importancia de pensar las aplicaciones con perspectiva de accesibilidad para que no sean una barrera para las personas que utilizan lectores de pantalla.
-Enseñar, desarrollar y testear desde el punto de vista de personas con discapacidad visual."
+    description: ¿Cómo se registran las identidades de género no cis en los datos? Un recorrido de preguntas y desafíos para reflexionar sobre la representación de identidades de género no binarias, travestis, trans, queers y más en nuestros formularios, bases de datos y sistemas de información.
     speakers:
-      - name: "Valeria Rocha"
-        twitter: "https://twitter.com/avaltenea"
-        bio: "Estudiante de Ingeniería Informática de la UBA. Programadora backend. Mentora de introducción a la programación con Python en la fundación Itgrarte."
-        photo: "ValeriaRocha.jpeg"
-      - name: "Katherine Vargas"
-        twitter: "https://twitter.com/dragonmoon1522"
-        website: "https://kathwr.wordpress.com"
-        instagram: "https://www.instagram.com/dragonmoon1522"
-        bio: "Desarrolladora de software, mujer trans, y persona con discapacidad visual. Le apasiona la informática, la música y la literatura. Escritora de un blog"
-        photo: "KatherineVargas.jpeg"
-      - name: "Ximena Romero"
-        twitter: "https://twitter.com/ximer81"
-        bio: "Tester de accesibilidad en Nahual IT e Itgrarte. Se formó como Instructora en tecnología para personas ciegas en Madrid e inserción laboral."
-        photo: "XimenaRomero.jpeg"
+      - name: Sabi Bercovich
+        twitter: https://twitter.com/SabiBerco
+        instagram: https://www.instagram.com/sabiberco
+        bio: Científica de datos sociales, se recibió de Actuaria y recientemente de un master en Demografía y Sociología.
+        photo: "Sabi Bercovich.png"
+  - title: "Ctrl + TTNB: Alfabetización Digital en la Mocha Celis"
+    time: "12:40"
+    type: talk
+    description: ¿Cómo cerrar la brecha digital en la comunidad TTNB? Mai es coordinador del Proyecto de Alfabetización Digital de la Mocha Celis. Nos comparte los desafíos y decisiones del espacio que funciona dentro del Bachillerato Popular y también en talleres a contraturno.
+    speakers:
+      - name: Mai Slipczuk
+        twitter: https://twitter.com/maisli404
+        instagram: https://www.instagram.com/maiasli
+        web: https://www.linkedin.com/in/maisli
+        bio: Coordinador de proyectos educativos y gestor cultural. Estudió Profesorado de Primaria, Lic. en Educación y se especializó en Géneros. En 2019 comenzó a estudiar programación.
+        photo: "Maia slipczuk.png"
   - title: Almuerzo
-    time: "13:00"
+    time: "13:20"
     type: orga
   - title: Re-apertura
-    time: "14:00"
+    time: "14:20"
     type: orga
-  - title: Crecimiento Contínuo
-    time: "14:05"
+  - title: Conciencia social - Pilar en la Carrera profesional de las personas trans
+    time: "14:30"
     type: keynote
-    description: "Nos contará sobre cómo la mentalidad de crecimiento le permitió aprender de sus errores a lo largo de su carrera, compartiendo historias y anécdotas del camino que lleva recorrido hasta ahora y de cara a seguir creciendo en el futuro."
+    description: "Maryanne nos comparte diferentes experiencias positivas que la ayudaron a construir su carrera profesional como persona trans. 
+Nos abre las puertas de su historia, nos cuenta cómo fue el acompañamiento de su círculo más íntimo y nos invita a re-pensar nuestras prácticas cotidianas."
     speakers:
-      - name: "Margarita Manterola"
-        twitter: "https://twitter.com/marga_manterola"
-        bio: "Lleva más de 20 años en la industria de tecnología. Trabajó en empresas chicas y grandes, como desarrolladora, sysadmin y SRE. Actualmente es Principal Engineering Manager en Microsoft."
-        photo: "MargaritaManterola.jpeg"
-  - title: 'Mujeres STEM: "El desafío de unirse y avanzar juntas en Jujuy”'
-    time: "15:00"
+      - name: Maryanne Lettieri
+        instagram: "https://www.instagram.com/maryannelettieri"
+        bio: Profesora de inglés, Capacitadora en género, diversidad e inclusión, actriz.
+        photo: "Maryanne Lettieri.png"
+  - title: TBD
+    time: "15:25"
     type: talk
-    description: "La experiencia desde el 2018 de cómo logramos conformar y mantener activa una organización independiente de Mujeres STEM, con estudiantes y profesionales, en la Facultad de Ingeniería-UNJu-Jujuy: una de las 3 provincias con el nivel más alto de violencia de género en 2019 del país."
+    description: TBD
     speakers:
-      - name: "Anahi Chaves"
-        instagram: "https://www.instagram.com/mujeresporingenieria"
-        bio: "Auditora y consultora normativa. Estudiante de Ingeniería Química, tesis en la UNJu Complejo Solar Híbrido: Estudio de viabilidad técnico-económico de producción a escala industrial de Sal Solar mejorada con nanopartículas para centrales CSP-PV. Fundadora de Mujeres x Ingeniería."
-        photo: "AnahiChaves.jpeg"
+      - name: María Andrea Vignau
+        instagram: https://www.instagram.com/mavignau
+        twitter: https://twitter.com/mavignau
+        bio: Desarrolladora Backend.
+        photo: "Marian Vignau.jpg"
   - title: Intervalo
-    time: "15:30"
+    time: "15:50"
     type: orga
-  - title: "Codiandoarte: Aplicaciones y herramientas digitales para ganar autonomía"
-    time: "15:40"
+  - title: Coreografiando arquitecturas con eventos
+    time: "16:20"
     type: talk
-    description: "El arte es muy importante en mi vida. Al comienzo de la pandemia, poder continuar haciendo arte en formato digital, me ayudó a poder transitarla de la mejor manera.
-Sin las herramientas digitales que potencian mi autonomía e independencia, sería realmente muy difícil para mí, ya que soy una persona con discapacidad y uso mi codo para escribir y pintar en mi tablet."
+    description: "¿Qué son los eventos en microservicios? ¿Cómo y cuándo conviene usarlos? Dos alternativas de arquitectura en microservicios: coreografía (orientada a eventos) vs orquestación (request/response). Sofi nos comparte un caso real de un sistema con arquitectura orientada a eventos."
     speakers:
-      - name: "Valentin Santiago Berdun "
+      - name: Sofía Cortés
         instagram: "https://www.instagram.com/codiandoarte"
-        bio: 'Artista, pinta con el codo, hace arte digital y es transgénero, le encanta informarse cada día más sobre el tema e ir a las marchas.
-"No soy un diagnóstico o una silla de ruedas, soy una persona y aparte tengo parálisis cerebral, pero eso es aparte"'
-        photo: "ValentinBerdun.jpeg"
-  - title: "Un nuevo comienzo: Cambiar de profesión y sumarse al mundo IT"
-    time: "16:05"
+        bio: Ingeniera de Software y Ayudante de cátedra en la facultad. Estudió Ing en Sistemas en UTN FRBA.
+        twitter: https://twitter.com/sooficortes
+        web: https://www.linkedin.com/in/sofiavcortes
+        photo: "Sofia Cortes.jpeg"
+  - title: No todxs usamos Scrum
+    time: "16:45"
     type: sponsor
-    description: "Seguramente alguna vez pensaste que ya era tarde para darle un giro a tu vida profesional, sobre todo para insertarte en el mundo de sistemas, siendo mujer, claro! Mariana y Lourdes nos cuentan cómo, cuándo y por qué decidieron jugársela y comenzar a derribar mitos."
+    description: Hablaremos de Shape up, la metodología que utilizamos y hemos adaptado en Fintual. Te contaremos cómo permitió tener mayor autonomía a las devs, y todo el proceso desde qué nace una idea hasta que llega al producto.
     speakers:
-      - name: "Lourdes Ramírez"
+      - name: Daniela Quiroz
         website: "https://www.linkedin.com/in/marialourdesramirez"
-        bio: "Lourdes es Lic. en Administración Hotelera. Trabajó en este rubro por más de 15 años y siempre siguió aprendiendo cosas nuevas, buscando nuevas oportunidades. A los 37 comenzó a aprender a programar desde cero y, luego de un año, comenzó a trabajar como desarrolladora frontend en intive."
+        bio: Ingeniera Civil Industrial en Tecnologías de la Información, con estudios de género y políticas públicas. Tiene experiencia desarrollando tecnología cívica, y actualmente está trabajando en Fintual como software developer.
         photo: "LourdesRamirez.png"
       - name: "Mariana Balsamo"
         bio: "Diseñadora gráfica que luego de 10 años ejerciendo, decidió convertirse en programadora. Desde 2019 trabaja en Intive como desarrolladora frontend. Se frustra cuando las cosas no salen, se alegra cuando si, y no para de aprender. Se desconecta pintando o leyendo al sol con su galguita Marly."
         photo: "MarianaBalsamo.png"
     sponsor:
-        name: Intive
-        photo: "intivespeakers.png"
-  - title: '¿Te animás a cruzar el puente?: resolviendo acertijos con Prolog'
-    time: "16:20"
+        name: Fintual
+        photo: "Fintual.png"
+  - title: ¿Cómo empezar a ser roboticista?
+    time: "17:00"
     type: talk
-    description: "¿Alguna vez te preguntaste cómo utilizar la programación lógica en tu vida cotidiana? Prolog es un lenguaje que suele usarse en la IA pero es útil para distintos tipos de problemas. En esta charla vamos a resolver un acertijo aplicando los conceptos principales del paradigma."
+    description: "Acercando la robótica con ROS. 
+Belén nos trae algunos conceptos básicos para quien quiera iniciarse en este campo, contando desde su experiencia (profesional y personal) los obstaculos que superó a lo largo de su camino."
     speakers:
-      - name: "Jessica Saavedra"
-        twitter: "https://twitter.com/Jess_tr"
-        website: "https://www.linkedin.com/in/jessica-saavedra-valenzuela/"
-        instagram: "https://www.instagram.com/jess_saavedra"
-        bio: "Estudiante y ayudante de cátedra en Ingeniería en Sistemas de la UTN, ferviente defensora de la educación pública que le dio la profesión. Es desarrolladora de software en 10Pines, colaboró en distintos proyectos de enseñanza de programación y es una apasionada del CSS."
-        photo: "JessicaSaavedra.jpeg"
+      - name: Belén Torres
+        instagram: "https://www.instagram.com/kurepa28"
+        bio: Software developer y profesora de secundaria técnica.
+        photo: "Belen Torres.jpg"
   - title: Intervalo
-    time: "17:05"
-    type: orga
-  - title: 'Todavía nos falta camino, pero lo estamos cambiando'
-    time: "17:15"
-    type: sponsor
-    description: "Nos reunimos en un after virtual junto a algunes de les integrantes de stensul tanto de Argentina, como de USA. En donde, charlamos y reflexionamos sobre las experiencias dentro de la industria, el aprendizaje, cómo fueron sus primeras oportunidades y cómo juntes podemos construir una industria distinta."
-    speakers:
-      - name: "Equipo de Stensul"
-        twitter: "https://twitter.com/stensul_ar"
-        website: "https://stensul.com/careers"
-        instagram: "https://www.instagram.com/lifeatstensul"
-        bio: "Rosaura Barrile, Directora de Operaciones RRHH y Cultura, Latam stensul.
-              Melina Cytryn, Consultora en Operaciones, RRHH y Cultura, stensul.
-              Agustina Fernández, Desarrolladora en Implementaciones, stensul.
-              Delfina Bourdieu, Desarrolladora en Implementaciones, stensul.
-              Pamela Pereyra, Desarrolladora de software, stensul.
-              Natalie Rast, Directora de Operaciones, RRHH y Cultura, stensul.
-              Julian Damore, Especialista en Experiencia en RRHH, stensul.
-              Sarah Ogden, Directora de atención al cliente, stensul. "
-        photo: "stensulspeakers.png"
-    sponsor:
-        name: Stensul
-        photo: "stensulspeakers.png"
-  - title: Materializando una idea de desarrollo
     time: "17:30"
-    type: talk
-    description: "Veremos el proceso de planificación y diseño de una idea, aplicado a proyectos de desarrollo. Indagaremos en metodologías y herramientas para materializar lo antes posible la idea y entender qué se necesita y cómo, desde la necesidad inicial hasta comprender el flujo completo"
+    type: orga
+  - title: Iniciativas de Diversidad, Equidad e Inclusión en Qontigo
+    time: "17:50"
+    type: sponsor
+    description: Julieta nos cuenta cómo fue (y es) el camino que recorrió la compañía para diseñar su estrategia de Diversidad, Equidad e Inclusión, y qué actividades están llevando a cabo.
     speakers:
-      - name: "Alicia Rosenthal"
-        facebook: "https://www.facebook.com/estudioaliciarosenthal"
-        website: "https://aliciarosenthal.com.ar/"
-        instagram: "https://www.instagram.com/alismotion"
-        bio: "Diseñadora, desarrolladora web, animadora y docente. Se desempeña como CEO de su estudio, donde coordina proyectos de diseño y desarrollo a medida, aplicaciones de realidad aumentada y animaciones de videoclips, comerciales y videos. Docente de programación, diseño y animación en UNLAM y UBA."
-        photo: "AliciaRosenthal.png"
-  - title: 'Sintetizador DIY en el navegador: La Web Audio API como punto de encuentro entre el desarrollo web y la música.'
-    time: "18:10"
+      - name: Julieta Delgado
+        website: "https://www.linkedin.com/in/mjulietadelgado/"
+        bio: Trabaja hace 1 año en Qontigo en el equipo de Talent Acquisition. Es Psicóloga y hace 10 años trabaja en Recursos Humanos.
+        photo: "Julieta Delgado.jpg"
+    sponsor:
+        name: Qontigo
+        photo: "qontigo.png"
+  - title: Poemas e IA
+    time: "18:00"
     type: talk
-    description: "Los navegadores web hoy en día son otra herramienta para la expresión artística. Una de las tantas posibilidades que ofrece la Web Audio API es poder sintetizar y procesar sonidos en un navegador, teniendo el potencial de crear instrumentos musicales que habitan en la web."
+    description: "¿Alguna vez quisiste combinar el arte con la tecnología? ¿La IA reemplazará a les artistas? 
+Juli nos comparte la experiencia de un proceso creativo escribiendo poemas de la mano de modelos de inteligencia artificial. "
     speakers:
-      - name: "Jus Recondo"
-        instagram: "https://www.instagram.com/jusrecondo"
-        bio: "Músique, docente y programadore. Trabaja como desarrolladore Front End y docente en ALT Cooperativa, primera cooperativa de tecnología matriculada en el país integrada por personas trans. Su identidad de género es no binaria. Le encantan los sintetizadores, los gatos y hacer cosas con JavaScript. "
-        photo: "JusRecondo.jpeg"
-  - title: Cierre
+      - name: Julieta Caceres
+        website: "https://www.linkedin.com/in/julieta-caceres-a48971142/"
+        instagram: "https://www.instagram.com/__reprogramada__"
+        bio: Ingeniera de Software, estudió en la Universidad de Buenos Aires.
+        photo: "Julieta Caceres.jpg"
+  - title: Show de Cierre
+    time: "18:30"
+    type: orga
+  - title: Fin
     time: "19:00"
     type: orga
 
