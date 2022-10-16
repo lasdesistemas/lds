@@ -37,7 +37,7 @@ En esta charla te voy a contar cómo me convertí en data scientist y cómo Asap
         photo: "Natalia Montroull.jpeg"
     sponsor:
         name: Asapp
-        photo: "asapp.png"
+        photo: "asapp speaker.png"
         website: https://www.linkedin.com/company/asappco/
   - title: Intervalo
     time: "11:40"
@@ -115,7 +115,7 @@ Marian nos muestra herramientas maravillosas para una consola super poderosa, á
         photo: "LourdesRamirez.png"
     sponsor:
         name: Fintual
-        photo: "Fintual.png"
+        photo: "Fintual speaker.png"
   - title: ¿Cómo empezar a ser roboticista?
     time: "17:00"
     type: talk
@@ -140,7 +140,7 @@ Belén nos trae algunos conceptos básicos para quien quiera iniciarse en este c
         photo: "Julieta Delgado.jpg"
     sponsor:
         name: Qontigo
-        photo: "qontigo.png"
+        photo: "qontigo speaker.png"
   - title: Poemas e IA
     time: "18:00"
     type: talk
