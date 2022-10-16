@@ -60,7 +60,7 @@ En esta charla te voy a contar cómo me convertí en data scientist y cómo Asap
       - name: Mai Slipczuk
         twitter: https://twitter.com/maisli404
         instagram: https://www.instagram.com/maiasli
-        web: https://www.linkedin.com/in/maisli
+        website: https://www.linkedin.com/in/maisli
         bio: Coordinador de proyectos educativos y gestor cultural. Estudió Profesorado de Primaria, Lic. en Educación y se especializó en Géneros. En 2019 comenzó a estudiar programación.
         photo: "Maia slipczuk.png"
   - title: Almuerzo
@@ -79,10 +79,12 @@ Nos abre las puertas de su historia, nos cuenta cómo fue el acompañamiento de 
         instagram: "https://www.instagram.com/maryannelettieri"
         bio: Profesora de inglés, Capacitadora en género, diversidad e inclusión, actriz.
         photo: "Maryanne Lettieri.png"
-  - title: TBD
+  - title: Terminal Utopía
     time: "15:25"
     type: talk
-    description: TBD
+    description: "¿Por qué usamos tanto el ratón si podemos tener mayor velocidad usando el teclado? 
+Marian nos muestra herramientas maravillosas para una consola super poderosa, ágil y elegante en Linux.
+"
     speakers:
       - name: María Andrea Vignau
         instagram: https://www.instagram.com/mavignau
@@ -98,10 +100,9 @@ Nos abre las puertas de su historia, nos cuenta cómo fue el acompañamiento de 
     description: "¿Qué son los eventos en microservicios? ¿Cómo y cuándo conviene usarlos? Dos alternativas de arquitectura en microservicios: coreografía (orientada a eventos) vs orquestación (request/response). Sofi nos comparte un caso real de un sistema con arquitectura orientada a eventos."
     speakers:
       - name: Sofía Cortés
-        instagram: "https://www.instagram.com/codiandoarte"
         bio: Ingeniera de Software y Ayudante de cátedra en la facultad. Estudió Ing en Sistemas en UTN FRBA.
         twitter: https://twitter.com/sooficortes
-        web: https://www.linkedin.com/in/sofiavcortes
+        website: https://www.linkedin.com/in/sofiavcortes
         photo: "Sofia Cortes.jpeg"
   - title: No todxs usamos Scrum
     time: "16:45"
@@ -112,9 +113,6 @@ Nos abre las puertas de su historia, nos cuenta cómo fue el acompañamiento de 
         website: "https://www.linkedin.com/in/marialourdesramirez"
         bio: Ingeniera Civil Industrial en Tecnologías de la Información, con estudios de género y políticas públicas. Tiene experiencia desarrollando tecnología cívica, y actualmente está trabajando en Fintual como software developer.
         photo: "LourdesRamirez.png"
-      - name: "Mariana Balsamo"
-        bio: "Diseñadora gráfica que luego de 10 años ejerciendo, decidió convertirse en programadora. Desde 2019 trabaja en Intive como desarrolladora frontend. Se frustra cuando las cosas no salen, se alegra cuando si, y no para de aprender. Se desconecta pintando o leyendo al sol con su galguita Marly."
-        photo: "MarianaBalsamo.png"
     sponsor:
         name: Fintual
         photo: "Fintual.png"
