@@ -56,6 +56,14 @@ h4, h5, h6,
    word-wrap:normal !important;
 }
 
+.title-size {
+  font-size: $agenda-size;
+}
+
+.time-bold {
+  font-weight: $time-bold;
+}
+
 // Colors
 
 .purple-lighter {
@@ -82,27 +90,27 @@ h4, h5, h6,
   color: $agenda-talk !important;
 }
 
-.gray-light{
+.gray-light {
   color: $gray-light !important;
 }
 
 // Backgrounds
 
-.bg-purple-light{
+.bg-purple-light {
   background: $purple-light !important;
 }
 
-.bg-black{
+.bg-black {
   background: $black !important;
 }
 
-.bg-gray-dark{
+.bg-gray-dark {
   background: $gray-dark !important;
 }
 
 
 /** Buttons **/
-.button-default-femit{
+.button-default-femit {
   background-color: $purple-lighter;
   color: $white;
   font-family: $titleFont;
@@ -113,7 +121,7 @@ h4, h5, h6,
 }
 
 .button-default-femit:hover,
-.button-default-femit:focus{
+.button-default-femit:focus {
   background-color: #bf73bc;
   color: $white;
 }
@@ -122,7 +130,7 @@ h4, h5, h6,
 Navbar LDS
 **/
 
-.uk-navbar-nav{
+.uk-navbar-nav {
   body{
     font-family: $titleFont;
   }
@@ -159,24 +167,24 @@ Navbar LDS
   .uk-nav-divider {
       margin: 10px;
   }
-  .uk-nav-header{
+  .uk-nav-header {
     padding-left: 20px;
     color: $gray-lighter;
     margin-top: 5px;
   }
-  .li-previous-femit{
+  .li-previous-femit {
     padding-left: 10px;
     color: $white;
   }
 
 }
 
-.uk-navbar-toggle{
+.uk-navbar-toggle {
   color: $white;
 }
 
 .uk-navbar-toggle:hover,
-.uk-navbar-toggle:active{
+.uk-navbar-toggle:active {
   color: $gray-lightest;
 }
 
@@ -184,7 +192,7 @@ Navbar LDS
 Dropdown del navbar LDS
 **/
 
-.uk-navbar-dropdown{
+.uk-navbar-dropdown {
   background: $black;
   // Elementos del dropdown
   li > a {
@@ -205,20 +213,20 @@ Dropdown del navbar LDS
   }
 }
 
-.logo-navbar{
+.logo-navbar {
   height: 110px;
 }
 
-.logo-navbar-mobile{
+.logo-navbar-mobile {
   height: 90px;
 }
 
-.uk-navbar-dropdown-mobile{
+.uk-navbar-dropdown-mobile {
   // width: 300px;
   margin: 0px;
 }
 
-.button-responsive-menu{
+.button-responsive-menu {
   padding-right: 20px;
   border: none;
 }
@@ -247,12 +255,12 @@ Dropdown del navbar LDS
   color: white;
 }
 
-#js-dropdown > ul > li.uk-parent.uk-open > ul > li > a:hover{
+#js-dropdown > ul > li.uk-parent.uk-open > ul > li > a:hover {
   color: white;
 }
 
 // Home LDS
-.logo-lds-about{
+.logo-lds-about {
   width: 100%;
 }
 
@@ -282,7 +290,7 @@ Footer LDS
   justify-content: space-between
 }
 
-footer{
+footer {
 
   p, a{
     font-family: $titleFont;
@@ -290,16 +298,16 @@ footer{
 
   color: $white;
 
-  h1, h2, h3, h4{
+  h1, h2, h3, h4 {
     color: $white;
   }
 
-  a:hover{
+  a:hover {
     color: $gray-light;
   }
 }
 
-.icon-margin{
+.icon-margin {
   margin: 48dp;
 }
 
@@ -307,11 +315,11 @@ footer{
 /**
 Navbar Femit
 **/
-nav{
+nav {
   font-family: $titleFont;
 }
 
-.navbar-femit .uk-navbar-nav{
+.navbar-femit .uk-navbar-nav {
 
   // Elementos del navbar
   li > a {
@@ -343,7 +351,7 @@ nav{
 Dropdown del navbar LDS
 **/
 
-.navbar-femit .uk-navbar-dropdown{
+.navbar-femit .uk-navbar-dropdown {
   background: $gray-dark;
   // Elementos del dropdown
   li > a {
@@ -368,7 +376,7 @@ Dropdown del navbar LDS
 Footer Femit
 **/
 
-footer.footer-femit a:hover{
+footer.footer-femit a:hover {
   color: $main-lighter-f;
 }
 
@@ -381,7 +389,7 @@ foot.footer-femit .uk-link, a {
 Agenda Femit
 **/
 
-#agenda-femit{
+#agenda-femit {
 
   h2{
     font-weight: normal;
@@ -392,7 +400,7 @@ Agenda Femit
     font-size: 1.1rem;
   }
 
-  .talk-title-mobile{
+  .talk-title-mobile {
     font-size: 1rem;
   }
 
@@ -400,14 +408,14 @@ Agenda Femit
     margin: 0;
   }
 
-  .hr-speakers{
+  .hr-speakers {
     border-top: 1px solid $agenda-line;
   }
 }
 
 .circle {
-  width: 12px;
-  height: 12px;
+  width: $circle-size;
+  height: $circle-size;
   border: 4px solid $agenda-line;
   border-radius: 50%;
   background: white;
@@ -421,12 +429,37 @@ Agenda Femit
   text-align: center;
 }
 
+.keynote-image {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.keynote-border {
+  z-index: 1;
+  position: absolute;
+  max-width: 140px;
+  max-height: 140px;
+  // top: -14px;
+  // left: 31px;
+  margin-left: -11px;
+  margin-top: -10px;
+}
+
+.image-keynote-fit {
+  object-fit: cover;
+  max-width: 120px;
+  max-height: 120px;
+  position: relative;
+  z-index: 2;
+}
+
 .image-fit {
   object-fit: cover;
   max-width: 120px;
   max-height: 120px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background-color: #fff;
   border: 2px solid;
 }
@@ -455,6 +488,36 @@ Agenda Femit
   border: 2px solid;
 }
 
+.image-fit-mobile-keynote {
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  grid-row: 1;
+  grid-column: 1;
+  width: 80%;
+  margin: 10%;
+}
+
+.keynote-border-mobile {
+  z-index: 1;
+  position: relative;
+  width: 120%;
+  align-content: center;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.uk-button-link {
+  padding: 0;
+  line-height: 1.5;
+  background: 0 0;
+  color: #1e87f0;
+  display: grid;
+  align-items: start;
+  align-content: center;
+}
+
 .timeline {
   position: relative
 }
@@ -470,23 +533,45 @@ Agenda Femit
     border-left: 3px solid $agenda-line;
 }
 
+.overlay-bg {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.circlePhoto {
+  border-radius: 100%;
+}
+
 .modal-title-speaker {
   font-family: $bodyFont;
+}
+
+.modalColors {
+  background-color: $bg-modal-color;
+  color: $text-modal-color;
 }
 
 .h4-speaker {
   line-height: 1rem;
 }
 
+.lineDivider {
+  height: 2px;
+  background-color: $title-modal-color;
+}
+
+.socialMediaTitleandLine {
+  color: $title-modal-color;
+}
+
 /**
 Agenda Femit mobile
 **/
 
-.grid-profile-mobile{
+.grid-profile-mobile {
   margin-left: 0px;
 }
 
-#sponsors-femit{
+#sponsors-femit {
   h2{
     font-weight: normal;
   }
@@ -497,7 +582,7 @@ Codigo de conducta
 **/
 
 
-#code-femit{
+#code-femit {
   font-family: $titleFont;
   text-align: justify;
 
@@ -516,7 +601,7 @@ Codigo de conducta
 }
 
 .agenda-title {
-  color: #772077;
+  color: $agenda-title;
 }
 
 .button {
@@ -537,6 +622,6 @@ Codigo de conducta
   color: #384057;
 }
 
-.edition2022{
+.edition2022 {
   color: $color-anioedicion;
 }

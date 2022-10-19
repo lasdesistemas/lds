@@ -9,6 +9,156 @@ registro: false
 fotos: true
 youtube:
 
+agenda:
+  - title: Apertura
+    time: "10:00"
+    type: orga
+  - title: "Haciendo ciencia y la ciencia de emprender"
+    time: "10:20"
+    type: keynote
+    description: "Viviana nos cuenta su travesía en  la que construyó su carrera académica a través de UBA, Paris-XI y Harvard. Creó su startup y logró pivotear su carrera e intereses superando barreras de sesgos culturales y de géneros."
+    speakers:
+      - name: "Viviana Siless"
+        twitter: "https://twitter.com/vsiless"
+        website: "https://www.linkedin.com/in/viviana-siless/"
+        bio: "Profesora/investigadora de Inteligencia artificial en Di Tella. Co-fundadora y CTO de Quipu Bank."
+        photo: "Viviana Siless.jpeg"
+  - title: ¿Cómo me convertí en científica de datos? De la academia a la industria del conocimiento
+    time: "11:15"
+    type: sponsor
+    description: "Datos, datos everywhere… 
+La ciencia de datos atrajo mucho la atención de la industria en los últimos años prometiendo traducir enormes cantidades de datos en predicciones y en conocimiento para la toma de decisiones.
+Pero … ¿De dónde viene y qué hace un data scientist?
+En esta charla te voy a contar cómo me convertí en data scientist y cómo Asapp usa la ciencia de datos para mejorar sus productos."
+    speakers:
+      - name: "Natalia Montroull"
+        website: "https://www.linkedin.com/in/natalia-montroull-119104203?originalSubdomain=ar"
+        bio: "Data scientist en ASAPP, pero antes de eso hizo la licenciatura y el doctorado en Ciencias de la Atmósfera y los Océanos en la UBA. Tiene +5 años de experiencia como investigadora de CONICET en temas de Cambio Climático y +10 años de docencia en Exactas, UBA."
+        photo: "Natalia Montroull.jpeg"
+    sponsor:
+        name: Asapp
+        photo: "asapp speaker.png"
+        website: https://www.linkedin.com/company/asappco/
+  - title: Intervalo
+    time: "11:40"
+    type: orga
+  - title: "Identidad de género: Ninguna de las anteriores"
+    time: "12:00"
+    type: talk
+    description: ¿Cómo se registran las identidades de género no cis en los datos? Un recorrido de preguntas y desafíos para reflexionar sobre la representación de identidades de género no binarias, travestis, trans, queers y más en nuestros formularios, bases de datos y sistemas de información.
+    speakers:
+      - name: Sabi Bercovich
+        twitter: https://twitter.com/SabiBerco
+        instagram: https://www.instagram.com/sabiberco
+        bio: Científica de datos sociales, se recibió de Actuaria y recientemente de un master en Demografía y Sociología.
+        photo: "Sabi Bercovich.png"
+  - title: "Ctrl + TTNB: Alfabetización Digital en la Mocha Celis"
+    time: "12:40"
+    type: talk
+    description: ¿Cómo cerrar la brecha digital en la comunidad TTNB? Mai es coordinador del Proyecto de Alfabetización Digital de la Mocha Celis. Nos comparte los desafíos y decisiones del espacio que funciona dentro del Bachillerato Popular y también en talleres a contraturno.
+    speakers:
+      - name: Mai Slipczuk
+        twitter: https://twitter.com/maisli404
+        instagram: https://www.instagram.com/maiasli
+        website: https://www.linkedin.com/in/maisli
+        bio: Coordinador de proyectos educativos y gestor cultural. Estudió Profesorado de Primaria, Lic. en Educación y se especializó en Géneros. En 2019 comenzó a estudiar programación.
+        photo: "Maia slipczuk.png"
+  - title: Almuerzo
+    time: "13:20"
+    type: orga
+  - title: Re-apertura
+    time: "14:20"
+    type: orga
+  - title: Conciencia social - Pilar en la Carrera profesional de las personas trans
+    time: "14:30"
+    type: keynote
+    description: "Maryanne nos comparte diferentes experiencias positivas que la ayudaron a construir su carrera profesional como persona trans. 
+Nos abre las puertas de su historia, nos cuenta cómo fue el acompañamiento de su círculo más íntimo y nos invita a re-pensar nuestras prácticas cotidianas."
+    speakers:
+      - name: Maryanne Lettieri
+        instagram: "https://www.instagram.com/maryannelettieri"
+        bio: Profesora de inglés, Capacitadora en género, diversidad e inclusión, actriz.
+        photo: "Maryanne Lettieri.png"
+  - title: Terminal Utopía
+    time: "15:25"
+    type: talk
+    description: "¿Por qué usamos tanto el ratón si podemos tener mayor velocidad usando el teclado? 
+Marian nos muestra herramientas maravillosas para una consola super poderosa, ágil y elegante en Linux.
+"
+    speakers:
+      - name: María Andrea Vignau
+        instagram: https://www.instagram.com/mavignau
+        twitter: https://twitter.com/mavignau
+        bio: Desarrolladora Backend.
+        photo: "Marian Vignau.jpg"
+  - title: Intervalo
+    time: "15:50"
+    type: orga
+  - title: Coreografiando arquitecturas con eventos
+    time: "16:20"
+    type: talk
+    description: "¿Qué son los eventos en microservicios? ¿Cómo y cuándo conviene usarlos? Dos alternativas de arquitectura en microservicios: coreografía (orientada a eventos) vs orquestación (request/response). Sofi nos comparte un caso real de un sistema con arquitectura orientada a eventos."
+    speakers:
+      - name: Sofía Cortés
+        bio: Ingeniera de Software y Ayudante de cátedra en la facultad. Estudió Ing en Sistemas en UTN FRBA.
+        twitter: https://twitter.com/sooficortes
+        website: https://www.linkedin.com/in/sofiavcortes
+        photo: "Sofia Cortes.jpeg"
+  - title: No todxs usamos Scrum
+    time: "16:45"
+    type: sponsor
+    description: Hablaremos de Shape up, la metodología que utilizamos y hemos adaptado en Fintual. Te contaremos cómo permitió tener mayor autonomía a las devs, y todo el proceso desde qué nace una idea hasta que llega al producto.
+    speakers:
+      - name: Daniela Quiroz
+        website: "https://www.linkedin.com/in/marialourdesramirez"
+        bio: Ingeniera Civil Industrial en Tecnologías de la Información, con estudios de género y políticas públicas. Tiene experiencia desarrollando tecnología cívica, y actualmente está trabajando en Fintual como software developer.
+        photo: "LourdesRamirez.png"
+    sponsor:
+        name: Fintual
+        photo: "Fintual speaker.png"
+  - title: ¿Cómo empezar a ser roboticista?
+    time: "17:00"
+    type: talk
+    description: "Acercando la robótica con ROS. 
+Belén nos trae algunos conceptos básicos para quien quiera iniciarse en este campo, contando desde su experiencia (profesional y personal) los obstaculos que superó a lo largo de su camino."
+    speakers:
+      - name: Belén Torres
+        instagram: "https://www.instagram.com/kurepa28"
+        bio: Software developer y profesora de secundaria técnica.
+        photo: "Belen Torres.jpg"
+  - title: Intervalo
+    time: "17:30"
+    type: orga
+  - title: Iniciativas de Diversidad, Equidad e Inclusión en Qontigo
+    time: "17:50"
+    type: sponsor
+    description: Julieta nos cuenta cómo fue (y es) el camino que recorrió la compañía para diseñar su estrategia de Diversidad, Equidad e Inclusión, y qué actividades están llevando a cabo.
+    speakers:
+      - name: Julieta Delgado
+        website: "https://www.linkedin.com/in/mjulietadelgado/"
+        bio: Trabaja hace 1 año en Qontigo en el equipo de Talent Acquisition. Es Psicóloga y hace 10 años trabaja en Recursos Humanos.
+        photo: "Julieta Delgado.jpg"
+    sponsor:
+        name: Qontigo
+        photo: "qontigo speaker.png"
+  - title: Poemas e IA
+    time: "18:00"
+    type: talk
+    description: "¿Alguna vez quisiste combinar el arte con la tecnología? ¿La IA reemplazará a les artistas? 
+Juli nos comparte la experiencia de un proceso creativo escribiendo poemas de la mano de modelos de inteligencia artificial. "
+    speakers:
+      - name: Julieta Caceres
+        website: "https://www.linkedin.com/in/julieta-caceres-a48971142/"
+        instagram: "https://www.instagram.com/__reprogramada__"
+        bio: Ingeniera de Software, estudió en la Universidad de Buenos Aires.
+        photo: "Julieta Caceres.jpg"
+  - title: Cierre
+    time: "18:30"
+    type: orga
+  - title: Fin
+    time: "19:00"
+    type: orga
+
 sponsors:
   - name: Kleer
     category: Silver
