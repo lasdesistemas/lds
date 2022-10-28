@@ -227,6 +227,10 @@ sponsors:
     category: Gold
     link: "https://www.austinsoftware.com"
     logo: "austin.png"
+  - name: Endava
+    category: Silver
+    link: "https://www.endava.com"
+    logo: "endava.png"
 
 mediaPartners:
   - name: AsaditoJs
