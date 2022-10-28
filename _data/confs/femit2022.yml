@@ -38,6 +38,9 @@ En esta charla te voy a contar cómo me convertí en data scientist y cómo Asap
     sponsor:
         name: Asapp
         photo: "asapp speaker.png"
+  - title: Homenaje a Ángeles Tella Arena
+    time: "11:30"
+    type: orga
   - title: Intervalo
     time: "11:40"
     type: orga

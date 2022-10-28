@@ -127,7 +127,7 @@
                 <div class="uk-flex uk-flex-middle uk-text-center">
                   <div class="uk-width-1-2">
                     <img
-                      class="uk-padding-remove"
+                      class="uk-padding-remove circlePhoto"
                       data-src="{{site.url}}{{site.baseurl}}/assets/images/speakers/{{speaker.photo}}"
                       alt="{{speaker.name}}"
                       uk-img
@@ -221,6 +221,17 @@
           </div>
         </div>
         <!-- Speaker modal end -->
+        {% if speaker.instagram %}
+        <a
+          class="{{color}}"
+          href="{{speaker.instagram}}"
+          class="uk-icon-link"
+          uk-icon="instagram"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram de {{speaker.name}}"
+        ></a>
+        {% endif %}
         {% if speaker.facebook %}
         <a
           class="{{color}}"
@@ -241,17 +252,6 @@
           target="_blank"
           rel="noopener"
           aria-label="Twitter de {{speaker.name}}"
-        ></a>
-        {% endif %}
-        {% if speaker.instagram %}
-        <a
-          class="{{color}}"
-          href="{{speaker.instagram}}"
-          class="uk-icon-link"
-          uk-icon="instagram"
-          target="_blank"
-          rel="noopener"
-          aria-label="Instagram de {{speaker.name}}"
         ></a>
         {% endif %}
         {% if speaker.github %}
