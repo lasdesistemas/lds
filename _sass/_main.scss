@@ -381,7 +381,7 @@ footer.footer-femit a:hover {
 }
 
 foot.footer-femit .uk-link, a {
-  color: $white !important;
+  color: $white
 }
 
 
@@ -433,6 +433,10 @@ Agenda Femit
   position: relative;
   top: 0;
   left: 0;
+}
+
+.keynote-image a:hover {
+  color: #fff !important;
 }
 
 .keynote-border {
