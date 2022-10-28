@@ -1,1 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="22" viewBox="0 0 17 22"><g><g><g><text fill="#902b8c" style="line-height:24px" dominant-baseline="text-before-edge" font-family="'Montserrat','Montserrat-Bold'" font-size="16" font-style="none" font-weight="700"><tspan style="font-kerning:normal">))</tspan></text></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="15"
+   height="22"
+   viewBox="0 0 17 22"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="bullet.svg"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs23">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient942">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop938" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop940" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient942"
+       id="linearGradient944"
+       x1="0.16"
+       y1="8.3214958"
+       x2="10.27875"
+       y2="8.3214958"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="31.363636"
+     inkscape:cx="7.5086957"
+     inkscape:cy="11"
+     inkscape:window-width="1680"
+     inkscape:window-height="912"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <g
+     id="g17"
+     style="fill:#b64c7d;fill-opacity:1">
+    <g
+       id="g15"
+       style="fill:#b64c7d;fill-opacity:1">
+      <g
+         id="g13"
+         style="fill:#b64c7d;fill-opacity:1">
+        <text
+           fill="#902b8c"
+           style="line-height:24px;fill:#b64c7d;fill-opacity:1"
+           dominant-baseline="text-before-edge"
+           font-family="Montserrat, Montserrat-Bold"
+           font-size="16px"
+           font-style="none"
+           font-weight="700"
+           id="text11"><tspan
+             id="tspan9"
+             style="fill:#b64c7d;fill-opacity:1">))</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

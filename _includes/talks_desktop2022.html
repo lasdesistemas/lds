@@ -1,41 +1,28 @@
 <div class="uk-flex-center" uk-grid>
   <!-- <div class="uk-width-1-5@s">
   </div> -->
-  <div class="uk-width-1-5@s uk-padding-remove-left uk-margin-large-bottom">
-    <h2 class="agenda-title uk-text-uppercase uk-text-center title-size" >Agenda</h2> 
+  <div class="uk-width-1-5@s uk-padding-remove-left">
+    <h2 class="agenda-title uk-text-uppercase uk-text-center" >Agenda</h2>
   </div>
   <div uk-grid>
     {% for talk in conf.agenda %}
     <div class="uk-width-1-6@s uk-text-right uk-width-small">
-      <!-- {% if talk.type == 'keynote' %}
-      <p>
-        <br>
-        <div><img
-          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUxMiwxOTcuODE5bC0xODUuOTMzLTEyLjIyOEwyNTYsOS41NzFsLTcwLjA2NywxNzYuMDIxTDAsMTk3LjgybDE0Mi42NTgsMTIwLjkzTDk1Ljg1Niw1MDIuNDI5TDI1Niw0MDEuMjE0ICAgIGwxNjAuMTQ0LDEwMS4yMTVsLTQ2LjgtMTgzLjY3MUw1MTIsMTk3LjgxOXogTTI1NiwzNjUuNzI0bC0xMTIuNDY0LDcxLjA4bDMyLjgyNy0xMjguODMxTDc1LjgyOSwyMjIuODg4bDEzMC45NzEtOC42MDMgICAgTDI1Niw5MC42ODdsNDkuMiwxMjMuNTk5bDEzMS4xMjQsOC42MDJsLTEwMC42ODksODUuMDc3bDMyLjgyOSwxMjguODM5TDI1NiwzNjUuNzI0eiIgZmlsbD0iIzMwODI2MyIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgoJPC9nPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4="
-          width="20"
-          height="20"
-        /></div>
-      </p>
-      {% endif %} -->
     </div>
-    {% if talk.type == 'keynote' %} 
-      {% assign color = 'agenda-keynote' %} 
-    {% elsif talk.type == 'talk' %} 
+    {% if talk.type == 'keynote' %}
+      {% assign color = 'agenda-keynote' %}
+    {% elsif talk.type == 'talk' %}
       {% assign color = 'agenda-talk' %}
-    {% elsif talk.type == 'sponsor' %} 
+    {% elsif talk.type == 'sponsor' %}
       {% assign color = 'agenda-sponsor' %}
-    {% else %} 
+    {% else %}
       {% assign color = 'agenda-org' %}
     {% endif %}
     <div class="uk-width-1-6@s uk-text-center timeline uk-padding-remove">
-      {% if talk.speakers.size > 0 %} 
-        {% if talk.type != 'sponsor' and talk.speakers.size > 1%} 
-          {% assign img-class = 'image-fit-small' %} 
-        {% else %} 
-          {% assign img-class = 'image-fit' %} 
-        {% endif %}
-        {% if talk.type == 'keynote' %}
-        {% assign img-class = 'image-keynote-fit' %}
+      {% if talk.speakers.size > 0 %}
+        {% if talk.type != 'sponsor' and talk.speakers.size > 1%}
+          {% assign img-class = 'image-fit-small' %}
+        {% else %}
+          {% assign img-class = 'image-fit' %}
         {% endif %}
         <div uk-grid class="photo">
           {% if talk.type == 'sponsor' %}
@@ -47,8 +34,8 @@
               uk-img
             />
           </div>
-          {% else %} 
-            {% for speaker in talk.speakers %} 
+          {% else %}
+            {% for speaker in talk.speakers %}
               {% assign speaker_code = speaker.name | slugify %}
               {% if forloop.first %}
                 {% assign margin = '' %}
@@ -85,7 +72,7 @@
       {% else %}
         {% if forloop.last %}
           {% assign class = '' %}
-        {% else %} 
+        {% else %}
           {% assign class = 'photo' %}
         {% endif %}
         <div class="{{ class }} circle-container">
@@ -99,20 +86,20 @@
       {{ talk.time }} hs
     </div>
     <div class="uk-width-1-2 uk-width-3-6@s">
-      {% if talk.type == 'keynote' %} 
-        {% assign color = 'agenda-keynote' %} 
-      {% elsif talk.type == 'talk' %} 
+      {% if talk.type == 'keynote' %}
+        {% assign color = 'agenda-keynote' %}
+      {% elsif talk.type == 'talk' %}
         {% assign color = 'agenda-talk' %}
-        {% elsif talk.type == 'sponsor' %} 
-        {% assign color = 'agenda-sponsor' %} 
+        {% elsif talk.type == 'sponsor' %}
+        {% assign color = 'agenda-sponsor' %}
       {% else %}
-        {% assign color = 'agenda-org' %} 
+        {% assign color = 'agenda-org' %}
       {% endif %}
       <h3 class="{{color}} uk-text-bold">{{ talk.title }}</h3>
       <h4 class="{{color}}">
-        {% assign speaker_number = 0 %} 
-        {% for speaker in talk.speakers limit:3%} 
-        {% if forloop.first %} {% else %} + {% endif %} 
+        {% assign speaker_number = 0 %}
+        {% for speaker in talk.speakers limit:3%}
+        {% if forloop.first %} {% else %} + {% endif %}
         {% assign speaker_code = speaker.name | slugify %}
         <a
           href="#modal-{{speaker_code}}"
@@ -172,7 +159,7 @@
                     rel="noopener"
                     aria-label="Instagram de {{speaker.name}}"
                   ></a>
-                  {% endif %} 
+                  {% endif %}
                   {% if speaker.facebook %}
                   <a
                     class="socialMediaTitleandLine"
@@ -183,7 +170,7 @@
                     rel="noopener"
                     aria-label="Facebook de {{speaker.name}}"
                   ></a>
-                  {% endif %} 
+                  {% endif %}
                   {% if speaker.twitter %}
                   <a
                     class="socialMediaTitleandLine"
@@ -194,7 +181,7 @@
                     rel="noopener"
                     aria-label="Twitter de {{speaker.name}}"
                   ></a>
-                  {% endif %} 
+                  {% endif %}
                   {% if speaker.github %}
                   <a
                     class="socialMediaTitleandLine"
@@ -205,7 +192,7 @@
                     rel="noopener"
                     aria-label="Website {{speaker.github}}"
                   ></a>
-                  {% endif %} 
+                  {% endif %}
                   {% if speaker.website %}
                   <a
                     class="socialMediaTitleandLine"
@@ -215,6 +202,17 @@
                     target="_blank"
                     rel="noopener"
                     aria-label="Website {{speaker.website}}"
+                  ></a>
+                  {% endif %}
+                  {% if speaker.linkedin %}
+                  <a
+                    class="socialMediaTitleandLine"
+                    href="{{speaker.linkedin}}"
+                    class="uk-icon-link"
+                    uk-icon="linkedin"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Linkedin {{speaker.linkedin}}"
                   ></a>
                   {% endif %}
                 </p>
@@ -233,7 +231,7 @@
           rel="noopener"
           aria-label="Facebook de {{speaker.name}}"
         ></a>
-        {% endif %} 
+        {% endif %}
         {% if speaker.twitter %}
         <a
           class="{{color}}"
@@ -244,7 +242,7 @@
           rel="noopener"
           aria-label="Twitter de {{speaker.name}}"
         ></a>
-        {% endif %} 
+        {% endif %}
         {% if speaker.instagram %}
         <a
           class="{{color}}"
@@ -255,7 +253,7 @@
           rel="noopener"
           aria-label="Instagram de {{speaker.name}}"
         ></a>
-        {% endif %} 
+        {% endif %}
         {% if speaker.github %}
         <a
           class="{{color}}"
@@ -266,7 +264,7 @@
           rel="noopener"
           aria-label="Website {{speaker.github}}"
         ></a>
-        {% endif %} 
+        {% endif %}
         {% if speaker.website %}
         <a
           class="{{color}}"
@@ -277,7 +275,18 @@
           rel="noopener"
           aria-label="Website {{speaker.website}}"
         ></a>
-        {% endif %} 
+        {% endif %}
+        {% if speaker.linkedin %}
+        <a
+          class="{{color}}"
+          href="{{speaker.linkedin}}"
+          class="uk-icon-link"
+          uk-icon="linkedin"
+          target="_blank"
+          rel="noopener"
+          aria-label="Linkedin {{speaker.linkedin}}"
+        ></a>
+        {% endif %}
         {% endfor %}
       </h4>
       <p>{{talk.description}}</p>

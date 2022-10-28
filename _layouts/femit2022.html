@@ -10,30 +10,34 @@ layout: default
     <!-- Logo versión desktop -->
     <div class="uk-width-1-1 uk-visible@m uk-text-center">
       <img class="uk-padding logo-femit" data-src="{{ logo }}" alt="{{ conf.title }}" uk-img />
-      <h2 class="edition2022">Edición 2022</h2>
-      <span class="uk-padding-remove uk-h3 main-darker-f uk-text-uppercase">{{ conf.day }} <span class="uk-text-bold">{{
-          conf.date }}</span></span>
+      <p class="uk-margin-remove uk-h3 main-darker-f uk-text-uppercase">{{ conf.day }} <span class="uk-text-bold">{{
+          conf.date }}</span></p>
     </div>
     <!-- Logo versión mobile -->
     <div class="uk-width-1-3@m uk-hidden@m uk-text-center">
       <br />
-      <img class="uk-padding-remove logo-lds-about-mobile" data-src="{{ logo }}" alt="{{ conf.title }}" uk-img />
-      <h2 class="edition2022">Edición 2022</h2>
-      <p class="uk-h3 main-darker-f uk-text-uppercase">
-        {{ conf.day }} <span class="uk-text-bold">{{ conf.date }}</span>
+      <img class="uk-margin-remove-top uk-padding-remove logo-lds-about-mobile" data-src="{{ logo }}" alt="{{ conf.title }}" uk-img />
+      <p class="uk-margin-remove uk-h3 main-darker-f uk-text-uppercase">
+        {{ conf.day }} <span class="uk-text-bold edicion">{{ conf.date }}</span>
       </p>
     </div>
     <!-- Fin logo versión mobile -->
     <div class="uk-width-1-1@m">
+      <p class="uk-text-center">
+        {% if conf.registro %}
+        <a
+          class="uk-button button"
+          href="https://femitconf22.eventbrite.com.ar"
+          aria-label="Registrarse"
+          target="_blank">Registrarse
+        </a>
+        {% endif %}
+      </p>
       <h2 class="screen-reader-text" aria-label="{{ conf.title }}">
         {{ conf.title }}
       </h2>
       <p class="uk-h4 uk-text-justify">{{ conf.description }}</p>
-      {% if conf.registro %}
-      <button class="uk-button uk-button-default button-default-femit">
-        Registrarse
-      </button>
-      {% endif %} {% if conf.proximamente %}
+      {% if conf.proximamente %}
       <span class="uk-text-middle uk-h3 main-darker-f">
         ¡Próximamente novedades!
       </span>
