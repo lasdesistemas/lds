@@ -1,6 +1,6 @@
 ---
 layout: femit_thanks
 title: "Gracias"
-year: 2021
-description: ¡Gracias por hacer de #FemITConf2021 una experiencia única!
+year: 2022
+description: ¡Gracias por hacer de #FemITConf2022 una experiencia única!
 ---
