@@ -381,7 +381,7 @@ footer.footer-femit a:hover {
 }
 
 foot.footer-femit .uk-link, a {
-  color: $white;
+  color: $white !important;
 }
 
 
@@ -539,6 +539,7 @@ Agenda Femit
 
 .circlePhoto {
   border-radius: 100%;
+  background-color: #fff !important;
 }
 
 .modal-title-speaker {

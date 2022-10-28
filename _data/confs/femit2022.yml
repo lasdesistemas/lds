@@ -32,13 +32,12 @@ Pero … ¿De dónde viene y qué hace un data scientist?
 En esta charla te voy a contar cómo me convertí en data scientist y cómo Asapp usa la ciencia de datos para mejorar sus productos."
     speakers:
       - name: "Natalia Montroull"
-        linkedin: "https://www.linkedin.com/in/natalia-montroull-119104203?originalSubdomain=ar"
+        linkedin: "https://www.linkedin.com/in/natalia-montroull-119104203"
         bio: "Data scientist en ASAPP, pero antes de eso hizo la licenciatura y el doctorado en Ciencias de la Atmósfera y los Océanos en la UBA. Tiene +5 años de experiencia como investigadora de CONICET en temas de Cambio Climático y +10 años de docencia en Exactas, UBA."
         photo: "Natalia Montroull.jpeg"
     sponsor:
         name: Asapp
         photo: "asapp speaker.png"
-        linkedin: https://www.linkedin.com/company/asappco/
   - title: Intervalo
     time: "11:40"
     type: orga
@@ -110,9 +109,8 @@ Marian nos muestra herramientas maravillosas para una consola super poderosa, á
     description: Hablaremos de Shape up, la metodología que utilizamos y hemos adaptado en Fintual. Te contaremos cómo permitió tener mayor autonomía a las devs, y todo el proceso desde qué nace una idea hasta que llega al producto.
     speakers:
       - name: Daniela Quiroz
-        linkedin: "https://www.linkedin.com/in/marialourdesramirez"
         bio: Ingeniera Civil Industrial en Tecnologías de la Información, con estudios de género y políticas públicas. Tiene experiencia desarrollando tecnología cívica, y actualmente está trabajando en Fintual como software developer.
-        photo: "LourdesRamirez.png"
+        photo: "Fintual speaker.png"
     sponsor:
         name: Fintual
         photo: "Fintual speaker.png"
