@@ -35,6 +35,6 @@ El comportamiento inaceptable no será tolerado por parte de la organización. S
 
 <h3>Denuncias y consultas</h3>
 
-Si te están acosando, notás que otra persona está siendo acosada, ves algún comportamiento inaceptable o tenés cualquier otra inquietud, podés denunciar completando este <a class="gray-light" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSdKgAxnZvnSIG7THTB0-nD9WJaaKKX9_Y6Ql7POUBgejPRxwA/viewform">formulario</a>.
+Si te están acosando, notás que otra persona está siendo acosada, ves algún comportamiento inaceptable o tenés cualquier otra inquietud, podés denunciar completando este <a class="gray-light" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSeu9A2TSxf8l3tIDLDf5xQetgwBM4X95aeedEdVvxBix4QXnA/viewform">formulario</a>.
 
 <p class="uk-text-small gray-light">Este código de conducta está inspirado en <a class="gray-light" target="_blank" rel="noopener" href="https://womenofreact.com/code-of-conduct">Women of React Conf</a>.</p>

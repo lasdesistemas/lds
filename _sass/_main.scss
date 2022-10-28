@@ -560,7 +560,7 @@ Agenda Femit
 }
 
 .socialMediaTitleandLine {
-  color: $title-modal-color;
+  color: $title-modal-color !important;
 }
 
 /**
@@ -605,8 +605,8 @@ Codigo de conducta
 }
 
 .button {
-  background-color: $main-darker-f;
-  border-color: $main-darker-f;
+  background-color: $button;
+  border-color: $button;
   border-radius: 10px;
   font-size: medium;
   font-weight: bold;
@@ -617,11 +617,11 @@ Codigo de conducta
 }
 
 .button:hover {
-  background-color: $main-light-f;
-  border-color: $main-light-f;
+  background-color: $buttonhover;
+  border-color: $buttonhover;
   color: #384057;
 }
 
-.edition2022 {
+.edition {
   color: $color-anioedicion;
 }
