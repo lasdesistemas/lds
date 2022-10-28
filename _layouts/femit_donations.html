@@ -2,202 +2,134 @@
 layout: default
 ---
 
-{% assign color = 'agenda-sponsor' %} {% include navbar_femit.html %}
+{% include navbar_femit.html %}
 
 <section id="femit-donations">
   <div class="uk-section uk-container uk-container-small">
     <h2 class="screen-reader-text" aria-label="Donaciones">Donaciones</h2>
     <div uk-grid>
-      <!-- Logo La Casa de Lohana y Diana versión desktop -->
+      <!-- Logo Nahual versión desktop -->
       <div class="uk-width-1-3@m uk-visible@m uk-text-center">
         <img
           class="uk-padding-remove uk-margin-large-top logo-lds-about"
-          data-src="{{ '/assets/images/lohanaDiana.jpg' | relative_url }}"
-          alt="La Casa de Lohana y Diana"
+          data-src="{{ '/assets/images/nahual.png' | relative_url }}"
+          alt="Proyecto Nahual"
           uk-img
         />
+        <div class="uk-text-center">
+          <a
+              href="https://www.nahual.com.ar/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: world; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="Web Proyecto Nahual"
+          ></a>
+          <a
+              href="https://www.linkedin.com/company/nahual/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: linkedin; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn Proyecto Nahual"
+          ></a>
+          <a
+              href="https://www.facebook.com/ProyectoNahual"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: facebook; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook Proyecto Nahual"
+          >
+          </a>
+          <a
+              href="https://www.instagram.com/proyectonahual/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: instagram; ratio: 1"
+              class="icon-margin"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram Proyecto Nahual"
+          ></a>
+        </div>
       </div>
-      <!-- Logo La Casa de Lohana y Diana versión mobile -->
+      <!-- Logo Nahual versión mobile -->
+
       <div class="uk-width-1-3@m uk-hidden@m uk-text-center">
-        <br />
         <img
           class="uk-padding-remove logo-lds-about-mobile"
-          data-src="{{ '/assets/images/lohanaDiana.jpg' | relative_url }}"
-          alt="La Casa de Lohana y Diana"
+          data-src="{{ '/assets/images/nahual.png' | relative_url }}"
+          alt="Proyecto Nahual"
           uk-img
         />
-      </div>
-      <!-- Fin logo La Casa de Lohana y Diana versión mobile -->
-      <div class="uk-width-2-3@m uk-padding">
-        <h2 class="screen-reader-text" aria-label="La Casa de Lohana y Diana">
-          La Casa de Lohana y Diana
-        </h2>
-        <p class="uk-text-justify">
-          La Casa de Lohana y Diana es un espacio de encuentro para la comunidad
-          travesti-trans donde se desarrollan diferentes actividades como
-          talleres, espacios de escucha, acompañamiento y asesoramiento en
-          diversos temas.
-        </p>
-        <div class="{{color}}">
-          <p>Para donar por MercadoPago:</p>
-          <div uk-grid>
-            <!-- Botones versión desktop -->
-            <div class="uk-width-1-1@m uk-visible@m uk-text-center">
-              <a
-                class="uk-button button"
-                href="https://mpago.la/1bpxbdz"
-                aria-label="Para donar 300 pesos por MercadoPago"
-                target="_blank"
-              >
-                $300
-              </a>
-              <a
-                class="uk-button button"
-                href="https://mpago.la/1Nqm44i"
-                aria-label="Para donar 500 pesos por MercadoPago"
-                target="_blank"
-              >
-                $500
-              </a>
-              <a
-                class="uk-button button"
-                href="https://mpago.la/1WSZ5Dd"
-                aria-label="Para donar 700 pesos por MercadoPago"
-                target="_blank"
-              >
-                $700
-              </a>
-              <a
-                class="uk-button button"
-                href="https://mpago.la/2Y1Hc2i"
-                aria-label="Para donar 1000 pesos por MercadoPago"
-                target="_blank"
-              >
-                $1000
-              </a>
-              <a
-                class="uk-button button"
-                href="https://mpago.la/2Hr6UYP"
-                aria-label="Para donar 2000 pesos por MercadoPago"
-                target="_blank"
-              >
-                $2000
-              </a>
-            </div>
-            <!-- Botones versión mobile -->
-            <div class="uk-width-1-3@m uk-hidden@m uk-text-center">
-              <a
-                class="
-                  uk-button
-                  button
-                  uk-margin-top uk-margin-bottom uk-width-1-1
-                "
-                href="https://mpago.la/1bpxbdz"
-                aria-label="Para donar 300 pesos por MercadoPago"
-                target="_blank"
-              >
-                $300
-              </a>
-              <a
-                class="uk-button button uk-margin uk-width-1-1"
-                href="https://mpago.la/1Nqm44i"
-                aria-label="Para donar 500 pesos por MercadoPago"
-                target="_blank"
-              >
-                $500
-              </a>
-              <a
-                class="uk-button button uk-margin uk-width-1-1"
-                href="https://mpago.la/1WSZ5Dd"
-                aria-label="Para donar 700 pesos por MercadoPago"
-                target="_blank"
-              >
-                $700
-              </a>
-              <a
-                class="uk-button button uk-margin uk-width-1-1"
-                href="https://mpago.la/2Y1Hc2i"
-                aria-label="Para donar 1000 pesos por MercadoPago"
-                target="_blank"
-              >
-                $1000
-              </a>
-              <a
-                class="uk-button button uk-margin uk-width-1-1"
-                href="https://mpago.la/2Hr6UYP"
-                aria-label="Para donar 2000 pesos por MercadoPago"
-                target="_blank"
-              >
-                $2000
-              </a>
-            </div>
-            <!-- Fin Botones versión mobile -->
-          </div>
+        <div class="uk-text-center">
+          <a
+              href="https://www.nahual.com.ar/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: world; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="Web Proyecto Nahual"
+          ></a>
+          <a
+              href="https://www.linkedin.com/company/nahual/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: linkedin; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn Proyecto Nahual"
+          ></a>
+          <a
+              href="https://www.facebook.com/ProyectoNahual"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: facebook; ratio: 1"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook Proyecto Nahual"
+          >
+          </a>
+          <a
+              href="https://www.instagram.com/proyectonahual/"
+              class="uk-padding-small uk-padding-small-right uk-padding-small-top uk-padding-small-left"
+              uk-icon="icon: instagram; ratio: 1"
+              class="icon-margin"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram Proyecto Nahual"
+          ></a>
         </div>
 
-        <div class="uk-text-justify {{color}}">
-          <br />
+      </div>
+      <!-- Fin Nahual versión mobile -->
+
+      <div class="uk-width-2-3@m uk-padding">
+        <h2 class="screen-reader-text" aria-label="Proyecto Nahual">
+          Proyecto Nahual
+        </h2>
+        <p class="uk-text-justify">
+          Nahual es un proyecto social, voluntario e inclusivo que, desde el año 2006, brinda clases de testing y herramientas informáticas de manera gratuita a personas en situación de vulnerabilidad (socio-económica, género, discapacidad, entre otras) que necesitan acceder a un trabajo digno y de autovaloración.
+        </p>
+
+        <div class="uk-text-justify">
           <p>
-            Para donar por transferencia bancaria:<br />
-            Banco Nación<br />
-            <span class="uk-text-bold">Tipo y número de cuenta:</span> <br />
-            Caja de Ahorro en Pesos 32190901872458
-            <br />
-            <span class="uk-text-bold">Número de CBU:</span> <br />
-            0110090730009018724583 <br />
-            <span class="uk-text-bold">Alias de CBU:</span> <br />
-            MAMUT.TORRE.PRIMO <br />
-            <span class="uk-text-bold">Titulares de la cuenta: </span><br />
-            Guimaraes Garcia Florencia - Rolandi Veronica Anahi
+            En #FemITConf22 Warmi y Martina nos contarán mucho más sobre el proyecto.<br />
           </p>
         </div>
 
-        <p class="uk-text-justify">
-          Podés seguirles en: <br />
-          <a
-            href="https://www.facebook.com/lacasadelohanaydiana"
-            class="
-              uk-padding-small
-              uk-padding-small-right
-              uk-padding-small-top
-              uk-padding-small-left
-            "
-            uk-icon="icon: facebook; ratio: 1"
-            target="_blank"
-            rel="noopener"
-            aria-label="Facebook La Casa de Lohana y Diana"
-          >
-          </a>
-          <a
-            href="https://twitter.com/lacasadelohana"
-            class="
-              uk-padding-small
-              uk-padding-small-right
-              uk-padding-small-top
-              uk-padding-small-left
-            "
-            uk-icon="icon: twitter; ratio: 1"
-            class="icon-margin"
-            target="_blank"
-            rel="noopener"
-            aria-label="Twitter La Casa de Lohana y Diana"
-          >
-          </a>
-          <a
-            href="https://www.instagram.com/lacasadelohanay/"
-            class="
-              uk-padding-small
-              uk-padding-small-right
-              uk-padding-small-top
-              uk-padding-small-left
-            "
-            uk-icon="icon: instagram; ratio: 1"
-            class="icon-margin"
-            target="_blank"
-            rel="noopener"
-            aria-label="Instagram La Casa de Lohana y Diana"
-          ></a>
-        </p>
+        <div>
+          <p>Podés colaborar con Nahual ahora!</p>
+          <p>A través de Donar Online:</p>
+          <a class="uk-button button" href="https://donaronline.org/proyecto-nahual/tu-donacion-a-proyecto-nahual-desde-la-femitconf2022" target="_blank">Colaborar</a>
+          <p>O por Mercado Pago*:</p>
+          <img
+              class=""
+              data-src="{{ '/assets/images/qr_nahual.png' | relative_url }}"
+              alt="Proyecto Nahual"
+              uk-img
+          />
+          <p class="uk-text-small">* El nombre que figura en la cuenta es Fundación TINC (Tecnologías que Incluyen) de la que forma parte Nahual.</p>
+        </div>
+
       </div>
     </div>
   </div>
