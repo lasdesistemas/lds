@@ -14,17 +14,17 @@ FemIT Conf es un evento para todes y quienes formamos parte de la comunidad de [
 
 <h3>Comportamiento inaceptable</h3>
 
-- Comentarios ofensivos, como por ejemplo, aquellos relacionados con el género, identidad de género, expresión de género, orientación sexual, capacidades físicas, salud mental, apariencia física, etnia o religión.
-- Comentarios no deseados sobre las prácticas o elecciones de estilo de vida de una persona, incluyendo aquellos relacionados con alimentación, salud, trabajo, crianza o uso de drogas.
-- Uso intencional e incorrecto de los pronombres elegidos o utilización del ‘dead name’<sup>1</sup> al referirse a una persona.
-- Imágenes o comportamientos sexuales no solicitados, tanto virtuales como presenciales.
 - Amenazas.
-- Incitación a la violencia hacia alguna persona, incluyendo incentivar a alguien a cometer suicidio o lastimarse a sí misme o a otres.
-- Intimidación intencional.
-- Interrupciones constantes de las discusiones.
 - Atención sexual no solicitada.
+- Incitación a la violencia hacia alguna persona, incluyendo incentivar a alguien a cometer suicidio o lastimarse a sí misme o a otres.
+- Imágenes o comportamientos sexuales no solicitados, tanto virtuales como presenciales.
+- Intimidación intencional.
 - Comunicación privada que no cesa cuando se solicita.
+- Comentarios ofensivos, como por ejemplo, aquellos relacionados con el género, identidad de género, expresión de género, orientación sexual, capacidades físicas, salud mental, apariencia física, etnia o religión.
+- Uso intencional e incorrecto de los pronombres elegidos o utilización del ‘dead name’<sup>1</sup> al referirse a una persona.
+- Comentarios no deseados sobre las prácticas o elecciones de estilo de vida de una persona, incluyendo aquellos relacionados con alimentación, salud, trabajo, crianza o uso de drogas.
 - Publicaciones de comunicaciones privadas que no califican como acoso.
+- Interrupciones constantes de las discusiones.
 - Envío de spam en canales públicos o comunicaciones privadas.
 
 <sup>1</sup> ‘dead name’ es aquel nombre que se le asignó a una persona al nacer y ya no lo utiliza más.
